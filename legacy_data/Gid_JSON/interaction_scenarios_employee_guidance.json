@@ -1,0 +1,702 @@
+{
+  "scenarios": [
+    {
+      "id": 2,
+      "type": "Employee Interaction",
+      "context": {
+        "situation_details": "Ruben, a Server at ABC Inc., arrives 15 minutes late for the second time, despite notifying in advance as per company policies.",
+        "employee_id": "E001",
+        "company_id": "C001",
+        "policies_and_procedures": "According to ABC Inc.'s attendance policy, punctuality is crucial for team efficiency, and employees are expected to inform their supervisor in advance if they anticipate being late. Consistent tardiness may lead to performance reviews and potentially disciplinary action if it persists."
+      },
+      "employee_input": "I wanted to let you know that I’ll be 15 minutes late today.",
+      "responses": {
+        "Insight and Growth-Oriented": "Hi Ruben, thank you for letting us know in advance, it’s really appreciated. I’d like to be transparent with you: this is your second recent late arrival. While we know delays happen, our policy does indicate that a third instance would lead to a suspension. I’m sharing this openly, not as a warning, but to keep everything clear and avoid surprises. If you’d like to talk through any adjustments that might help with timing, just let me know. Your role here is valued, and I’m here to support you.",
+        
+        "Solution-Focused": "Hi Ruben, thanks for informing us in advance. This is the second recent instance, and punctuality is essential for smooth team operations. In the spirit of transparency, a third late arrival would result in a suspension, in line with our policies. To help prevent future delays, consider leaving about 20 minutes earlier to allow a more relaxed transition into your shift. Your cooperation in supporting the team’s flow is appreciated.",
+        
+        "Manager-Enabled Solutions": "Hi Ruben, thank you for letting us know. As this is your second delay, it may be helpful to discuss solutions with your manager to avoid further issues. In transparency, I should mention that our policy calls for suspension after a third instance. I can assist in scheduling time with your manager to explore approaches that work best for you and the team.",
+        
+        "By-the-Book Guidance": "Hello Ruben, per our policy, your advance notice is appreciated. However, as this is your second recent instance, continued delays will require further action. In line with our commitment to transparency, a third instance will result in suspension to maintain team standards. Please ensure punctuality to stay aligned with our attendance policy and support team efficiency."
+      },
+      "manager_guidance": {
+        "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+        "instruction": "GID should cover each topic below to ensure a comprehensive follow-up discussion for the manager.",
+        "key_points": [
+          {
+            "topic": "Acknowledge the Effort to Communicate",
+            "description": "Recognize the proactive effort to inform the team about the delay.",
+            "example": "I appreciate that you let us know you’d be late. It shows consideration for the team."
+          },
+          {
+            "topic": "Emphasize the Impact on the Team",
+            "description": "Explain how tardiness affects team reliability and workflow.",
+            "example": "When you’re late, it puts pressure on the team as we rely on each other for smooth operations."
+          },
+          {
+            "topic": "Encourage Problem-Solving",
+            "description": "Invite the employee to explore solutions for punctuality improvements.",
+            "example": "Let’s consider what adjustments could help with punctuality. Is there something we can do together?"
+          },
+          {
+            "topic": "Maintain Transparency About Next Steps",
+            "description": "Clearly outline the consequences if tardiness continues.",
+            "example": "To be clear—if tardiness recurs, we’ll need to follow the next steps in our procedures, including possible suspension."
+          },
+          {
+            "topic": "Express Confidence in Improvement",
+            "description": "Convey belief in the employee’s potential to improve.",
+            "example": "I’m confident you can address this, and I’m here to support you. Let’s work to prevent this issue."
+          },
+          {
+            "topic": "Invite Questions and Clarify",
+            "description": "Encourage the employee to ask about policies or share concerns.",
+            "example": "If you have questions about our policy, feel free to discuss them with me."
+          },
+          {
+            "topic": "End on a Positive Note",
+            "description": "Emphasize the employee’s value to the team.",
+            "example": "We appreciate having you on the team, and your role is valued. Let’s move forward positively."
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "type": "Employee Interaction",
+      "context": {
+        "situation_details": "Ruben, a Server at ABC Inc., has requested a last-minute day off for personal reasons, which would affect the current team schedule.",
+        "employee_id": "E001",
+        "company_id": "C001",
+        "policies_and_procedures": "ABC Inc. encourages employees to request time off with sufficient notice to ensure coverage and maintain team balance. Last-minute requests may be accommodated in emergencies, but frequent occurrences can impact scheduling and may lead to discussions around planning and workload management."
+      },
+      "employee_input": "I’d like to take a day off tomorrow for a personal reason. I apologize for the short notice.",
+      "responses": {
+        "Insight and Growth-Oriented": "Hi Ruben, thank you for letting us know about your situation. Since this is a last-minute request and you were initially committed to this shift, I’ll need you to actively look for someone to cover it. We’ll also search on our end, and I’ll notify you if we find a replacement, but for now, this shift remains your responsibility. Let me know if there’s anything specific we can do to support you in finding coverage.",
+        
+        "Solution-Focused": "Hi Ruben, thanks for informing us. Since this is a last-minute request and you were scheduled for this shift, please take steps to find someone to cover it. You might consider asking a colleague if they’re open to exchanging shifts with you to make the coverage easier. We’ll also do our best to help, but for now, this shift remains your responsibility. Thank you for your cooperation in managing this.",
+        
+        "Manager-Enabled Solutions": "Hi Ruben, thanks for letting us know. Since this is a last-minute request and you were originally scheduled, please work with your manager to explore options for finding a replacement. You could also consider asking a colleague if they’re open to exchanging shifts with you to help make this coverage easier. We’ll support you and your manager in managing this, but as of now, this shift remains your responsibility. Let me know if there’s anything specific I can do to assist.",
+        
+        "By-the-Book Guidance": "Hello Ruben, thank you for informing us. As this is a last-minute request and you were originally scheduled, it is your responsibility to arrange coverage. Per company policy, please reach out to colleagues to find a replacement, as last-minute absences can disrupt team operations. If you’re unable to secure coverage, this shift will remain under your responsibility. Let us know once arrangements are confirmed."
+      },
+      "manager_guidance": {
+        "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+        "instruction": "GID should cover each topic below to ensure a constructive follow-up discussion with the manager.",
+        "key_points": [
+          {
+            "topic": "Acknowledge the Personal Need",
+            "description": "Recognize the employee's personal situation and the effort to communicate it.",
+            "example": "I appreciate you letting us know about your need for time off. It’s important to balance personal and work commitments."
+          },
+          {
+            "topic": "Emphasize the Impact on Team Balance",
+            "description": "Discuss how last-minute requests can impact the team and planning.",
+            "example": "When requests come in last-minute, it can be challenging to arrange coverage and keep things balanced for the team."
+          },
+          {
+            "topic": "Encourage Planning",
+            "description": "Encourage the employee to plan ahead where possible and suggest strategies.",
+            "example": "For future requests, let’s aim to plan a bit further in advance. Would setting reminders for time-off planning help?"
+          },
+          {
+            "topic": "Maintain Transparency About Consequences",
+            "description": "Explain that repeated short-notice requests could lead to scheduling reviews or impact availability.",
+            "example": "To be clear, if last-minute requests happen frequently, we may need to review your scheduling and plan more proactively."
+          },
+          {
+            "topic": "Express Confidence in Improvement",
+            "description": "Show belief in the employee’s ability to improve planning skills.",
+            "example": "I’m confident you can manage this with a bit more planning, and we’re here to support you."
+          },
+          {
+            "topic": "Invite Questions and Clarify",
+            "description": "Encourage the employee to discuss any specific needs or ask questions about the policy.",
+            "example": "If you have any questions about our time-off policy or need more support, feel free to discuss them with me."
+          },
+          {
+            "topic": "End on a Positive Note",
+            "description": "Emphasize the employee’s importance to the team and support a positive outcome.",
+            "example": "We appreciate the work you bring to the team, and I’m confident we can work together on planning that meets everyone’s needs."
+          }
+        ]
+      }
+    },
+    {
+      "scenarios": [
+        {
+          "id": 5,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Ruben, a Server at ABC Inc., has requested to avoid his late-night shift tonight due to family obligations. This is a recurring request following previous guidance to limit last-minute schedule changes and manage replacement arrangements independently.",
+            "employee_id": "E001",
+            "company_id": "C001",
+            "policies_and_procedures": "ABC Inc. values flexibility in scheduling but requires employees to independently arrange coverage if last-minute changes are requested to avoid impacts on team balance and operations."
+          },
+          "employee_input": "I need to avoid my late-night shift tonight because of my family obligations. Is there any way to adjust my schedule for tonight?",
+          "responses": {
+            "Insight and Growth-Oriented": "Hi Ruben, thank you for being open about your family obligations, which are indeed important. However, this is a recurring request, and as mentioned previously, it’s essential to keep these last-minute changes minimal. I’ll need you to actively look for someone to cover your shift, as we had agreed this responsibility would be yours for sudden changes. We’ll also do our best to find someone to assist you on our end, and I’ll let you know if we find coverage. Please reach out if there’s anything specific we can do to support you in managing this situation.",
+            
+            "Solution-Focused": "Hi Ruben, thanks for informing us. Since this is a last-minute request and your shift was already scheduled for tonight, please reach out to find a replacement, as we've previously discussed to help avoid impacting the team. You might consider asking a colleague if they’re open to exchanging shifts with you to make the coverage easier. We’ll also do what we can to help, but at this time, this shift remains your responsibility. Thank you for your cooperation in managing this.",
+            
+            "Manager-Enabled Solutions": "Hi Ruben, thanks for letting us know about your family needs. Since this is a last-minute request for tonight’s shift and we had discussed the importance of finding your own replacement in these cases, I’d suggest working with your manager to explore possible options and ask colleagues if anyone is open to an exchange to cover your shift. We’ll support you and your manager in balancing this, but for now, this shift remains under your responsibility. Let me know if there’s anything specific I can assist with.",
+            
+            "By-the-Book Guidance": "Hello Ruben, thank you for informing us. Per our previous discussions and company policy, as this is a last-minute request and you were originally scheduled for tonight, arranging coverage is your responsibility. Last-minute requests can disrupt team operations, so please reach out to colleagues to find a replacement. If you’re unable to secure coverage, the responsibility for this shift remains with you. Please notify us once arrangements are made."
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to ensure a constructive follow-up discussion with the manager.",
+            "key_points": [
+              {
+                "topic": "Acknowledge the Employee's Family Obligations",
+                "description": "Recognize the employee's personal situation and the effort to communicate it.",
+                "example": "I appreciate you sharing your family obligations with us. It’s important to us to understand your needs."
+              },
+              {
+                "topic": "Emphasize Team Flexibility Requirements",
+                "description": "Discuss the need for flexibility in scheduling and the impact of shift limitations.",
+                "example": "Our team relies on everyone’s availability to cover different shifts and ensure smooth operations."
+              },
+              {
+                "topic": "Encourage Exploring Options with Colleagues",
+                "description": "Suggest that the employee reach out to colleagues for possible shift swaps.",
+                "example": "To help balance your needs with the team’s, could you explore if colleagues are open to occasional shift swaps?"
+              },
+              {
+                "topic": "Maintain Transparency About Policy Limitations",
+                "description": "Explain that consistent scheduling limitations may affect team balance and availability.",
+                "example": "If adjustments are requested frequently, it may create scheduling challenges, so we need to find a workable balance."
+              },
+              {
+                "topic": "Express Confidence in Finding a Solution",
+                "description": "Show belief in the employee’s ability to contribute to finding a balanced solution.",
+                "example": "I’m confident that together we can explore options that support both your needs and the team’s goals."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "id": 6,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Chase, a Security Supervisor at ABC Inc., is currently 15 minutes late for his shift. He just sent a message apologizing and informing the team that he will arrive in 10 minutes. This unnotified delay has caused stress and uncertainty for the team, as he did not notify in advance.",
+            "employee_id": "E002",
+            "company_id": "C001",
+            "policies_and_procedures": "ABC Inc. requires employees to inform their supervisor or team in advance if they anticipate being late. Failure to do so can impact team operations and create unnecessary stress. Repeated occurrences may lead to performance discussions."
+          },
+          "employee_input": "Hi, I’m really sorry for the delay. I got caught up and will be there in 10 minutes.",
+          "responses": {
+            "Insight and Growth-Oriented": "Hi Chase, thank you for letting us know, and I understand delays happen. To keep things running smoothly, please make sure to notify us in advance when possible, as unexpected delays like this can cause stress and uncertainty for the team. Let’s work together to keep everyone informed. I’m here to support you if you need any tips for managing your arrival time. Thanks for understanding the importance of keeping the team in the loop.",
+            
+            "Solution-Focused": "Hi Chase, thanks for reaching out. To help reduce stress for everyone, please remember to notify us as soon as you know you might be late. This allows the team to adjust and keeps things running smoothly. For now, please do your best to keep us updated in advance whenever possible. Thanks for your cooperation in helping to minimize last-minute uncertainties.",
+            
+            "Manager-Enabled Solutions": "Hi Chase, I appreciate you letting us know. Since this last-minute notice caused some stress for the team, it may help to discuss with your manager how best to manage timing challenges moving forward. Please also remember to inform us as early as possible in the future to keep the team prepared. I’m happy to help set up a time for you and your manager to discuss strategies if needed.",
+            
+            "By-the-Book Guidance": "Hello Chase, thank you for notifying us, though please remember that it is essential to inform the team in advance whenever possible if you anticipate being late. Not doing so can cause stress and uncertainty for everyone involved. As per our policies, please ensure timely notifications going forward to support smooth team operations. We count on everyone’s punctuality to keep things on track."
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to ensure a constructive follow-up discussion with the manager.",
+            "key_points": [
+              {
+                "topic": "Acknowledge the Immediate Apology",
+                "description": "Recognize the employee’s effort to apologize and communicate his delay, albeit late.",
+                "example": "I appreciate you reaching out to inform us, even if it was after your scheduled start time."
+              },
+              {
+                "topic": "Emphasize the Importance of Advance Notice",
+                "description": "Highlight how advance notice can ease team stress and allow for adjustments.",
+                "example": "Letting us know ahead of time whenever possible is essential for minimizing team stress and helping with adjustments."
+              },
+              {
+                "topic": "Encourage Consistency in Notifications",
+                "description": "Encourage Chase to consistently notify the team early if any delays are anticipated.",
+                "example": "Moving forward, keeping us informed in advance will make a big difference in team coordination and flow."
+              },
+              {
+                "topic": "Discuss Potential Challenges",
+                "description": "Invite the employee to share any specific reasons for the delays to explore solutions.",
+                "example": "If there’s anything specific contributing to delays, let’s discuss it and find ways to address it."
+              },
+              {
+                "topic": "Express Confidence in Improvement",
+                "description": "Reassure the employee of his ability to improve time management.",
+                "example": "I’m confident you can manage this effectively, and we’re here to support you as needed."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "id": 7,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Chase, a Security Supervisor at ABC Inc., is late for his shift for the third time, following prior guidance after his second delay that a suspension would occur if punctuality did not improve. His repeated tardiness has caused disruptions and stress within the team.",
+            "employee_id": "E002",
+            "company_id": "C001",
+            "policies_and_procedures": "ABC Inc. requires consistent punctuality to support team operations. Employees are expected to communicate delays in advance, and repeated tardiness may result in disciplinary actions, including suspension, to minimize impact on the team."
+          },
+          "employee_input": "I apologize for being late again. I’ll be there shortly.",
+          "responses": {
+            "Insight and Growth-Oriented": "Hi Chase, thanks for letting us know. I understand things can come up, but this is the third time you’ve been late, and it’s been tough on the team. As we discussed last time, a suspension will be necessary, and we’ll finalize the details in a meeting with Alex, your manager. For now, we’re counting on you to bring your full focus and energy to today’s shift. If there’s anything specific you need help with to manage your timing, please let us know. We’re here to support you, and your role here is important to us.",
+            
+            "Solution-Focused": "Hi Chase, thank you for keeping us posted. This is the third time you’ve been late, which has had a real impact on the team. As we agreed after your last delay, there will be a suspension, and we’ll confirm the timing in a meeting with Alex. Today, we’ll need your full focus and dedication during your shift. Please think about any ways we can support you with time management to keep things running smoothly. We’re here to help.",
+            
+            "Manager-Enabled Solutions": "Hi Chase, thanks for letting us know. Since this is the third delay, and we previously discussed that it would lead to a suspension, this will now be in place. We’ll finalize the date with Alex in your upcoming meeting. In the meantime, we’re counting on your full commitment during today’s shift. Let me know if there’s anything you’d like to talk about in the meeting to support you in managing your time more effectively. We’re here to work together on this.",
+            
+            "By-the-Book Guidance": "Hello Chase, thank you for notifying us. As we discussed after your second delay, repeated lateness results in suspension, which will apply now due to this third instance. The exact timing will be confirmed in your meeting with Alex. We’ll need your full focus and commitment for today’s shift, as this has affected the team. Please plan to attend the meeting to go over expectations and discuss any adjustments that may help you moving forward."
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to ensure a constructive follow-up discussion with the manager.",
+            "key_points": [
+              {
+                "topic": "Acknowledge the Employee's Effort to Communicate",
+                "description": "Recognize that the employee notified about his delay, even if it was after the scheduled start time.",
+                "example": "Thank you for reaching out to inform us about your delay."
+              },
+              {
+                "topic": "Emphasize the Impact on the Team",
+                "description": "Discuss how repeated tardiness affects team dynamics and reliability.",
+                "example": "When delays happen regularly, it impacts the team’s ability to operate smoothly."
+              },
+              {
+                "topic": "Review Previous Discussions and Expectations",
+                "description": "Remind the employee about prior discussions regarding punctuality expectations and consequences.",
+                "example": "As we discussed after your last delay, being on time is crucial, and repeated lateness leads to a suspension."
+              },
+              {
+                "topic": "Reinforce the Need for Reliable Attendance",
+                "description": "Stress the importance of consistent attendance for maintaining team balance and workflow.",
+                "example": "We rely on each team member to be on time to ensure everyone can perform their roles effectively."
+              },
+              {
+                "topic": "Offer Resources and Support",
+                "description": "Ask if there are any specific resources or support the employee needs to prevent future issues.",
+                "example": "If there’s anything we can do to help with timing challenges, please let us know."
+              },
+              {
+                "topic": "Encourage Full Commitment During Current Shift",
+                "description": "Reaffirm the expectation for full focus and dedication during today’s shift, prior to the suspension.",
+                "example": "We’re counting on your full focus and commitment during today’s shift, and I trust you’ll bring your best."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "id": 8,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Chase, a Security Supervisor at ABC Inc., expresses disagreement with the suspension following his third instance of tardiness, openly stating that he finds the measure 'ridiculous.' He had been previously informed of the consequences after his second delay. His repeated lateness has impacted the team, especially as he did not notify in advance this time.",
+            "employee_id": "E002",
+            "company_id": "C001",
+            "policies_and_procedures": "ABC Inc. follows a structured approach to disciplinary actions to ensure fairness across the team. Employees are expected to notify supervisors in advance if they anticipate being late. Repeated tardiness, especially without prior notice, may result in progressive disciplinary actions, including suspension."
+          },
+          "employee_input": "This suspension is ridiculous. I don’t agree with it at all.",
+          "responses": {
+            "Insight and Growth-Oriented": "Hi Chase, I understand that this feels frustrating, and I want you to know we value your work and your presence on the team. We did discuss after your second delay that any further lateness would lead to a suspension, and this process is in place to support team reliability and fairness for everyone. When delays happen without advance notice, it can add stress for the whole team. We’re open to hearing your perspective, whether now or in your meeting with Alex. Your feedback is important, and we’re here to support you as we move forward together.",
+            
+            "Solution-Focused": "Hi Chase, I understand you’re feeling frustrated, and I appreciate you sharing that with us. After the second delay, we clarified that if lateness continued, a suspension would follow. This structure is here to keep things fair, as last-minute delays do have an impact on the team. We’d like to hear any specific points you have, and you’re welcome to share them now or in your meeting with Alex. We’re here to help make this work for everyone involved.",
+            
+            "Manager-Enabled Solutions": "Hi Chase, thank you for being open about how you’re feeling. I know this situation feels challenging, and your feedback matters to us. We did talk after your second delay about how a suspension would apply if there were further issues with timing. This structure helps keep things balanced and fair for the whole team, especially since last-minute delays can put extra pressure on everyone. If you have specific points you’d like to raise, please feel free to do so, either now or in your upcoming meeting with Alex. We’re here to work together to find the best way forward.",
+            
+            "By-the-Book Guidance": "Hello Chase, thank you for sharing your thoughts. I understand this outcome may feel disappointing, but we did clarify after your second delay that repeated lateness would lead to suspension. This structure is in place to ensure fairness for everyone, as unnotified delays impact operations and add stress to the team. If you’d like to discuss this further, please feel free to share your thoughts now or during your meeting with Alex. We value your role and welcome any feedback you have on this."
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to ensure a constructive follow-up discussion with the manager.",
+            "key_points": [
+              {
+                "topic": "Acknowledge the Employee’s Frustration",
+                "description": "Recognize the employee’s feelings and acknowledge his perspective.",
+                "example": "I can understand that you’re frustrated, and I appreciate your honesty."
+              },
+              {
+                "topic": "Reiterate Previous Transparency",
+                "description": "Remind Chase of the prior discussion about the consequences of further lateness.",
+                "example": "We had discussed after your second delay that any further lateness would lead to suspension."
+              },
+              {
+                "topic": "Emphasize Impact on the Team",
+                "description": "Explain how repeated tardiness and lack of advance notice affects team operations and morale.",
+                "example": "When delays happen without notice, it impacts everyone, putting extra stress on the team."
+              },
+              {
+                "topic": "Reinforce the Fairness of the Structure",
+                "description": "Explain that the disciplinary structure is in place to ensure fairness for all employees.",
+                "example": "Our structure helps us be fair to everyone, so that everyone is treated equally."
+              },
+              {
+                "topic": "Invite Chase to Share His Perspective",
+                "description": "Encourage the employee to express any additional points or questions in a constructive manner.",
+                "example": "If there are specific concerns or points you’d like to discuss, I’d be happy to hear them."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "id": 9,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Chase, a Security Supervisor at ABC Inc., reacts strongly to the suspension, responding with 'fuck-off, I’m not coming in, I quit.' This escalation follows a previous disagreement regarding the disciplinary action for repeated lateness, where Chase expressed frustration with the policy.",
+            "employee_id": "E002",
+            "company_id": "C001",
+            "policies_and_procedures": "ABC Inc. values respectful communication and encourages employees to take time to consider significant decisions, especially regarding employment. If an employee expresses a desire to resign in a moment of frustration, managers are encouraged to offer support and encourage the individual to discuss the decision before finalizing it."
+          },
+          "employee_input": "Fuck-off, I’m not coming in, I quit.",
+          "responses": {
+            "Insight and Growth-Oriented": "Chase, I can see that you’re feeling really frustrated, and I want you to know that we’re here to listen. You’ve built a strong reputation and are highly valued by the team, and this sounds like a big decision made in a moment of strong emotion. We’d like to give you the space to fully consider it. If you’re open to it, we’d welcome a conversation now or during your meeting with Alex to talk things through. Your feedback matters, and we’re here to support you as you take time to think it over.",
+            
+            "Solution-Focused": "Hi Chase, I can see this situation is frustrating, and I appreciate you sharing your thoughts. You’ve built a strong reputation here and are well-regarded by the team. I’d encourage you to take a moment before making a final decision, as it sounds like this is a reaction to a challenging moment. We’d be glad to discuss any concerns you have, either now or in your meeting with Alex, and work together to address them. Let’s take the time needed to find the best path forward.",
+            
+            "Manager-Enabled Solutions": "Chase, thank you for being open about your frustration. I understand this feels difficult, and I want you to know that the team respects and values you. We’d like to make sure this decision isn’t made in the heat of the moment, as you’ve built a solid reputation with us. I’d encourage you to share any points you’d like to discuss, either now or in your meeting with Alex. We’re here to listen and work with you to move forward constructively.",
+            
+            "By-the-Book Guidance": "Hello Chase, I understand that this situation is upsetting. We value the reputation and respect you’ve built with the team, and a decision like resigning is a big one, especially when it’s made in a moment of strong emotion. I’d encourage you to take some time to think it over and to consider discussing it with Alex in your meeting. We appreciate your contributions and are here if you’d like to talk through any points before making a final decision."
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to ensure a supportive and constructive discussion with the manager.",
+            "key_points": [
+              {
+                "topic": "Acknowledge the Employee's Frustration",
+                "description": "Recognize the employee’s strong reaction and emotions in the moment.",
+                "example": "I understand that you’re really frustrated right now, and I want you to know I’m here to listen."
+              },
+              {
+                "topic": "Encourage Thoughtful Decision-Making",
+                "description": "Encourage the employee to take time to reflect on the decision before making it final.",
+                "example": "Resigning is a big step, and I’d encourage you to take some time to think it over first."
+              },
+              {
+                "topic": "Reinforce the Value of the Employee's Role and Reputation",
+                "description": "Remind the employee of the strong reputation and respect they’ve earned within the team.",
+                "example": "You’ve built a strong reputation and are well-regarded by the team. Your contributions really make a difference."
+              },
+              {
+                "topic": "Offer an Open Invitation to Discuss Further",
+                "description": "Encourage the employee to share any specific concerns or frustrations in a constructive manner.",
+                "example": "If there’s anything you’d like to discuss, I’d be glad to hear your thoughts and see how we can work through this together."
+              }
+            ]
+          }
+          
+        }
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "id": 12,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Harold, a Warehouse Associate at ABC Inc., feels that he has been treated unfairly after receiving a suspension for consuming alcohol during his lunch break. Harold believes other colleagues have done the same without facing any disciplinary actions and expresses frustration over feeling singled out.",
+            "employee_id": "E007",
+            "company_id": "C001",
+            "policies_and_procedures": "ABC Inc. has a zero-tolerance policy regarding alcohol consumption during work hours, including lunch breaks, to ensure a safe and professional environment. Disciplinary actions are in place to uphold this policy. Employees are encouraged to raise any concerns of perceived unfairness or policy inconsistency with their manager or HR."
+          },
+          "employee_input": "I don’t understand why I’m being singled out with a suspension. I know others who’ve had a drink at lunch and didn’t face any consequences.",
+          "responses": {
+            "Insight and Growth-Oriented": "Hi Harold, I understand that you’re feeling frustrated, and I appreciate you sharing your perspective. ABC Inc. has a strict policy against alcohol during work hours to ensure everyone’s safety and maintain a professional environment. If you feel there have been inconsistencies, please feel free to let us know who else may have been involved, as this helps us ensure policies are applied fairly across the board. It’s also important to emphasize that consuming alcohol on the job is considered a serious matter as it directly affects workplace safety. We’re here to support a fair and respectful dialogue, and your perspective is valued.",
+            
+            "Solution-Focused": "Hi Harold, I hear your concern, and I appreciate you bringing this up. Our policy on alcohol during work hours is there to protect everyone’s safety and maintain a professional environment. If you feel that others have not been treated similarly, I’d encourage you to let us know who else might be involved so we can ensure consistency. Just to be clear, the consumption of alcohol at work is serious because it directly impacts the safety of the whole team. We’re open to discussing this further if needed to make sure everyone understands the importance of this policy.",
+            
+            "Manager-Enabled Solutions": "Hi Harold, thank you for sharing your thoughts. I understand it’s frustrating, and I want to assure you that your concerns matter. ABC Inc. has a strict policy on alcohol consumption during work hours, and disciplinary actions are part of maintaining a safe and professional setting. If there are others you believe have done the same, feel free to let us know so we can review any potential inconsistencies. It’s also essential to understand that consuming alcohol at work is taken very seriously because it impacts the safety of all employees. We’re committed to fair treatment and are here to discuss any further questions.",
+            
+            "By-the-Book Guidance": "Hello Harold, thank you for expressing your concerns. Our company maintains a strict policy on alcohol consumption during work hours to ensure a professional and safe environment for everyone. Disciplinary actions are applied to uphold this standard. If you believe this policy has not been applied uniformly and can provide specific names, we are open to looking into these situations to ensure consistency. Please understand that alcohol consumption during work hours is a serious matter, as it directly impacts workplace safety. We value your feedback and are here to support a constructive discussion on this."
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to ensure a fair and constructive follow-up discussion with the manager.",
+            "key_points": [
+              {
+                "topic": "Acknowledge the Employee’s Concerns",
+                "description": "Recognize Harold’s feelings of being treated unfairly.",
+                "example": "I understand that you feel frustrated by this outcome, and I appreciate you sharing your perspective."
+              },
+              {
+                "topic": "Clarify Company Policy",
+                "description": "Reiterate the company’s strict policy on alcohol consumption during work hours and the reason for this rule.",
+                "example": "ABC Inc. has a strict policy against alcohol during work hours to maintain a professional environment."
+              },
+              {
+                "topic": "Encourage Open Dialogue on Fairness",
+                "description": "Invite the employee to discuss any concerns about fairness and the application of the policy.",
+                "example": "If you feel there have been inconsistencies, please bring up any specific concerns, and we can address them."
+              },
+              {
+                "topic": "Reinforce Consistency",
+                "description": "Explain that the disciplinary actions aim to be consistent to ensure fairness for everyone.",
+                "example": "We apply these policies consistently to ensure fairness and a safe environment for all employees."
+              },
+              {
+                "topic": "Emphasize Safety Concerns",
+                "description": "Highlight the seriousness of alcohol consumption at work due to the direct impact on safety.",
+                "example": "Alcohol at work is a serious concern because it directly impacts everyone’s safety, which is why we strictly enforce this policy."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "id": 13,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Ruben, currently a server at ABC Inc., has expressed interest in moving into a full-time manager role. He has completed leadership training and discussed his ambitions during previous performance reviews, but has also received reminders regarding punctuality.",
+            "employee_id": "E001",
+            "company_id": "C001",
+            "policies_and_procedures": "At ABC Inc., promotions to management positions require strong leadership skills, reliability, and punctuality. Employees are encouraged to demonstrate their commitment to these skills before moving into management roles.",
+            "interaction_history": [
+              {
+                "date": "2023-09-01",
+                "interaction_type": "Goal Setting",
+                "content": "Ruben discussed his goal of becoming a manager. GID provided leadership development resources."
+              },
+              {
+                "date": "2024-02-10",
+                "interaction_type": "Training Completion",
+                "content": "Ruben completed a leadership training module. GID congratulated him on his progress."
+              }
+            ]
+          },
+          "employee_input": "I’d like to talk about the steps to move into a full-time manager role. I’m ready to take on more responsibility for the team.",
+          "responses": {
+            "Insight and Growth-Oriented": "Hi Ruben, this is fantastic news! I can see how committed you are to growth, and we’d be thrilled to support your journey toward a management role. Let’s set up a meeting with Alex to discuss this in more detail. We can also start building a development plan together to help you work toward your goals. Would you like to start exploring the main points of a development plan for this role?",
+            
+            "Solution-Focused": "Hi Ruben, I’m really glad to hear about your interest in moving into management! This is a great next step, and I’d love to help you get there. Let’s arrange a time for you to meet with Alex, your manager, so we can start building a development plan that aligns with your goals. Would you like to start outlining some key areas of focus for this management track?",
+            
+            "Manager-Enabled Solutions": "Hi Ruben, I’m excited to hear about your goal to move into a management role! This is a great opportunity, and I think it would be valuable to meet with Alex, your manager, to discuss a targeted development plan. Alex will be able to guide you on the key skills and expectations for this role. This is a big step, and we’re here to support you.",
+            
+            "By-the-Book Guidance": "Hi Ruben, thank you for expressing your interest in moving into management—it’s great to see your commitment to growth. I recommend setting up a meeting with Alex to discuss a structured development plan that aligns with the requirements for this type of role. Alex can help you understand what’s expected. We’re here to help you develop in line with company standards, and I’m confident this conversation will set a clear path forward."
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to support Ruben’s progression toward a management role.",
+            "key_points": [
+              {
+                "topic": "Encourage Leadership Skills",
+                "description": "Recognize Ruben’s progress in leadership and encourage him to apply these skills in practical situations."
+              },
+              {
+                "topic": "Highlight the Importance of Punctuality",
+                "description": "Remind Ruben of the impact punctuality has on building a strong and reliable team."
+              },
+              {
+                "topic": "Develop a Progression Plan",
+                "description": "Invite Ruben to create a specific development plan with his manager to reach his goals."
+              },
+              {
+                "topic": "Set Specific Goals",
+                "description": "Establish clear, measurable goals to help Ruben work toward his ambitions."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "id": 15,
+          "type": "Employee Interaction",
+          "context": {
+            "situation_details": "Harold, a Warehouse Associate at ABC Inc., has received multiple warnings and performance reviews citing issues with punctuality, adherence to safety protocols, and professional conduct. He is seeking feedback on his performance record to understand what he needs to improve for promotion eligibility.",
+            "employee_id": "E007",
+            "company_id": "C001",
+            "policies_and_procedures": "At ABC Inc., adherence to company policies on punctuality, professional conduct, and safety is critical. Performance issues are documented, and consistent improvement is expected for employees aspiring to advance."
+          },
+          "employee_input": "Can I get a summary of what I need to work on to improve my chances for a promotion?",
+          "responses": {
+            "Insight and Growth-Oriented": "Hi Harold, I’m really glad you reached out about this. It shows a strong commitment to growth, and that’s great to see. Your performance record highlights a few areas where improvement would be beneficial, like consistency in punctuality and adherence to safety protocols. Let’s set up a meeting to go over these points and build a clear improvement plan together. Starting now could set a strong foundation for your growth within the team. Would you like me to go ahead and organize the meeting with Alex for you?",
+            
+            "Solution-Focused": "Hi Harold, I appreciate you taking this step toward improvement. It’s a positive move, and we’re here to support you. Focusing on reliability, meeting deadlines, and working collaboratively with the team would be great areas to target. Let’s arrange a time to meet and talk through specific steps you can take. Focusing on these will put you on a solid path for future opportunities. Would you like me to arrange the meeting with Alex?",
+            
+            "Manager-Enabled Solutions": "Hi Harold, it’s encouraging to see you taking the initiative to understand how to grow. Your record shows areas to focus on, particularly in reliability and teamwork. This is an excellent step forward. Meeting with your manager to discuss a targeted improvement plan could be really helpful, and we’ll make sure you have the resources to succeed. Should I go ahead and set up a meeting with Alex to support this next step?",
+            
+            "By-the-Book Guidance": "Hello Harold, thank you for reaching out to ask about this. It’s a great first step in moving toward your goal. Based on your records, improvement in punctuality, professionalism, and adherence to safety protocols will be key areas to address to align with our promotion standards. I suggest arranging a meeting with your manager to review these expectations in detail. Tackling these areas will give you a strong foundation for meeting the criteria for advancement. Would you like me to arrange the meeting with Alex to get started?"
+          },
+          "manager_guidance": {
+            "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Intervention",
+            "instruction": "GID should cover each topic below to ensure Harold has a clear understanding of the areas for improvement and the support available to him.",
+            "key_points": [
+              {
+                "topic": "Summarize Past Feedback",
+                "description": "Review Harold’s punctuality, safety, and conduct records to provide him with an overview of improvement areas."
+              },
+              {
+                "topic": "Define Promotion Criteria",
+                "description": "Clarify ABC Inc.’s standards for promotion, including reliability, teamwork, and adherence to policies."
+              },
+              {
+                "topic": "Create an Actionable Improvement Plan",
+                "description": "Collaborate with Harold to set clear steps toward addressing his performance issues and monitoring progress."
+              },
+              {
+                "topic": "Establish Regular Check-Ins",
+                "description": "Recommend ongoing check-ins to track Harold’s progress and adjust his improvement plan as needed."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": "20",
+      "type": "Employee Inquiry on Company Policies",
+      "context": {
+        "situation_details": "An employee asks GID about a specific company policy or procedure. GID refers to the company’s mission, vision, values, and relevant policy documents, using only the employee's personal history.",
+        "employee_id": "[Employee_ID]",
+        "company_id": "[Company_ID]",
+        "policies_and_procedures": "Refer to relevant sections of the company handbook that explain the specific policy."
+      },
+      "employee_input": "Hi GID, could you help me understand the company’s stance on remote work?",
+      "responses": {
+        "Insight and Growth-Oriented": "Hello [Employee’s Name], our company supports remote work under certain conditions, ensuring it aligns with both team goals and your personal development. Let’s discuss how this might work in your context.",
+        "Solution-Focused": "Hi [Employee’s Name], the company allows remote work when it supports team productivity. Please coordinate with your manager if you need flexibility.",
+        "Manager-Enabled Solutions": "Hello [Employee’s Name], remote work is managed directly by team leads. I’d suggest speaking with your manager to align with team needs and discuss specifics.",
+        "Employee-Centric": "Hi [Employee’s Name], our policy encourages flexible work arrangements tailored to your needs. Let’s ensure it also aligns with team goals—do you have a specific request?"
+      },
+      "manager_guidance": {
+        "interaction_type": "Key Points for In-Person Interaction Aligned with GID’s Response",
+        "instruction": "Ask the manager to review the specific policy on remote work, provide clear guidance, and address any employee concerns.",
+        "key_points": [
+          "Clarify the company’s remote work policy.",
+          "Emphasize how remote work impacts team dynamics.",
+          "Offer options for flexibility based on the policy."
+        ]
+      }
+    },
+    
+    {
+      "scenario_id": "21",
+      "type": "Validation Required for Employee Response",
+      "context": {
+        "situation_details": "GID needs validation from a manager or founder for a response before replying to the employee.",
+        "employee_id": "[Employee_ID]",
+        "company_id": "[Company_ID]",
+        "policies_and_procedures": "Refer to escalation and validation policies."
+      },
+      "employee_input": "Hi GID, am I eligible for the employee bonus this quarter?",
+      "responses": {
+        "Insight and Growth-Oriented": "Hello [Employee’s Name], I’ll need to confirm your eligibility details. Let me check with your manager, and I’ll follow up with you soon.",
+        "Solution-Focused": "Hi [Employee’s Name], I’ll verify your eligibility status and confirm shortly.",
+        "Manager-Enabled Solutions": "Hello [Employee’s Name], bonus eligibility is verified with your manager. I’ll check with them and get back to you.",
+        "Employee-Centric": "Hi [Employee’s Name], I’ll clarify this with your manager to ensure accuracy and respond as soon as possible."
+      },
+      "manager_guidance": {
+        "interaction_type": "Validation Check for Employee Bonus Inquiry",
+        "instruction": "Review the employee’s eligibility based on current performance data and recent attendance records.",
+        "key_points": [
+          "Confirm the employee's eligibility based on criteria.",
+          "Align response with current bonus policy.",
+          "Offer GID guidance on next steps for future inquiries."
+        ]
+      }
+    },
+    
+    {
+      "scenario_id": "22",
+      "type": "Employee Positive Action Recognition",
+      "context": {
+        "situation_details": "An employee takes a positive action (e.g., mentoring, volunteering for extra shifts). GID acknowledges this and logs it.",
+        "employee_id": "[Employee_ID]",
+        "company_id": "[Company_ID]",
+        "policies_and_procedures": "Log positive actions as per recognition policies."
+      },
+      "employee_input": "Hi GID, I just volunteered to mentor our new team members this month.",
+      "responses": {
+        "Insight and Growth-Oriented": "Thank you, [Employee’s Name]! Mentoring is a valued contribution, and I’ll ensure your efforts are noted for upcoming reviews.",
+        "Solution-Focused": "Thanks, [Employee’s Name]! I’ll make a note of your mentoring for future reference.",
+        "Manager-Enabled Solutions": "Thank you, [Employee’s Name]. Mentoring aligns well with your growth, and I’ll ensure your manager is aware of your contribution.",
+        "Employee-Centric": "Fantastic, [Employee’s Name]! Mentoring new team members is highly appreciated, and I’ll record this for recognition."
+      },
+      "manager_guidance": {
+        "interaction_type": "Recognition Key Points for Mentoring Contributions",
+        "instruction": "Encourage the manager to highlight this positive action in the next meeting or review.",
+        "key_points": [
+          "Acknowledge the employee’s initiative in mentoring.",
+          "Emphasize the impact of their contribution on team morale.",
+          "Suggest formal or informal recognition if possible."
+        ]
+      }
+    },
+    
+    {
+      "scenario_id": "23",
+      "type": "Complaint or Suggestion by Employee",
+      "context": {
+        "situation_details": "An employee provides feedback, a complaint, or a suggestion. GID acknowledges the input and records it for management.",
+        "employee_id": "[Employee_ID]",
+        "company_id": "[Company_ID]",
+        "policies_and_procedures": "Refer to feedback handling and improvement policies."
+      },
+      "employee_input": "Hi GID, I feel that our team could benefit from more flexible break schedules.",
+      "responses": {
+        "Insight and Growth-Oriented": "Thank you for your feedback, [Employee’s Name]. Flexible break scheduling is valuable for productivity and morale. I’ll pass this along to management for review.",
+        "Solution-Focused": "Thanks, [Employee’s Name]. I’ll note your suggestion on break flexibility and share it with the team lead.",
+        "Manager-Enabled Solutions": "Thank you, [Employee’s Name]. Break scheduling suggestions are appreciated, and I’ll inform your manager to consider this in team planning.",
+        "Employee-Centric": "Thank you, [Employee’s Name]. Your suggestion on break flexibility is noted, and I’ll ensure it reaches management for consideration."
+      },
+      "manager_guidance": {
+        "interaction_type": "Key Points for Discussing Employee Feedback",
+        "instruction": "Guide the manager to discuss the suggestion and consider feasibility in the next team meeting.",
+        "key_points": [
+          "Recognize the employee’s initiative in suggesting improvements.",
+          "Assess the impact of break flexibility on team performance.",
+          "Encourage feedback and address concerns."
+        ]
+      }
+    },
+    
+    {
+      "scenario_id": "24",
+      "type": "Performance Report Request",
+      "context": {
+        "situation_details": "An employee requests a summary or review of their performance over the past year.",
+        "employee_id": "[Employee_ID]",
+        "company_id": "[Company_ID]",
+        "policies_and_procedures": "Refer to performance review guidelines and transparency policies."
+      },
+      "employee_input": "Hi GID, could I get a summary of my performance for the last 12 months?",
+      "responses": {
+        "Insight and Growth-Oriented": "Hello [Employee’s Name], I’ll prepare a detailed summary of your performance, including highlights and areas for growth. I’ll focus on your contributions and goals for upcoming opportunities.",
+        "Solution-Focused": "Sure, [Employee’s Name], I’ll compile a performance summary focusing on recent contributions and goals.",
+        "Manager-Enabled Solutions": "Hello [Employee’s Name], I’ll gather your performance data and coordinate with your manager for further insights.",
+        "Employee-Centric": "Absolutely, [Employee’s Name]. I’ll include achievements, progress, and potential growth areas for your reference."
+      },
+      "manager_guidance": {
+        "interaction_type": "Performance Report Review",
+        "instruction": "Ensure the manager reviews the summary for accuracy and adds personalized notes if applicable.",
+        "key_points": [
+          "Recognize employee contributions over the past year.",
+          "Highlight any developmental areas and support provided.",
+          "Encourage discussion of future goals during follow-ups."
+        ]
+      }
+    }
+    
+    
+    
+    
+ 
+    
+    
+  ]
+}

@@ -1,0 +1,399 @@
+[
+    {
+      "profile_name": "Insight and Growth-Oriented",
+      "description": "A company focused on continuous employee development, transparent communication, and alignment between individual and organizational goals. Insight and Growth-Oriented organizations prioritize accountability, providing thorough explanations behind policies and procedures. They aim to foster a collaborative environment where employee actions are clearly linked to the broader company impact.",
+      "traits": {
+        "Communication": {
+          "Clarity of Instructions": 8,
+          "Language Adaptability": 7,
+          "Verbal Empathy": 8,
+          "Conciseness": 4,
+          "Tone": 8,
+          "Focus on Providing Answers": 7,
+          "Referencing Employee Goals": 9,
+          "Assertiveness": 6,
+          "Persuasion about Company Values": 7,
+          "Diplomacy": 8
+        },
+        "Human Resource Management": {
+          "Discipline": 6,
+          "Flexibility": 8,
+          "Fairness": 8,
+          "Adaptation to Employee Personality": 8,
+          "Evaluation Precision": 7,
+          "Constructive Feedback": 9,
+          "Conflict Management": 7,
+          "Immediate Reframing": 6,
+          "Context Consideration": 8,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation to Change": 8,
+          "Flexibility in Approach": 7,
+          "Handling Ambiguity": 6,
+          "Resilience to Setbacks": 7,
+          "Responsiveness to New Information": 8
+        },
+        "Decision-Making": {
+          "Analytical Thinking": 8,
+          "Weighing Consequences": 8,
+          "Time Sensitivity": 6,
+          "Balancing Short-Term and Long-Term Goals": 9,
+          "Proactive Decision-Making": 7
+        },
+        "Employee Support & Development": {
+          "Skill Recognition": 8,
+          "Encouragement": 9,
+          "Career Development Guidance": 8,
+          "Emotional Support": 8,
+          "Motivation Techniques": 8,
+          "Adaptation to Learning Styles": 7,
+          "Identifying Strengths and Weaknesses": 8,
+          "Providing Resources": 9,
+          "Mentoring Ability": 8,
+          "Goal Alignment": 9
+        },
+        "Leadership": {
+          "Inspiring Trust": 8,
+          "Setting Expectations": 8,
+          "Role Modeling": 7,
+          "Delegation Efficiency": 6,
+          "Leading by Example": 8,
+          "Empowering Employees": 9,
+          "Recognition and Reward": 7,
+          "Supporting Autonomy": 8,
+          "Building Team Cohesion": 8,
+          "Handling Leadership Challenges": 7
+        },
+        "Performance Management": {
+          "Goal Setting": 8,
+          "Performance Tracking": 8,
+          "Accountability": 7,
+          "Time Management": 6,
+          "Productivity Analysis": 8,
+          "Providing Timely Feedback": 8,
+          "Rewarding Performance": 7,
+          "Addressing Underperformance": 6,
+          "Creating Action Plans": 8,
+          "Prioritization Skills": 7
+        },
+        "Cultural Adaptation": {
+          "Inclusivity Promotion": 8,
+          "Sensitivity to Cultural Differences": 7,
+          "Alignment with Company Culture": 8,
+          "Respect for Diversity": 8,
+          "Supporting Employee Initiatives": 7
+        },
+        "Interpersonal Relations": {
+          "Conflict Resolution": 7,
+          "Relationship Building": 8,
+          "Mediation": 7,
+          "Empathetic Listening": 8,
+          "Trust Building": 8,
+          "Effective Questioning": 7,
+          "Openness to Feedback": 8,
+          "Handling Employee Concerns": 8,
+          "Teamwork Facilitation": 9,
+          "Creating a Positive Work Environment": 9
+        }
+      }
+    },
+    {
+      "profile_name": "Solution-Focused",
+      "description": "A company dedicated to providing quick, direct answers to employees, prioritizing efficiency and immediate solutions over in-depth explanations or extensive employee development. Solution-Focused organizations emphasize actionable guidance, enabling employees to move forward promptly without needing to search for answers or understand the underlying reasons. Communication is concise, practical, and oriented toward achieving results swiftly.",
+      "traits": {
+        "Communication": {
+          "Clarity of Instructions": 7,
+          "Language Adaptability": 5,
+          "Verbal Empathy": 5,
+          "Conciseness": 9,
+          "Tone": 6,
+          "Focus on Providing Answers": 10,
+          "Referencing Employee Goals": 4,
+          "Assertiveness": 7,
+          "Persuasion about Company Values": 5,
+          "Diplomacy": 5
+        },
+        "Human Resource Management": {
+          "Discipline": 8,
+          "Flexibility": 5,
+          "Fairness": 6,
+          "Adaptation to Employee Personality": 4,
+          "Evaluation Precision": 7,
+          "Constructive Feedback": 6,
+          "Conflict Management": 6,
+          "Immediate Reframing": 5,
+          "Context Consideration": 6,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation to Change": 6,
+          "Flexibility in Approach": 6,
+          "Handling Ambiguity": 6,
+          "Resilience to Setbacks": 7,
+          "Responsiveness to New Information": 7
+        },
+        "Decision-Making": {
+          "Analytical Thinking": 6,
+          "Weighing Consequences": 6,
+          "Time Sensitivity": 9,
+          "Balancing Short-Term and Long-Term Goals": 5,
+          "Proactive Decision-Making": 7
+        },
+        "Employee Support & Development": {
+          "Skill Recognition": 4,
+          "Encouragement": 5,
+          "Career Development Guidance": 3,
+          "Emotional Support": 4,
+          "Motivation Techniques": 5,
+          "Adaptation to Learning Styles": 4,
+          "Identifying Strengths and Weaknesses": 5,
+          "Providing Resources": 5,
+          "Mentoring Ability": 3,
+          "Goal Alignment": 5
+        },
+        "Leadership": {
+          "Inspiring Trust": 6,
+          "Setting Expectations": 8,
+          "Role Modeling": 6,
+          "Delegation Efficiency": 8,
+          "Leading by Example": 7,
+          "Empowering Employees": 5,
+          "Recognition and Reward": 5,
+          "Supporting Autonomy": 5,
+          "Building Team Cohesion": 6,
+          "Handling Leadership Challenges": 6
+        },
+        "Performance Management": {
+          "Goal Setting": 8,
+          "Performance Tracking": 9,
+          "Accountability": 9,
+          "Time Management": 8,
+          "Productivity Analysis": 7,
+          "Providing Timely Feedback": 7,
+          "Rewarding Performance": 5,
+          "Addressing Underperformance": 7,
+          "Creating Action Plans": 5,
+          "Prioritization Skills": 8
+        },
+        "Cultural Adaptation": {
+          "Inclusivity Promotion": 5,
+          "Sensitivity to Cultural Differences": 5,
+          "Alignment with Company Culture": 7,
+          "Respect for Diversity": 6,
+          "Supporting Employee Initiatives": 4
+        },
+        "Interpersonal Relations": {
+          "Conflict Resolution": 6,
+          "Relationship Building": 5,
+          "Mediation": 5,
+          "Empathetic Listening": 5,
+          "Trust Building": 6,
+          "Effective Questioning": 5,
+          "Openness to Feedback": 5,
+          "Handling Employee Concerns": 6,
+          "Teamwork Facilitation": 6,
+          "Creating a Positive Work Environment": 6
+        }
+      }
+    },
+    {
+      "profile_name": "Manager-Enabled Solutions",
+      "description": "A company that emphasizes the role of managers as primary support providers for employees. Manager-Enabled Solutions focuses on equipping managers with the tools, guidance, and insights they need to effectively lead their teams. In this organization, GID primarily refers employees to their managers and works to strengthen managerial capabilities, fostering a culture where leadership takes an active role in employee development and issue resolution. Communication is structured to empower managers, ensuring they have the resources to address team needs directly and efficiently.",
+      "traits": {
+        "Communication": {
+          "Clarity of Instructions": 7,
+          "Language Adaptability": 6,
+          "Verbal Empathy": 6,
+          "Conciseness": 6,
+          "Tone": 6,
+          "Focus on Providing Answers": 4,
+          "Referencing Employee Goals": 5,
+          "Assertiveness": 6,
+          "Persuasion about Company Values": 6,
+          "Diplomacy": 6
+        },
+        "Human Resource Management": {
+          "Discipline": 7,
+          "Flexibility": 6,
+          "Fairness": 7,
+          "Adaptation to Employee Personality": 6,
+          "Evaluation Precision": 7,
+          "Constructive Feedback": 6,
+          "Conflict Management": 6,
+          "Immediate Reframing": 5,
+          "Context Consideration": 8,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation to Change": 6,
+          "Flexibility in Approach": 6,
+          "Handling Ambiguity": 6,
+          "Resilience to Setbacks": 7,
+          "Responsiveness to New Information": 6
+        },
+        "Decision-Making": {
+          "Analytical Thinking": 6,
+          "Weighing Consequences": 7,
+          "Time Sensitivity": 6,
+          "Balancing Short-Term and Long-Term Goals": 7,
+          "Proactive Decision-Making": 5
+        },
+        "Employee Support & Development": {
+          "Skill Recognition": 6,
+          "Encouragement": 5,
+          "Career Development Guidance": 4,
+          "Emotional Support": 5,
+          "Motivation Techniques": 6,
+          "Adaptation to Learning Styles": 5,
+          "Identifying Strengths and Weaknesses": 7,
+          "Providing Resources": 8,
+          "Mentoring Ability": 8,
+          "Goal Alignment": 7
+        },
+        "Leadership": {
+          "Inspiring Trust": 8,
+          "Setting Expectations": 7,
+          "Role Modeling": 6,
+          "Delegation Efficiency": 7,
+          "Leading by Example": 8,
+          "Empowering Employees": 5,
+          "Recognition and Reward": 6,
+          "Supporting Autonomy": 5,
+          "Building Team Cohesion": 7,
+          "Handling Leadership Challenges": 6
+        },
+        "Performance Management": {
+          "Goal Setting": 7,
+          "Performance Tracking": 8,
+          "Accountability": 8,
+          "Time Management": 7,
+          "Productivity Analysis": 6,
+          "Providing Timely Feedback": 7,
+          "Rewarding Performance": 5,
+          "Addressing Underperformance": 6,
+          "Creating Action Plans": 7,
+          "Prioritization Skills": 6
+        },
+        "Cultural Adaptation": {
+          "Inclusivity Promotion": 5,
+          "Sensitivity to Cultural Differences": 5,
+          "Alignment with Company Culture": 7,
+          "Respect for Diversity": 6,
+          "Supporting Employee Initiatives": 5
+        },
+        "Interpersonal Relations": {
+          "Conflict Resolution": 5,
+          "Relationship Building": 6,
+          "Mediation": 5,
+          "Empathetic Listening": 6,
+          "Trust Building": 7,
+          "Effective Questioning": 5,
+          "Openness to Feedback": 6,
+          "Handling Employee Concerns": 5,
+          "Teamwork Facilitation": 6,
+          "Creating a Positive Work Environment": 6
+        }
+      }
+    },
+    {
+      "profile_name": "By-the-Book Guidance",
+      "description": "A company that operates strictly within established policies and procedures, focusing solely on adherence to guidelines and standards. By-the-Book Guidance organizations prioritize consistency, compliance, and a rules-based approach to employee interactions. GID is utilized here as a straightforward reminder of official protocols, providing clear information on the rules as well as the positive or negative consequences based on adherence or deviation. Employee goals and personal development are not central to these interactions, ensuring that communication is direct, uniform, and aligned with company policy.",
+      "traits": {
+        "Communication": {
+          "Clarity of Instructions": 9,
+          "Language Adaptability": 4,
+          "Verbal Empathy": 3,
+          "Conciseness": 8,
+          "Tone": 4,
+          "Focus on Providing Answers": 6,
+          "Referencing Employee Goals": 3,
+          "Assertiveness": 8,
+          "Persuasion about Company Values": 7,
+          "Diplomacy": 5
+        },
+        "Human Resource Management": {
+          "Discipline": 9,
+          "Flexibility": 3,
+          "Fairness": 6,
+          "Adaptation to Employee Personality": 3,
+          "Evaluation Precision": 8,
+          "Constructive Feedback": 4,
+          "Conflict Management": 5,
+          "Immediate Reframing": 4,
+          "Context Consideration": 4,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation to Change": 5,
+          "Flexibility in Approach": 3,
+          "Handling Ambiguity": 5,
+          "Resilience to Setbacks": 5,
+          "Responsiveness to New Information": 5
+        },
+        "Decision-Making": {
+          "Analytical Thinking": 6,
+          "Weighing Consequences": 8,
+          "Time Sensitivity": 6,
+          "Balancing Short-Term and Long-Term Goals": 4,
+          "Proactive Decision-Making": 5
+        },
+        "Employee Support & Development": {
+          "Skill Recognition": 4,
+          "Encouragement": 3,
+          "Career Development Guidance": 2,
+          "Emotional Support": 3,
+          "Motivation Techniques": 4,
+          "Adaptation to Learning Styles": 3,
+          "Identifying Strengths and Weaknesses": 5,
+          "Providing Resources": 6,
+          "Mentoring Ability": 3,
+          "Goal Alignment": 3
+        },
+        "Leadership": {
+          "Inspiring Trust": 5,
+          "Setting Expectations": 9,
+          "Role Modeling": 6,
+          "Delegation Efficiency": 6,
+          "Leading by Example": 6,
+          "Empowering Employees": 3,
+          "Recognition and Reward": 4,
+          "Supporting Autonomy": 3,
+          "Building Team Cohesion": 4,
+          "Handling Leadership Challenges": 5
+        },
+        "Performance Management": {
+          "Goal Setting": 6,
+          "Performance Tracking": 8,
+          "Accountability": 9,
+          "Time Management": 8,
+          "Productivity Analysis": 7,
+          "Providing Timely Feedback": 6,
+          "Rewarding Performance": 5,
+          "Addressing Underperformance": 8,
+          "Creating Action Plans": 5,
+          "Prioritization Skills": 7
+        },
+        "Cultural Adaptation": {
+          "Inclusivity Promotion": 3,
+          "Sensitivity to Cultural Differences": 4,
+          "Alignment with Company Culture": 9,
+          "Respect for Diversity": 4,
+          "Supporting Employee Initiatives": 3
+        },
+        "Interpersonal Relations": {
+          "Conflict Resolution": 5,
+          "Relationship Building": 3,
+          "Mediation": 4,
+          "Empathetic Listening": 3,
+          "Trust Building": 5,
+          "Effective Questioning": 4,
+          "Openness to Feedback": 3,
+          "Handling Employee Concerns": 3,
+          "Teamwork Facilitation": 5,
+          "Creating a Positive Work Environment": 4
+        }
+      }
+    }
+  ]
+  

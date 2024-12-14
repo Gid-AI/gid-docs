@@ -1,0 +1,1310 @@
+{
+    "employees": [
+      {
+        "employee_id": "E001",
+        "name": "Ruben",
+        "company": "ABC Inc.",
+        "current_position": "Server",
+        "hire_date": "2021-10-15",
+        "position_history": [
+          {
+            "position": "Assistant Server",
+            "start_date": "2021-10-15",
+            "end_date": "2022-10-15"
+          },
+          {
+            "position": "Server",
+            "start_date": "2022-10-16",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To become a civil engineer in the future",
+        "career_goal": "To grow into a managerial position within the company",
+        "interaction_history": [
+          {
+            "date": "2021-11-01",
+            "interaction_type": "Positive Feedback",
+            "content": "Ruben received positive feedback for his teamwork and attention to detail as an Assistant Server."
+          },
+          {
+            "date": "2022-01-10",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 15 minutes late for his shift. GID reminded him of the importance of punctuality."
+          },
+          {
+            "date": "2022-03-15",
+            "interaction_type": "Performance Review",
+            "content": "Ruben’s quarterly review highlighted his reliability in handling tasks and excellent customer service. GID noted his strengths and suggested he keep working on punctuality."
+          },
+          {
+            "date": "2022-07-20",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 10 minutes late. GID reminded him that this was his second late arrival and encouraged setting reminders to improve punctuality."
+          },
+          {
+            "date": "2022-10-16",
+            "interaction_type": "Promotion",
+            "content": "Ruben was promoted to Server. GID congratulated him and encouraged him to focus on his leadership skills."
+          },
+          {
+            "date": "2022-12-01",
+            "interaction_type": "Manager Feedback",
+            "content": "The manager praised Ruben’s progress in his new role as Server, noting his growth and dedication."
+          },
+          {
+            "date": "2023-01-20",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben was late by 20 minutes, marking his third tardiness. GID reminded him of the tardiness policy and advised him to plan ahead for his shifts."
+          },
+          {
+            "date": "2023-03-15",
+            "interaction_type": "Performance Review",
+            "content": "Ruben’s review indicated consistent improvement in his duties, with excellent communication skills. Punctuality remains a noted area for improvement."
+          },
+          {
+            "date": "2023-06-15",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 12 minutes late. GID reminded him this was the fourth instance and stressed the importance of punctuality to maintain team efficiency."
+          },
+          {
+            "date": "2023-08-10",
+            "interaction_type": "Manager Feedback",
+            "content": "Ruben’s manager highlighted his consistency in delivering quality service and recognized his potential for leadership."
+          },
+          {
+            "date": "2023-09-01",
+            "interaction_type": "Goal Setting",
+            "content": "Ruben discussed his goal to become a manager. GID provided resources for leadership development."
+          },
+          {
+            "date": "2023-10-05",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 18 minutes late for his shift, his fifth instance. GID reviewed the tardiness policy with him, noting potential disciplinary action for further occurrences."
+          },
+          {
+            "date": "2024-02-10",
+            "interaction_type": "Training Completion",
+            "content": "Ruben completed a training module on leadership basics. GID congratulated him on his progress."
+          },
+          {
+            "date": "2024-04-05",
+            "interaction_type": "Manager Feedback",
+            "content": "Ruben was praised for his ability to handle customer complaints effectively and his ongoing commitment to improvement."
+          },
+          {
+            "date": "2024-06-10",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 15 minutes late again. GID reviewed the importance of punctuality and suggested time management tips."
+          }
+        ]
+      },
+      {
+        "employee_id": "E002",
+        "name": "Chase",
+        "company": "ABC Inc.",
+        "current_position": "Security Supervisor",
+        "hire_date": "2020-06-10",
+        "position_history": [
+          {
+            "position": "Security Assistant",
+            "start_date": "2020-06-10",
+            "end_date": "2022-06-15"
+          },
+          {
+            "position": "Security Supervisor",
+            "start_date": "2022-06-16",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To open a security consultancy firm in the future",
+        "career_goal": "To become the Head of Security at ABC Inc.",
+        "interaction_history": [
+          {
+            "date": "2020-07-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Chase received positive feedback for his quick response during a security incident."
+          },
+          {
+            "date": "2020-09-10",
+            "interaction_type": "Performance Review",
+            "content": "Chase’s performance review highlighted his commitment to security protocols and teamwork."
+          },
+          {
+            "date": "2021-01-15",
+            "interaction_type": "Goal Setting",
+            "content": "Chase discussed his goal of progressing to Head of Security. GID provided career resources."
+          },
+          {
+            "date": "2021-06-10",
+            "interaction_type": "Training Completion",
+            "content": "Chase completed the ‘Advanced Security Protocols’ training."
+          },
+          {
+            "date": "2022-06-16",
+            "interaction_type": "Promotion",
+            "content": "Chase was promoted to Security Supervisor. GID congratulated him and encouraged him to focus on leadership."
+          },
+          {
+            "date": "2022-10-15",
+            "interaction_type": "Conflict Resolution",
+            "content": "Chase mediated a dispute between two team members, earning recognition from his manager."
+          },
+          {
+            "date": "2023-02-20",
+            "interaction_type": "Positive Feedback",
+            "content": "Chase received praise for his leadership in organizing team training sessions."
+          },
+          {
+            "date": "2023-05-01",
+            "interaction_type": "Performance Review",
+            "content": "Chase’s review noted his strengths in team management and quick problem-solving."
+          },
+          {
+            "date": "2023-10-01",
+            "interaction_type": "Incident Handling",
+            "content": "Chase responded to a major security issue effectively, containing the situation with minimal impact."
+          },
+          {
+            "date": "2024-02-15",
+            "interaction_type": "Goal Setting",
+            "content": "Chase discussed new objectives to improve emergency preparedness for the team."
+          },
+          {
+            "date": "2024-06-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Chase was recognized for implementing a new training module for emergency protocols."
+          },
+          {
+            "date": "2024-08-15",
+            "interaction_type": "Manager Feedback",
+            "content": "The manager noted Chase’s proactive approach in coordinating shifts to improve coverage during high-security events."
+          }
+        ]
+      },
+      {
+        "employee_id": "E003",
+        "name": "Marshall",
+        "company": "ABC Inc.",
+        "current_position": "Safety Inspector",
+        "hire_date": "2021-03-01",
+        "position_history": [
+          {
+            "position": "Safety Assistant",
+            "start_date": "2021-03-01",
+            "end_date": "2023-01-01"
+          },
+          {
+            "position": "Safety Inspector",
+            "start_date": "2023-01-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To volunteer as a firefighter",
+        "career_goal": "To specialize in fire safety and training",
+        "interaction_history": [
+          {
+            "date": "2021-04-15",
+            "interaction_type": "Positive Feedback",
+            "content": "Marshall was praised for his commitment to safety during inspections."
+          },
+          {
+            "date": "2021-11-10",
+            "interaction_type": "Training Completion",
+            "content": "Marshall completed an introductory course on fire safety protocols."
+          },
+          {
+            "date": "2022-06-20",
+            "interaction_type": "Positive Feedback",
+            "content": "Marshall received recognition for spotting and resolving a safety issue promptly."
+          },
+          {
+            "date": "2022-12-01",
+            "interaction_type": "Performance Review",
+            "content": "Marshall’s review commended his thoroughness in inspections and attention to detail."
+          },
+          {
+            "date": "2023-02-15",
+            "interaction_type": "Promotion",
+            "content": "Marshall was promoted to Safety Inspector. GID encouraged him to pursue additional training in fire safety."
+          },
+          {
+            "date": "2023-04-20",
+            "interaction_type": "Incident Response",
+            "content": "Marshall responded quickly to an emergency evacuation drill, demonstrating his readiness."
+          },
+          {
+            "date": "2023-05-10",
+            "interaction_type": "Goal Setting",
+            "content": "Marshall discussed his interest in becoming a fire safety trainer. GID suggested relevant courses."
+          },
+          {
+            "date": "2023-08-15",
+            "interaction_type": "Performance Review",
+            "content": "Marshall’s review highlighted his expertise in fire safety and commitment to continuous learning."
+          },
+          {
+            "date": "2023-12-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Marshall was recognized for developing an updated safety training checklist for new hires."
+          },
+          {
+            "date": "2024-04-10",
+            "interaction_type": "Manager Feedback",
+            "content": "Marshall’s manager praised his dedication to maintaining safety standards and his proactive approach to training."
+          }
+        ]
+      },
+      {
+        "employee_id": "E001",
+        "name": "Ruben",
+        "company": "ABC Inc.",
+        "current_position": "Server",
+        "hire_date": "2021-10-15",
+        "position_history": [
+          {
+            "position": "Assistant Server",
+            "start_date": "2021-10-15",
+            "end_date": "2022-10-15"
+          },
+          {
+            "position": "Server",
+            "start_date": "2022-10-16",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To become a civil engineer in the future",
+        "career_goal": "To grow into a managerial position within the company",
+        "interaction_history": [
+          {
+            "date": "2021-11-01",
+            "interaction_type": "Positive Feedback",
+            "content": "Ruben received positive feedback for his teamwork and attention to detail as an Assistant Server."
+          },
+          {
+            "date": "2022-01-10",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 15 minutes late for his shift. GID reminded him of the importance of punctuality."
+          },
+          {
+            "date": "2022-03-15",
+            "interaction_type": "Performance Review",
+            "content": "Ruben’s quarterly review highlighted his reliability in handling tasks and excellent customer service. GID noted his strengths and suggested he keep working on punctuality."
+          },
+          {
+            "date": "2022-07-20",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 10 minutes late. GID reminded him that this was his second late arrival and encouraged setting reminders to improve punctuality."
+          },
+          {
+            "date": "2022-10-16",
+            "interaction_type": "Promotion",
+            "content": "Ruben was promoted to Server. GID congratulated him and encouraged him to focus on his leadership skills."
+          },
+          {
+            "date": "2022-12-01",
+            "interaction_type": "Manager Feedback",
+            "content": "The manager praised Ruben’s progress in his new role as Server, noting his growth and dedication."
+          },
+          {
+            "date": "2023-01-20",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben was late by 20 minutes, marking his third tardiness. GID reminded him of the tardiness policy and advised him to plan ahead for his shifts."
+          },
+          {
+            "date": "2023-03-15",
+            "interaction_type": "Performance Review",
+            "content": "Ruben’s review indicated consistent improvement in his duties, with excellent communication skills. Punctuality remains a noted area for improvement."
+          },
+          {
+            "date": "2023-06-15",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 12 minutes late. GID reminded him this was the fourth instance and stressed the importance of punctuality to maintain team efficiency."
+          },
+          {
+            "date": "2023-08-10",
+            "interaction_type": "Manager Feedback",
+            "content": "Ruben’s manager highlighted his consistency in delivering quality service and recognized his potential for leadership."
+          },
+          {
+            "date": "2023-09-01",
+            "interaction_type": "Goal Setting",
+            "content": "Ruben discussed his goal to become a manager. GID provided resources for leadership development."
+          },
+          {
+            "date": "2023-10-05",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 18 minutes late for his shift, his fifth instance. GID reviewed the tardiness policy with him, noting potential disciplinary action for further occurrences."
+          },
+          {
+            "date": "2024-02-10",
+            "interaction_type": "Training Completion",
+            "content": "Ruben completed a training module on leadership basics. GID congratulated him on his progress."
+          },
+          {
+            "date": "2024-04-05",
+            "interaction_type": "Manager Feedback",
+            "content": "Ruben was praised for his ability to handle customer complaints effectively and his ongoing commitment to improvement."
+          },
+          {
+            "date": "2024-06-10",
+            "interaction_type": "Late Arrival",
+            "content": "Ruben arrived 15 minutes late again. GID reviewed the importance of punctuality and suggested time management tips."
+          }
+        ]
+      },
+      {
+        "employee_id": "E002",
+        "name": "Chase",
+        "company": "ABC Inc.",
+        "current_position": "Security Supervisor",
+        "hire_date": "2020-06-10",
+        "position_history": [
+          {
+            "position": "Security Assistant",
+            "start_date": "2020-06-10",
+            "end_date": "2022-06-15"
+          },
+          {
+            "position": "Security Supervisor",
+            "start_date": "2022-06-16",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To open a security consultancy firm in the future",
+        "career_goal": "To become the Head of Security at ABC Inc.",
+        "interaction_history": [
+          {
+            "date": "2020-07-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Chase received positive feedback for his quick response during a security incident."
+          },
+          {
+            "date": "2020-09-10",
+            "interaction_type": "Performance Review",
+            "content": "Chase’s performance review highlighted his commitment to security protocols and teamwork."
+          },
+          {
+            "date": "2021-01-15",
+            "interaction_type": "Goal Setting",
+            "content": "Chase discussed his goal of progressing to Head of Security. GID provided career resources."
+          },
+          {
+            "date": "2021-06-10",
+            "interaction_type": "Training Completion",
+            "content": "Chase completed the ‘Advanced Security Protocols’ training."
+          },
+          {
+            "date": "2022-06-16",
+            "interaction_type": "Promotion",
+            "content": "Chase was promoted to Security Supervisor. GID congratulated him and encouraged him to focus on leadership."
+          },
+          {
+            "date": "2022-10-15",
+            "interaction_type": "Conflict Resolution",
+            "content": "Chase mediated a dispute between two team members, earning recognition from his manager."
+          },
+          {
+            "date": "2023-02-20",
+            "interaction_type": "Positive Feedback",
+            "content": "Chase received praise for his leadership in organizing team training sessions."
+          },
+          {
+            "date": "2023-05-01",
+            "interaction_type": "Performance Review",
+            "content": "Chase’s review noted his strengths in team management and quick problem-solving."
+          },
+          {
+            "date": "2023-10-01",
+            "interaction_type": "Incident Handling",
+            "content": "Chase responded to a major security issue effectively, containing the situation with minimal impact."
+          },
+          {
+            "date": "2024-02-15",
+            "interaction_type": "Goal Setting",
+            "content": "Chase discussed new objectives to improve emergency preparedness for the team."
+          },
+          {
+            "date": "2024-06-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Chase was recognized for implementing a new training module for emergency protocols."
+          },
+          {
+            "date": "2024-08-15",
+            "interaction_type": "Manager Feedback",
+            "content": "The manager noted Chase’s proactive approach in coordinating shifts to improve coverage during high-security events."
+          }
+        ]
+      },
+      {
+        "employee_id": "E003",
+        "name": "Marshall",
+        "company": "ABC Inc.",
+        "current_position": "Safety Inspector",
+        "hire_date": "2021-03-01",
+        "position_history": [
+          {
+            "position": "Safety Assistant",
+            "start_date": "2021-03-01",
+            "end_date": "2023-01-01"
+          },
+          {
+            "position": "Safety Inspector",
+            "start_date": "2023-01-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To volunteer as a firefighter",
+        "career_goal": "To specialize in fire safety and training",
+        "interaction_history": [
+          {
+            "date": "2021-04-15",
+            "interaction_type": "Positive Feedback",
+            "content": "Marshall was praised for his commitment to safety during inspections."
+          },
+          {
+            "date": "2021-11-10",
+            "interaction_type": "Training Completion",
+            "content": "Marshall completed an introductory course on fire safety protocols."
+          },
+          {
+            "date": "2022-06-20",
+            "interaction_type": "Positive Feedback",
+            "content": "Marshall received recognition for spotting and resolving a safety issue promptly."
+          },
+          {
+            "date": "2022-12-01",
+            "interaction_type": "Performance Review",
+            "content": "Marshall’s review commended his thoroughness in inspections and attention to detail."
+          },
+          {
+            "date": "2023-02-15",
+            "interaction_type": "Promotion",
+            "content": "Marshall was promoted to Safety Inspector. GID encouraged him to pursue additional training in fire safety."
+          },
+          {
+            "date": "2023-04-20",
+            "interaction_type": "Incident Response",
+            "content": "Marshall responded quickly to an emergency evacuation drill, demonstrating his readiness."
+          },
+          {
+            "date": "2023-05-10",
+            "interaction_type": "Goal Setting",
+            "content": "Marshall discussed his interest in becoming a fire safety trainer. GID suggested relevant courses."
+          },
+          {
+            "date": "2023-08-15",
+            "interaction_type": "Performance Review",
+            "content": "Marshall’s review highlighted his expertise in fire safety and commitment to continuous learning."
+          },
+          {
+            "date": "2023-12-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Marshall was recognized for developing an updated safety training checklist for new hires."
+          },
+          {
+            "date": "2024-04-10",
+            "interaction_type": "Manager Feedback",
+            "content": "Marshall’s manager praised his dedication to maintaining safety standards and his proactive approach to training."
+          }
+        ]
+      },
+      {
+        "employee_id": "E007",
+        "name": "Harold",
+        "company": "ABC Inc.",
+        "current_position": "Warehouse Associate",
+        "hire_date": "2019-04-01",
+        "position_history": [
+          {
+            "position": "Warehouse Assistant",
+            "start_date": "2019-04-01",
+            "end_date": "2021-06-01"
+          },
+          {
+            "position": "Warehouse Associate",
+            "start_date": "2021-06-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To start a side business in online sales",
+        "career_goal": "To move into a less physically demanding role",
+        "interaction_history": [
+          {
+            "date": "2020-02-10",
+            "interaction_type": "Disciplinary Warning",
+            "content": "Harold received a warning for excessive tardiness after being late three times in one month."
+          },
+          {
+            "date": "2020-06-15",
+            "interaction_type": "Disciplinary Warning",
+            "content": "Harold was given a warning for not following proper safety protocols in the warehouse."
+          },
+          {
+            "date": "2021-03-01",
+            "interaction_type": "Disciplinary Warning",
+            "content": "Harold received another warning for failing to adhere to break schedules, impacting team efficiency."
+          },
+          {
+            "date": "2021-07-01",
+            "interaction_type": "Positive Feedback",
+            "content": "Harold received positive feedback for meeting deadlines during a high-demand period."
+          },
+          {
+            "date": "2021-10-10",
+            "interaction_type": "Disciplinary Warning",
+            "content": "Harold was warned about his frequent use of a cell phone during working hours."
+          },
+          {
+            "date": "2022-08-05",
+            "interaction_type": "Disciplinary Notice",
+            "content": "Harold received a formal disciplinary notice for a confrontational incident with a colleague."
+          },
+          {
+            "date": "2023-01-01",
+            "interaction_type": "Disciplinary Notice",
+            "content": "Harold was issued another disciplinary notice for ignoring safety procedures in the warehouse."
+          },
+          {
+            "date": "2023-05-15",
+            "interaction_type": "Performance Review",
+            "content": "Harold’s review cited ongoing issues with punctuality and adherence to company policies."
+          },
+          {
+            "date": "2023-10-20",
+            "interaction_type": "Final Disciplinary Warning",
+            "content": "Harold received a final warning for repeated policy violations, with a clear indication of potential termination for further issues."
+          }
+        ]
+      },
+      {
+        "employee_id": "E008",
+        "name": "Sweetie",
+        "company": "ABC Inc.",
+        "current_position": "Customer Service Associate",
+        "hire_date": "2020-05-15",
+        "position_history": [
+          {
+            "position": "Customer Service Assistant",
+            "start_date": "2020-05-15",
+            "end_date": "2021-11-01"
+          },
+          {
+            "position": "Customer Service Associate",
+            "start_date": "2021-11-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To leave the company and work freelance",
+        "career_goal": "No clear career goal within the company",
+        "interaction_history": [
+          {
+            "date": "2020-07-01",
+            "interaction_type": "Positive Feedback",
+            "content": "Sweetie was recognized for handling a high volume of customer calls efficiently."
+          },
+          {
+            "date": "2021-01-20",
+            "interaction_type": "Disciplinary Warning",
+            "content": "Sweetie received a warning for unprofessional tone with a customer."
+          },
+          {
+            "date": "2021-09-10",
+            "interaction_type": "Performance Review",
+            "content": "Sweetie’s review highlighted strengths in efficiency but noted occasional negative interactions with colleagues."
+          },
+          {
+            "date": "2021-12-15",
+            "interaction_type": "Disciplinary Warning",
+            "content": "Sweetie was warned for speaking dismissively towards GID during an interaction."
+          },
+          {
+            "date": "2022-03-10",
+            "interaction_type": "Feedback Request",
+            "content": "GID offered support to discuss Sweetie’s career goals, but Sweetie declined, expressing dissatisfaction with the company."
+          },
+          {
+            "date": "2022-06-01",
+            "interaction_type": "Disciplinary Notice",
+            "content": "Sweetie received a formal notice for openly criticizing GID and company policies in front of colleagues."
+          },
+          {
+            "date": "2022-08-25",
+            "interaction_type": "Negative Feedback",
+            "content": "Sweetie’s manager reported complaints from colleagues about her negative attitude impacting team morale."
+          },
+          {
+            "date": "2023-01-10",
+            "interaction_type": "Disciplinary Warning",
+            "content": "Sweetie was warned again for openly resisting GID’s feedback during an interaction."
+          },
+          {
+            "date": "2023-08-05",
+            "interaction_type": "Feedback on Attitude",
+            "content": "GID addressed Sweetie’s hostility and lack of motivation. Sweetie responded dismissively."
+          },
+          {
+            "date": "2024-01-02",
+            "interaction_type": "Final Disciplinary Notice",
+            "content": "Sweetie was issued a final notice for insubordination, with clear expectations for behavior improvement."
+          },
+          {
+            "date": "2024-05-10",
+            "interaction_type": "Conflict with Colleagues",
+            "content": "Sweetie was involved in a verbal altercation with a colleague. The manager mediated and reminded her of teamwork expectations."
+          }
+        ]
+      },
+      {
+        "employee_id": "I001",
+        "name": "Taylor",
+        "company": "Innovatech Solutions",
+        "current_position": "Product Designer",
+        "hire_date": "2021-06-10",
+        "position_history": [
+          {
+            "position": "Junior Product Designer",
+            "start_date": "2021-06-10",
+            "end_date": "2023-01-01"
+          },
+          {
+            "position": "Product Designer",
+            "start_date": "2023-01-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To develop a portfolio of sustainable design projects",
+        "career_goal": "To lead a design team focused on green tech",
+        "interaction_history": [
+          {
+            "date": "2021-08-15",
+            "interaction_type": "Positive Feedback",
+            "content": "Taylor received commendation for a creative approach to a product prototype, integrating new sustainable materials."
+          },
+          {
+            "date": "2022-01-10",
+            "interaction_type": "Innovation Session",
+            "content": "Taylor proposed an idea during the innovation session that was shortlisted for development."
+          },
+          {
+            "date": "2022-06-10",
+            "interaction_type": "Late Arrival",
+            "content": "Taylor arrived late due to traffic but informed the team in advance. GID noted the importance of communication and flexibility in handling unexpected delays."
+          },
+          {
+            "date": "2023-01-02",
+            "interaction_type": "Promotion",
+            "content": "Taylor was promoted to Product Designer, recognized for consistent creativity and dedication to innovation."
+          },
+          {
+            "date": "2023-05-15",
+            "interaction_type": "Performance Review",
+            "content": "Taylor’s review highlighted growth in sustainable design techniques, though it was suggested to enhance collaboration with the engineering team."
+          },
+          {
+            "date": "2023-09-05",
+            "interaction_type": "Goal Setting",
+            "content": "Taylor discussed aspirations to lead a green tech design team. GID provided suggestions on relevant leadership resources."
+          },
+          {
+            "date": "2023-12-01",
+            "interaction_type": "Remote Work Request",
+            "content": "Taylor requested flexibility to work remotely twice a week to attend a sustainable design workshop. Approved by manager."
+          }
+        ]
+      },
+      {
+        "employee_id": "I002",
+        "name": "Jordan",
+        "company": "Innovatech Solutions",
+        "current_position": "Software Developer",
+        "hire_date": "2020-11-05",
+        "position_history": [
+          {
+            "position": "Junior Software Developer",
+            "start_date": "2020-11-05",
+            "end_date": "2022-11-05"
+          },
+          {
+            "position": "Software Developer",
+            "start_date": "2022-11-06",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To contribute to open-source projects in AI",
+        "career_goal": "To become a lead developer in AI-driven projects",
+        "interaction_history": [
+          {
+            "date": "2021-02-10",
+            "interaction_type": "Innovation Session",
+            "content": "Jordan presented an AI idea at an innovation session, receiving positive feedback from peers."
+          },
+          {
+            "date": "2021-06-01",
+            "interaction_type": "Late Arrival",
+            "content": "Jordan arrived late but notified the team. GID reviewed flexible scheduling options with the employee."
+          },
+          {
+            "date": "2022-11-06",
+            "interaction_type": "Promotion",
+            "content": "Jordan was promoted to Software Developer after demonstrating significant contributions to an AI project."
+          },
+          {
+            "date": "2023-03-15",
+            "interaction_type": "Performance Review",
+            "content": "Jordan’s review praised skills in AI and collaboration but noted an opportunity to improve documentation processes."
+          },
+          {
+            "date": "2023-08-15",
+            "interaction_type": "Remote Work Request",
+            "content": "Jordan requested a remote work day each week to balance workload and focus on intensive coding. Approved by team lead."
+          },
+          {
+            "date": "2023-12-01",
+            "interaction_type": "Goal Setting",
+            "content": "Jordan expressed a goal of leading AI projects. GID provided insights on AI certification and leadership pathways."
+          }
+        ]
+      },
+      {
+        "employee_id": "I003",
+        "name": "Morgan",
+        "company": "Innovatech Solutions",
+        "current_position": "Data Scientist",
+        "hire_date": "2019-03-15",
+        "position_history": [
+          {
+            "position": "Data Analyst",
+            "start_date": "2019-03-15",
+            "end_date": "2021-07-01"
+          },
+          {
+            "position": "Data Scientist",
+            "start_date": "2021-07-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To mentor new data scientists and interns",
+        "career_goal": "To head the Data Science department",
+        "interaction_history": [
+          {
+            "date": "2019-08-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Morgan received positive feedback for effectively handling a large data project and implementing efficient solutions."
+          },
+          {
+            "date": "2020-12-05",
+            "interaction_type": "Performance Review",
+            "content": "Morgan’s review highlighted analytical strengths, and it was recommended to improve presentation skills."
+          },
+          {
+            "date": "2021-07-02",
+            "interaction_type": "Promotion",
+            "content": "Morgan was promoted to Data Scientist in recognition of outstanding contributions to data-driven projects."
+          },
+          {
+            "date": "2022-03-01",
+            "interaction_type": "Goal Setting",
+            "content": "Morgan discussed a desire to become department head. GID shared leadership development resources."
+          },
+          {
+            "date": "2022-09-15",
+            "interaction_type": "Mentorship Program",
+            "content": "Morgan joined a mentorship program to guide new data scientists, reflecting personal goals and company encouragement."
+          },
+          {
+            "date": "2023-10-01",
+            "interaction_type": "Innovation Session",
+            "content": "Morgan introduced a new method for data visualization that was adopted by the team."
+          }
+        ]
+      },
+      {
+        "employee_id": "I004",
+        "name": "Jamie",
+        "company": "Innovatech Solutions",
+        "current_position": "Project Manager",
+        "hire_date": "2018-09-01",
+        "position_history": [
+          {
+            "position": "Assistant Project Manager",
+            "start_date": "2018-09-01",
+            "end_date": "2020-09-01"
+          },
+          {
+            "position": "Project Manager",
+            "start_date": "2020-09-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To publish a book on project management best practices",
+        "career_goal": "To direct large-scale projects within Innovatech",
+        "interaction_history": [
+          {
+            "date": "2019-03-10",
+            "interaction_type": "Performance Review",
+            "content": "Jamie’s review praised coordination and communication skills, with a suggestion to enhance technical knowledge."
+          },
+          {
+            "date": "2020-09-02",
+            "interaction_type": "Promotion",
+            "content": "Jamie was promoted to Project Manager after successfully leading several complex projects."
+          },
+          {
+            "date": "2021-06-01",
+            "interaction_type": "Remote Work Request",
+            "content": "Jamie requested remote work two days per week to balance project oversight and documentation. Approved by department head."
+          },
+          {
+            "date": "2022-05-15",
+            "interaction_type": "Positive Feedback",
+            "content": "Jamie received positive feedback for overseeing an innovative project that was delivered ahead of schedule."
+          },
+          {
+            "date": "2023-02-10",
+            "interaction_type": "Goal Setting",
+            "content": "Jamie shared an interest in managing large-scale projects. GID suggested resources on advanced project management techniques."
+          },
+          {
+            "date": "2023-11-05",
+            "interaction_type": "Innovation Session",
+            "content": "Jamie introduced a new project tracking tool to improve cross-team collaboration."
+          }
+        ]
+      },
+      {
+        "employee_id": "R001",
+        "name": "Avery",
+        "company": "RetailCorp Solutions",
+        "current_position": "Cashier",
+        "hire_date": "2020-02-01",
+        "position_history": [
+          {
+            "position": "Junior Cashier",
+            "start_date": "2020-02-01",
+            "end_date": "2021-02-01"
+          },
+          {
+            "position": "Cashier",
+            "start_date": "2021-02-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To build a career in customer service",
+        "career_goal": "To become a Customer Service Supervisor",
+        "interaction_history": [
+          {
+            "date": "2020-05-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Avery was praised for handling a difficult customer situation with professionalism and empathy."
+          },
+          {
+            "date": "2020-08-01",
+            "interaction_type": "Late Arrival",
+            "content": "Avery arrived 10 minutes late. GID reminded Avery of the importance of punctuality in maintaining service efficiency."
+          },
+          {
+            "date": "2021-02-02",
+            "interaction_type": "Promotion",
+            "content": "Avery was promoted to Cashier based on reliability and positive feedback from customers."
+          },
+          {
+            "date": "2021-10-15",
+            "interaction_type": "Performance Review",
+            "content": "Avery’s review noted excellent customer service but suggested improvement in transaction speed."
+          },
+          {
+            "date": "2022-06-01",
+            "interaction_type": "Training Completion",
+            "content": "Avery completed a training on efficient transaction handling to improve speed and reduce wait times."
+          },
+          {
+            "date": "2023-01-15",
+            "interaction_type": "Goal Setting",
+            "content": "Avery expressed interest in becoming a Customer Service Supervisor. GID provided resources on supervisory skills."
+          },
+          {
+            "date": "2023-08-01",
+            "interaction_type": "Positive Feedback",
+            "content": "Avery received commendation for effectively managing a long line of customers during a high-traffic day."
+          }
+        ]
+      },
+      {
+        "employee_id": "R002",
+        "name": "Bailey",
+        "company": "RetailCorp Solutions",
+        "current_position": "Stock Associate",
+        "hire_date": "2019-09-15",
+        "position_history": [
+          {
+            "position": "Junior Stock Associate",
+            "start_date": "2019-09-15",
+            "end_date": "2021-01-01"
+          },
+          {
+            "position": "Stock Associate",
+            "start_date": "2021-01-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To manage a small retail business",
+        "career_goal": "To advance to Inventory Specialist",
+        "interaction_history": [
+          {
+            "date": "2019-10-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Bailey was commended for consistently accurate inventory tracking and a proactive approach to restocking."
+          },
+          {
+            "date": "2020-02-20",
+            "interaction_type": "Late Arrival",
+            "content": "Bailey arrived 15 minutes late due to traffic. GID reminded them of the lateness policy and the impact on team workflow."
+          },
+          {
+            "date": "2021-01-02",
+            "interaction_type": "Promotion",
+            "content": "Bailey was promoted to Stock Associate in recognition of strong organizational skills and reliability."
+          },
+          {
+            "date": "2021-08-01",
+            "interaction_type": "Safety Incident",
+            "content": "Bailey was reminded of safety protocols after a minor incident with equipment. GID reinforced adherence to safety procedures."
+          },
+          {
+            "date": "2022-03-15",
+            "interaction_type": "Performance Review",
+            "content": "Bailey’s review noted strengths in efficiency and accuracy but suggested improvement in communication with team members."
+          },
+          {
+            "date": "2023-07-01",
+            "interaction_type": "Goal Setting",
+            "content": "Bailey expressed interest in advancing to an Inventory Specialist role. GID recommended relevant training programs."
+          }
+        ]
+      },
+      {
+        "employee_id": "R003",
+        "name": "Casey",
+        "company": "RetailCorp Solutions",
+        "current_position": "Customer Service Representative",
+        "hire_date": "2018-05-20",
+        "position_history": [
+          {
+            "position": "Junior Customer Service Rep",
+            "start_date": "2018-05-20",
+            "end_date": "2020-05-20"
+          },
+          {
+            "position": "Customer Service Representative",
+            "start_date": "2020-05-21",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To improve conflict resolution skills",
+        "career_goal": "To become a Customer Service Manager",
+        "interaction_history": [
+          {
+            "date": "2019-03-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Casey received recognition for managing multiple customer complaints effectively during a busy period."
+          },
+          {
+            "date": "2020-05-21",
+            "interaction_type": "Promotion",
+            "content": "Casey was promoted to Customer Service Representative based on positive customer feedback and consistent performance."
+          },
+          {
+            "date": "2020-09-10",
+            "interaction_type": "Conflict Resolution Training",
+            "content": "Casey completed a conflict resolution training to enhance handling of escalated customer issues."
+          },
+          {
+            "date": "2021-06-01",
+            "interaction_type": "Performance Review",
+            "content": "Casey’s review indicated strong interpersonal skills but noted areas for improvement in time management during peak hours."
+          },
+          {
+            "date": "2022-11-15",
+            "interaction_type": "Goal Setting",
+            "content": "Casey expressed a goal to advance to a managerial role. GID shared resources on leadership in customer service."
+          },
+          {
+            "date": "2023-04-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Casey was praised for resolving a challenging customer situation quickly, preventing escalation."
+          }
+        ]
+      },
+      {
+        "employee_id": "R004",
+        "name": "Dana",
+        "company": "RetailCorp Solutions",
+        "current_position": "Sales Associate",
+        "hire_date": "2021-01-10",
+        "position_history": [
+          {
+            "position": "Junior Sales Associate",
+            "start_date": "2021-01-10",
+            "end_date": "2022-01-10"
+          },
+          {
+            "position": "Sales Associate",
+            "start_date": "2022-01-11",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To learn effective sales techniques",
+        "career_goal": "To become a Senior Sales Associate",
+        "interaction_history": [
+          {
+            "date": "2021-02-15",
+            "interaction_type": "Positive Feedback",
+            "content": "Dana received positive feedback for strong product knowledge and ability to assist customers effectively."
+          },
+          {
+            "date": "2021-07-05",
+            "interaction_type": "Late Arrival",
+            "content": "Dana was late by 12 minutes due to a personal emergency. GID reviewed the late arrival policy and reinforced expectations."
+          },
+          {
+            "date": "2022-01-11",
+            "interaction_type": "Promotion",
+            "content": "Dana was promoted to Sales Associate after demonstrating consistent performance and customer satisfaction."
+          },
+          {
+            "date": "2022-12-01",
+            "interaction_type": "Performance Review",
+            "content": "Dana’s review noted strong sales performance but suggested improvements in upselling techniques."
+          },
+          {
+            "date": "2023-03-20",
+            "interaction_type": "Goal Setting",
+            "content": "Dana expressed interest in advancing to Senior Sales Associate. GID provided guidance on sales training programs."
+          },
+          {
+            "date": "2023-10-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Dana was praised for effectively handling high traffic on the sales floor, contributing to team targets."
+          }
+        ]
+      },
+      {
+        "employee_id": "F001",
+        "name": "Jordan",
+        "company": "FinServ International",
+        "current_position": "Customer Support Specialist",
+        "hire_date": "2019-03-01",
+        "position_history": [
+          {
+            "position": "Customer Support Associate",
+            "start_date": "2019-03-01",
+            "end_date": "2021-06-01"
+          },
+          {
+            "position": "Customer Support Specialist",
+            "start_date": "2021-06-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To volunteer with local financial literacy programs",
+        "career_goal": "To become a Customer Support Manager",
+        "interaction_history": [
+          {
+            "date": "2019-04-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Jordan was praised for their attention to detail and professionalism in handling complex customer inquiries."
+          },
+          {
+            "date": "2019-11-15",
+            "interaction_type": "Compliance Training",
+            "content": "Jordan completed mandatory compliance training and was reminded by GID of the importance of adhering to industry regulations."
+          },
+          {
+            "date": "2020-06-01",
+            "interaction_type": "Performance Review",
+            "content": "Jordan’s performance review noted strengths in problem-solving and accuracy, with a recommendation to improve response times."
+          },
+          {
+            "date": "2021-06-02",
+            "interaction_type": "Promotion",
+            "content": "Jordan was promoted to Customer Support Specialist, recognized for consistently delivering high-quality service."
+          },
+          {
+            "date": "2022-05-20",
+            "interaction_type": "Goal Setting",
+            "content": "Jordan shared their goal of becoming a Customer Support Manager. GID provided suggestions for leadership courses."
+          },
+          {
+            "date": "2023-01-15",
+            "interaction_type": "Compliance Reminder",
+            "content": "GID reminded Jordan of the importance of compliance in financial disclosures after a minor policy infraction."
+          },
+          {
+            "date": "2023-10-05",
+            "interaction_type": "Positive Feedback",
+            "content": "Jordan received positive feedback for maintaining composure during a challenging customer complaint scenario."
+          }
+        ]
+      },
+      {
+        "employee_id": "F002",
+        "name": "Alex",
+        "company": "FinServ International",
+        "current_position": "Financial Analyst",
+        "hire_date": "2020-01-10",
+        "position_history": [
+          {
+            "position": "Junior Financial Analyst",
+            "start_date": "2020-01-10",
+            "end_date": "2022-01-10"
+          },
+          {
+            "position": "Financial Analyst",
+            "start_date": "2022-01-11",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To earn the CFA designation",
+        "career_goal": "To become a Senior Financial Analyst",
+        "interaction_history": [
+          {
+            "date": "2020-02-15",
+            "interaction_type": "Positive Feedback",
+            "content": "Alex was commended for their attention to detail and precision in reporting."
+          },
+          {
+            "date": "2021-07-01",
+            "interaction_type": "Performance Review",
+            "content": "Alex’s review highlighted excellent analytical skills but noted a need to improve time management with reporting deadlines."
+          },
+          {
+            "date": "2022-01-11",
+            "interaction_type": "Promotion",
+            "content": "Alex was promoted to Financial Analyst based on demonstrated expertise and commitment."
+          },
+          {
+            "date": "2022-11-15",
+            "interaction_type": "Goal Setting",
+            "content": "Alex expressed the goal of advancing to Senior Financial Analyst. GID provided information on advanced financial analysis courses."
+          },
+          {
+            "date": "2023-03-10",
+            "interaction_type": "Compliance Training",
+            "content": "Alex completed compliance training, with GID emphasizing adherence to company policy."
+          },
+          {
+            "date": "2023-12-01",
+            "interaction_type": "Positive Feedback",
+            "content": "Alex received recognition for accuracy in financial forecasting, which positively impacted the team’s quarterly results."
+          }
+        ]
+      },
+      {
+        "employee_id": "F003",
+        "name": "Taylor",
+        "company": "FinServ International",
+        "current_position": "Risk Assessment Officer",
+        "hire_date": "2018-08-15",
+        "position_history": [
+          {
+            "position": "Junior Risk Analyst",
+            "start_date": "2018-08-15",
+            "end_date": "2020-08-15"
+          },
+          {
+            "position": "Risk Assessment Officer",
+            "start_date": "2020-08-16",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To publish a paper on risk management in finance",
+        "career_goal": "To become a Chief Risk Officer",
+        "interaction_history": [
+          {
+            "date": "2019-01-20",
+            "interaction_type": "Positive Feedback",
+            "content": "Taylor was recognized for identifying potential risk areas and contributing to a safer workflow."
+          },
+          {
+            "date": "2020-05-10",
+            "interaction_type": "Compliance Reminder",
+            "content": "GID reminded Taylor to ensure all risk assessments are documented per company guidelines."
+          },
+          {
+            "date": "2020-08-16",
+            "interaction_type": "Promotion",
+            "content": "Taylor was promoted to Risk Assessment Officer, noted for excellence in risk evaluation."
+          },
+          {
+            "date": "2021-06-01",
+            "interaction_type": "Goal Setting",
+            "content": "Taylor shared a goal of publishing research. GID suggested potential academic partnerships."
+          },
+          {
+            "date": "2022-08-20",
+            "interaction_type": "Performance Review",
+            "content": "Taylor’s review noted a keen attention to detail but suggested improvement in communicating risk findings to non-experts."
+          },
+          {
+            "date": "2023-04-15",
+            "interaction_type": "Positive Feedback",
+            "content": "Taylor received praise for proactively managing a high-risk scenario, demonstrating leadership potential."
+          }
+        ]
+      },
+      {
+        "employee_id": "F004",
+        "name": "Morgan",
+        "company": "FinServ International",
+        "current_position": "Compliance Officer",
+        "hire_date": "2017-04-01",
+        "position_history": [
+          {
+            "position": "Compliance Associate",
+            "start_date": "2017-04-01",
+            "end_date": "2019-10-01"
+          },
+          {
+            "position": "Compliance Officer",
+            "start_date": "2019-10-02",
+            "end_date": "Present"
+          }
+        ],
+        "personal_goal": "To complete a law degree",
+        "career_goal": "To become the Head of Compliance",
+        "interaction_history": [
+          {
+            "date": "2017-06-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Morgan received positive feedback for their meticulous approach to regulatory checks."
+          },
+          {
+            "date": "2018-05-01",
+            "interaction_type": "Compliance Training",
+            "content": "Morgan completed in-depth compliance training, emphasizing their commitment to high standards."
+          },
+          {
+            "date": "2019-10-02",
+            "interaction_type": "Promotion",
+            "content": "Morgan was promoted to Compliance Officer after consistently exceeding compliance benchmarks."
+          },
+          {
+            "date": "2020-08-15",
+            "interaction_type": "Goal Setting",
+            "content": "Morgan shared a goal to lead the compliance team. GID recommended management training sessions."
+          },
+          {
+            "date": "2022-02-10",
+            "interaction_type": "Performance Review",
+            "content": "Morgan’s review praised attention to detail but suggested improving response time for compliance inquiries."
+          },
+          {
+            "date": "2023-11-10",
+            "interaction_type": "Positive Feedback",
+            "content": "Morgan received appreciation for efficiently managing a compliance audit, ensuring zero discrepancies."
+          }
+        ]
+      }
+    ]
+  }
+  

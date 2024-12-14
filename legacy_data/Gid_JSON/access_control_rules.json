@@ -1,0 +1,166 @@
+{
+    "common_access": {
+      "description": "Universal access for all roles to the company’s core guiding principles and policies.",
+      "accessible_data": {
+        "mission": {
+          "description": "The company’s mission statement, providing insight into the company’s purpose."
+        },
+        "vision": {
+          "description": "The company’s vision statement, outlining long-term goals and aspirations. "
+        },
+        "values": {
+          "description": "The core values guiding employee behavior and organizational culture."
+        },
+        "policies_procedures": {
+          "description": "Company-wide policies and procedures, accessible for reference by all employees.",
+          "limitations": "View-only access for non-managerial roles."
+        }
+      }
+    },
+    "access_rules": {
+      "employee": {
+        "description": "Basic access for individual employees, limited to their own records and performance metrics.",
+        "data_access": {
+          "personal_history": {
+            "description": "Access to the employee's own history of performance, attendance, and training.",
+            "accessible_data": ["performance_reviews", "attendance_records", "training_completion"],
+            "limitations": "Cannot view or edit data related to team or company-wide records."
+          }
+        },
+        "permissions": {
+          "view": {
+            "own_performance": {
+              "description": "Allows viewing of individual performance metrics and feedback.",
+              "data_fields": ["goals", "past_reviews", "manager_feedback"]
+            },
+            "own_attendance": {
+              "description": "Allows viewing of attendance records, including tardiness and absences.",
+              "data_fields": ["late_arrivals", "absences", "leave_requests"]
+            },
+            "own_training": {
+              "description": "Allows access to records of training completed by the employee.",
+              "data_fields": ["completed_courses", "certifications", "training_feedback"]
+            }
+          },
+          "edit": []
+        }
+      },
+      "manager": {
+        "description": "Access level for managers, including their own and their team members' history.",
+        "data_access": {
+          "personal_history": {
+            "description": "Access to the manager's own records, similar to regular employees.",
+            "accessible_data": ["performance_reviews", "attendance_records", "training_completion"]
+          },
+          "team_history": {
+            "description": "Access to subordinate employees' history for performance and attendance management.",
+            "accessible_data": ["team_performance_reviews", "team_attendance_records", "team_training_completion"],
+            "limitations": "Cannot access data for employees outside their team without Owner's approval."
+          }
+        },
+        "permissions": {
+          "view": {
+            "own_performance": {
+              "description": "Allows managers to view their own performance metrics.",
+              "data_fields": ["goals", "past_reviews", "manager_feedback"]
+            },
+            "team_performance": {
+              "description": "Allows viewing of performance data for team members.",
+              "data_fields": ["individual_goals", "performance_reviews", "feedback_from_manager"]
+            },
+            "team_attendance": {
+              "description": "Allows viewing of attendance records for team members.",
+              "data_fields": ["late_arrivals", "absences", "leave_requests"]
+            },
+            "team_training": {
+              "description": "Allows viewing of training completion and certifications for team members.",
+              "data_fields": ["completed_courses", "certifications", "training_feedback"]
+            }
+          },
+          "edit": {
+            "team_goals": {
+              "description": "Allows setting or modifying development goals for team members.",
+              "data_fields": ["goal_name", "target_completion_date", "metrics"]
+            },
+            "team_training": {
+              "description": "Allows scheduling or updating training modules for team members.",
+              "data_fields": ["course_name", "required_completion", "feedback"]
+            }
+          }
+        }
+      },
+      "owner": {
+        "description": "Highest access level, allowing company-wide data visibility, management, and structural adjustments.",
+        "data_access": {
+          "all_history": {
+            "description": "Access to all employee histories for company-wide management and strategic oversight.",
+            "accessible_data": ["all_performance_reviews", "all_attendance_records", "all_training_completion", "company_policies"],
+            "limitations": "Sensitive data should be accessed only when necessary and in compliance with privacy regulations."
+          },
+          "company_profile": {
+            "description": "Access to the company profile for modifications.",
+            "accessible_data": ["mission", "vision", "values", "policies_procedures"],
+            "limitations": "Modifications should align with company standards and must be documented."
+          },
+          "guidelines_labels": {
+            "description": "Access to add or modify guidelines and labels, with restrictions on absolute guidelines.",
+            "accessible_data": ["editable_labels", "guideline_texts"],
+            "limitations": "Absolute guidelines are non-editable."
+          },
+          "traits_adjustment": {
+            "description": "Access to adjust the company’s 75 traits for customization of communication style and employee interactions.",
+            "accessible_data": ["trait_settings", "communication_tone", "response_style"],
+            "limitations": "Changes should align with company culture and documented preferences."
+          }
+        },
+        "permissions": {
+          "view": {
+            "company_policies": {
+              "description": "Allows access to all company policies and procedures.",
+              "data_fields": ["policies", "procedures", "compliance_guidelines"]
+            },
+            "all_performance": {
+              "description": "Allows viewing of performance metrics across the company.",
+              "data_fields": ["department_performance", "individual_reviews", "team_goals"]
+            },
+            "all_attendance": {
+              "description": "Allows viewing of attendance records across the company.",
+              "data_fields": ["absences", "tardiness_patterns", "leave_requests"]
+            },
+            "all_training": {
+              "description": "Allows viewing of all training and certification records across the company.",
+              "data_fields": ["training_completions", "certifications", "ongoing_courses"]
+            }
+          },
+          "edit": {
+            "company_policies": {
+              "description": "Allows the creation, modification, or deletion of company policies and procedures.",
+              "data_fields": ["policy_name", "description", "effective_date"]
+            },
+            "all_training": {
+              "description": "Allows scheduling or modifying company-wide training modules.",
+              "data_fields": ["course_name", "required_completion_date", "feedback_criteria"]
+            },
+            "company_announcements": {
+              "description": "Allows creating or updating announcements for the entire company.",
+              "data_fields": ["announcement_text", "target_audience", "release_date"]
+            },
+            "company_profile": {
+              "description": "Allows modification of the company profile, including mission, vision, values, and policies.",
+              "data_fields": ["mission", "vision", "values", "policy_updates"]
+            },
+            "guidelines_labels": {
+              "description": "Allows adding or modifying guidelines and non-absolute labels.",
+              "data_fields": ["guideline_text", "label_name", "label_description"],
+              "limitations": "Absolute guidelines are not editable."
+            },
+            "traits_adjustment": {
+              "description": "Allows adjustments to the 75 traits for customizing the communication tone and style.",
+              "data_fields": ["trait_name", "trait_value", "adjustment_description"]
+            }
+          }
+        }
+      }
+    }
+  }
+  
