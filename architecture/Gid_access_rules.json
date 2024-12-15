@@ -1,0 +1,80 @@
+{
+    "universal": {
+      "description": "Universal access rules apply to all roles within the company.",
+      "rules": {
+        "Mission_Statement": "All roles have view-only access to the company's mission.",
+        "Vision_Statement": "All roles can view the long-term goals and aspirations.",
+        "Core_Values": "All roles can access the company's core values for guidance on behavior and culture.",
+        "Policies_and_Procedures": "All roles have view-only access to company-wide policies. Non-managerial roles cannot edit these policies."
+      }
+    },
+    "employee": {
+      "description": "Employees can view their own records and performance metrics, but cannot view team or company-wide data.",
+      "data_access": {
+        "Personal_History": "Employees can view their own performance reviews, attendance records, and training completions."
+      },
+      "permissions": {
+        "view": [
+          "Own Performance Data (Goals, past reviews, manager feedback)",
+          "Own Attendance (Tardiness, absences, leave requests)",
+          "Own Training Records (Completed courses, certifications, feedback)"
+        ],
+        "edit": []
+      },
+      "limitations": [
+        "Employees cannot view or edit team or company-wide records.",
+        "No edit permissions are granted to employees."
+      ]
+    },
+    "manager": {
+      "description": "Managers can access their own records and their team members’ data, but not outside their team without owner approval.",
+      "data_access": {
+        "Personal_History": "Managers can view their own performance reviews, attendance, and training.",
+        "Team_History": "Managers can view team members’ performance, attendance, and training records."
+      },
+      "permissions": {
+        "view": [
+          "Own Performance (Goals, reviews, feedback)",
+          "Team Performance (Individual goals, performance reviews, feedback)",
+          "Team Attendance (Tardiness, absences, leave requests)",
+          "Team Training (Completions, certifications)"
+        ],
+        "edit": [
+          "Team Goals (Create/modify goals: name, target date, metrics)",
+          "Team Training (Schedule/update training courses, completion requirements, feedback)"
+        ]
+      },
+      "limitations": [
+        "Cannot view data of employees outside their team without Owner approval."
+      ]
+    },
+    "owner": {
+      "description": "Owners have the highest level of access, with full visibility and management capabilities.",
+      "data_access": {
+        "All_History": "Owners can view all performance, attendance, and training data company-wide.",
+        "Company_Profile": "Owners can modify mission, vision, values, and policies.",
+        "Traits_Adjustment": "Owners can adjust the 75 traits for communication and interaction."
+      },
+      "permissions": {
+        "view": [
+          "All Company Policies, Procedures, Compliance Guidelines",
+          "All Performance Data (departmental and individual)",
+          "All Attendance Data (absences, tardiness, leave)",
+          "All Training Data (completions, certifications)"
+        ],
+        "edit": [
+          "Company Policies (create/modify/delete)",
+          "All Training (schedule/modify company-wide training)",
+          "Company Announcements (create/update)",
+          "Company Profile (mission, vision, values)",
+          "Guidelines and Labels (non-absolute guidelines)",
+          "Traits Adjustment (modify 75 traits to align with culture)"
+        ]
+      },
+      "limitations": [
+        "Sensitive data must be accessed in compliance with privacy regulations.",
+        "Changes to mission, vision, and values must align with company standards and be documented."
+      ]
+    }
+  }
+  
