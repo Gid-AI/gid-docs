@@ -1,0 +1,163 @@
+{
+    "description": "Schema defining the structure of an employee record document in Firestore.",
+    "type": "object",
+    "properties": {
+      "phone_number": {
+        "type": "string",
+        "description": "Employee's phone number in E.164 format."
+      },
+      "email": {
+        "type": "string",
+        "description": "Employee's company email address."
+      },
+      "physical_address": {
+        "type": "string",
+        "description": "Employee's physical mailing address."
+      },
+      "hire_date": {
+        "type": "string",
+        "format": "date",
+        "description": "Date the employee was hired, YYYY-MM-DD."
+      },
+      "position": {
+        "type": "string",
+        "description": "Current job title of the employee."
+      },
+      "role": {
+        "type": "string",
+        "description": "Role in the company (e.g., owner, manager, employee)."
+      },
+      "career_goals_internal": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of career goals related to internal advancement."
+      },
+      "career_goals_external": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of career goals outside the company."
+      },
+      "interests": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Areas of interest in terms of skill sets or domains."
+      },
+      "passions": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Employee's passions that motivate them at work."
+      },
+      "employee_specific_guidelines": {
+        "type": "object",
+        "description": "Customized communication or cultural preferences for this employee.",
+        "properties": {
+          "preferred_pronouns": { "type": "string" },
+          "form_of_address": { "type": "string" },
+          "cultural_sensitivities": { "type": "string" }
+        }
+      },
+      "department": {
+        "type": "string",
+        "description": "Department the employee belongs to."
+      },
+      "manager_id": {
+        "type": "string",
+        "description": "ID of the employee's direct manager."
+      },
+      "interactions": {
+        "type": "object",
+        "description": "All types of interactions grouped by categories.",
+        "properties": {
+          "disciplinary_interactions": {
+            "type": "array",
+            "description": "List of disciplinary interactions with occurrence counts.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "person_name": { "type": "string" },
+                "date": { "type": "string", "format": "date-time" },
+                "method": { "type": "string", "description": "How the interaction occurred (via Gid, SMS, email, in-person)." },
+                "description": { "type": "string" },
+                "nth_occurrence_3_months": { "type": "integer" },
+                "nth_occurrence_6_months": { "type": "integer" },
+                "nth_occurrence_2_years": { "type": "integer" }
+              }
+            }
+          },
+          "positive_reinforcement_interactions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "person_name": { "type": "string" },
+                "date": { "type": "string", "format": "date-time" },
+                "method": { "type": "string" },
+                "description": { "type": "string" }
+              }
+            }
+          },
+          "development_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          },
+          "regular_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          },
+          "attendance_related_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          },
+          "performance_review_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          },
+          "training_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          },
+          "mentoring_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          },
+          "conflict_resolution_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          },
+          "feedback_interactions": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/standard_interaction" }
+          }
+        }
+      },
+      "trainings_completed": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "training_id": { "type": "string" },
+            "title": { "type": "string" },
+            "completion_date": { "type": "string", "format": "date" }
+          }
+        }
+      },
+      "performance_notes": {
+        "type": "string",
+        "description": "General performance observations."
+      }
+    },
+    "definitions": {
+      "standard_interaction": {
+        "type": "object",
+        "properties": {
+          "person_name": { "type": "string" },
+          "date": { "type": "string", "format": "date-time" },
+          "method": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "required": ["person_name", "date", "method", "description"]
+      }
+    },
+    "required": ["phone_number", "email", "hire_date", "position", "role", "interactions"]
+  }
+  
