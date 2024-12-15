@@ -1,65 +1,49 @@
- ```markdown
-     # Gid Architecture Diagram
+# Gid 9 Architecture - Directory Structure
+```mermaid
+graph TD
+    %% Users and Interfaces
+    User["User (Manager/Employee)"] -->|SMS| Twilio["Twilio SMS"]
+    User -->|Web| Frontend["Frontend (Web Dashboard)"]
 
-     The following Mermaid diagram provides a high-level, professional overview of Gid’s architecture, including user interactions, backend RAG pipeline, data sources, and infrastructure components. Once you commit this file, GitHub will automatically render the diagram below.
+    %% Backend Orchestration (Cloud Run)
+    Twilio -->|HTTP POST| Backend["Backend (Cloud Run - RAG Orchestrator)"]
+    Frontend -->|API Calls| Backend
 
-     ```mermaid
-     flowchart LR
-         %% Define styles for a professional look
-         classDef title fill=#f4f4f4,stroke=#333,stroke-width=1px,color=#000,font-weight=bold,font-family=Arial
-         classDef node fill=#fff,stroke=#333,stroke-width=1px,color=#000,font-family=Arial
-         classDef datastore fill=#e7f3ff,stroke=#0370c0,stroke-width=1px,color=#000,font-family=Arial
-         classDef service fill=#e9ffe7,stroke=#2e7d32,stroke-width=1px,color=#000,font-family=Arial
-         classDef infra fill=#fff5e6,stroke=#ff9500,stroke-width=1px,color=#000,font-family=Arial
+    %% LangChain / RAG Workflow
+    Backend -->|RAG Pipeline| LangChain["LangChain Workflow"]
+    LangChain --> Retriever["Retriever (Access Policies, Histories)"]
 
-         %% Users
-         U[User (Manager/Employee)]:::node
+    %% Data Sources (Consistent with Previous Architecture)
+    Retriever --> FS["Firestore (Employee Histories)"]
+    Retriever --> GCS["GCS (Policies, Values, Traits)"]
 
-         %% Frontend/Backend
-         FE[Frontend (Web Dashboard)]:::node
-         T[Twilio SMS]:::node
-         BE[Backend (Cloud Run - RAG Orchestrator)]:::service
+    %% Vertex AI Integration
+    LangChain --> VAI["Vertex AI: Gid9 Model (fine-tuned from Gemini 1.5 Pro (0002))"]
+    VAI --> LangChain
 
-         %% Vertex AI
-         VAI[Vertex AI (Embeddings & Matching Engine)]:::service
-         GM[Gemini 1.5 Pro Model]:::service
+    %% Response Formatting & Return Path
+    LangChain --> Backend
+    Backend -->|Response| Twilio
+    Backend -->|Response| Frontend
 
-         %% Data Stores
-         FS[(Firestore - Employee Histories)]:::datastore
-         GCS[(GCS - Policies, Values, Traits)]:::datastore
+    %% Infrastructure & Operations (Separate Repos)
+    Infra["gid-infra (Terraform, IaC)"] -.-> Backend
+    Infra -.-> FS
+    Infra -.-> GCS
+    Docs["gid-docs (Documentation)"] -.-> Backend
+    Ops["gid-ops (Ops, Monitoring)"] -.-> Backend
+    Ops -.-> Frontend
 
-         %% Infrastructure & Ops
-         TF[Terraform (IaC)]:::infra
-         MON[Monitoring & Dashboards]:::infra
-         LG[Logging & Alerts]:::infra
+    %% Additional Notes
+    %% - The Backend executes the RAG pipeline using LangChain, retrieves data from Firestore and GCS,
+    %%   and invokes the Gid9 model on Vertex AI.
+    %% - Gid9 is a fine-tuned model based on Gemini 1.5 Pro (0002), aligned with previous architecture discussions.
+    %% - Separate repositories (gid-backend, gid-docs, gid-infra, gid-ops) reflect the recommended structure:
+    %%   * gid-backend: Source code and RAG orchestration
+    %%   * gid-docs: Documentation (includes architecture)
+    %%   * gid-infra: Infrastructure as code (Terraform)
+    %%   * gid-ops: Monitoring, logging, alerts
 
-         %% Flows
-         U -->|SMS| T
-         U -->|Web| FE
-         FE -->|API Calls| BE
-         T -->|HTTP POST| BE
 
-         BE -->|Embeddings Query| VAI
-         BE -->|Semantic Search| VAI
-         BE -->|Prompt| GM
-         GM -->|Response| BE
+```
 
-         BE -->|Read/Write| FS
-         BE -->|Fetch Docs| GCS
-
-         BE -->|Send Response| T
-         BE -->|Update Frontend| FE
-
-         %% Infra relations (not actual calls, just conceptual)
-         TF -.-> BE
-         TF -.-> FS
-         TF -.-> GCS
-         TF -.-> VAI
-         MON -.-> BE
-         MON -.-> FE
-         LG -.-> BE
-
-         %% Titles or grouping
-         class U,FE,T,BE,VAI,GM,FS,GCS,TF,MON,LG node
-     ```
-     
