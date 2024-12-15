@@ -1,0 +1,653 @@
+[
+  {
+    "employee_id": "EMP001",
+    "phone_number": "555-0101",
+    "email": "alex.king@ABCfakeinc.com",
+    "physical_address": "100 Main Street, Springfield, USA",
+    "hire_date": "2022-01-15",
+    "position": "CEO",
+    "role": "owner",
+    "career_goals_internal": ["Maintain overall company growth", "Foster innovation culture"],
+    "career_goals_external": ["Become a thought leader in the industry"],
+    "interests": ["Strategic Planning", "Corporate Governance"],
+    "passions": ["Public Speaking", "Mentoring Startups"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "he/him",
+      "form_of_address": "Call by first name is acceptable",
+      "cultural_sensitivities": "Values concise, data-driven discussions"
+    },
+    "department": "Executive",
+    "manager_id": null,
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "Board of Directors",
+          "date": "2023-06-10T09:00:00Z",
+          "method": "in-person",
+          "description": "Commended for successful company-wide revenue growth"
+        }
+      ],
+      "development_interactions": [],
+      "regular_interactions": [],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [
+        {
+          "person_name": "Chair of the Board",
+          "date": "2023-12-15T10:00:00Z",
+          "method": "email",
+          "description": "Annual review: praised leadership, suggested focus on global expansion"
+        }
+      ],
+      "training_interactions": [],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [
+      {
+        "training_id": "E-CEO1",
+        "title": "Executive Leadership Seminar",
+        "completion_date": "2022-05-01"
+      }
+    ],
+    "performance_notes": "Strong vision, effective in aligning teams around company mission."
+  },
+  {
+    "employee_id": "EMP002",
+    "phone_number": "555-0202",
+    "email": "maria.sanchez@ABCfakeinc.com",
+    "physical_address": "200 Oak Avenue, Springfield, USA",
+    "hire_date": "2020-09-10",
+    "position": "Engineering Manager",
+    "role": "manager",
+    "career_goals_internal": ["Improve team’s delivery speed", "Mentor junior developers into leads"],
+    "career_goals_external": ["Obtain a specialized cloud certification"],
+    "interests": ["DevOps", "Continuous Integration"],
+    "passions": ["Women in Tech advocacy", "Agile workshops"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "she/her",
+      "form_of_address": "Use last name for formal settings",
+      "cultural_sensitivities": "Prefers written summaries before meetings"
+    },
+    "department": "Engineering",
+    "manager_id": "EMP001",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP001 (Owner)",
+          "date": "2023-07-10T09:30:00Z",
+          "method": "via Gid",
+          "description": "Acknowledged excellent management of Q2 release cycle."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-08-15T11:00:00Z",
+          "method": "via Gid",
+          "description": "Suggested a leadership training focused on remote team management."
+        }
+      ],
+      "regular_interactions": [
+        {
+          "person_name": "Team Lead EMP004",
+          "date": "2023-09-01T10:00:00Z",
+          "method": "SMS",
+          "description": "Weekly check-in on sprint progress"
+        }
+      ],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [
+        {
+          "person_name": "HR (Laura King)",
+          "date": "2023-12-20T09:00:00Z",
+          "method": "in-person",
+          "description": "Annual review: praised leadership, suggested focusing on cross-team collaboration."
+        }
+      ],
+      "training_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2024-01-10T14:00:00Z",
+          "method": "via Gid",
+          "description": "Recommended advanced cloud certification program."
+        }
+      ],
+      "mentoring_interactions": [
+        {
+          "person_name": "Carlos Rivera (Mentor)",
+          "date": "2024-02-05T09:30:00Z",
+          "method": "in-person",
+          "description": "Discussed roadmap for becoming Director of Engineering."
+        }
+      ],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": [
+        {
+          "person_name": "Anonymous Employee",
+          "date": "2024-03-01T15:00:00Z",
+          "method": "via Gid",
+          "description": "Feedback: requests more flexible review processes."
+        }
+      ]
+    },
+    "trainings_completed": [
+      {
+        "training_id": "MG101",
+        "title": "Managerial Communication",
+        "completion_date": "2021-03-10"
+      }
+    ],
+    "performance_notes": "Strong manager, improving team efficiency, open to continuous learning."
+  },
+  {
+    "employee_id": "EMP003",
+    "phone_number": "555-0303",
+    "email": "li.chen@ABCfakeinc.com",
+    "physical_address": "300 Pine Road, Springfield, USA",
+    "hire_date": "2018-04-22",
+    "position": "HR Manager",
+    "role": "manager",
+    "career_goals_internal": ["Improve onboarding process", "Enhance diversity and inclusion initiatives"],
+    "career_goals_external": ["Get certified in executive coaching"],
+    "interests": ["Talent Acquisition", "Organizational Psychology"],
+    "passions": ["Public Speaking on HR trends", "Creating inclusive workplaces"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "they/them",
+      "form_of_address": "Professional titles are fine",
+      "cultural_sensitivities": "Prefers balanced feedback before criticism"
+    },
+    "department": "Human Resources",
+    "manager_id": "EMP001",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP001 (Owner)",
+          "date": "2023-05-10T09:00:00Z",
+          "method": "via Gid",
+          "description": "Commended for successful hiring of key tech roles under tight deadlines."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-06-15T10:00:00Z",
+          "method": "via Gid",
+          "description": "Suggested a course on advanced diversity and inclusion strategies."
+        }
+      ],
+      "regular_interactions": [
+        {
+          "person_name": "HR Team Member",
+          "date": "2023-07-01T11:00:00Z",
+          "method": "email",
+          "description": "Monthly HR team meeting recap."
+        }
+      ],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [
+        {
+          "person_name": "EMP001 (Owner)",
+          "date": "2023-08-20T09:30:00Z",
+          "method": "in-person",
+          "description": "Annual review: praised efforts in improving employee retention."
+        }
+      ],
+      "training_interactions": [],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-09-10T13:00:00Z",
+          "method": "via Gid",
+          "description": "Facilitated resolution between two employees with differing cultural communication styles."
+        }
+      ],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [
+      {
+        "training_id": "HR-ADV1",
+        "title": "Advanced HR Leadership",
+        "completion_date": "2022-11-05"
+      }
+    ],
+    "performance_notes": "Excellent HR manager, improves engagement and resolves conflicts effectively."
+  },
+  {
+    "employee_id": "EMP004",
+    "phone_number": "555-0404",
+    "email": "james.taylor@ABCfakeinc.com",
+    "physical_address": "400 Maple Lane, Springfield, USA",
+    "hire_date": "2023-02-01",
+    "position": "Frontend Developer",
+    "role": "employee",
+    "career_goals_internal": ["Become a frontend team lead", "Improve UX design skills"],
+    "career_goals_external": ["Gain advanced JavaScript framework expertise"],
+    "interests": ["UI/UX", "Accessibility"],
+    "passions": ["Open-source UI libraries", "Visual design experimentation"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "he/him",
+      "form_of_address": "Use first name",
+      "cultural_sensitivities": "Prefers written feedback over verbal"
+    },
+    "department": "Engineering",
+    "manager_id": "EMP002",
+    "interactions": {
+      "disciplinary_interactions": [
+        {
+          "person_name": "EMP002 (Manager)",
+          "date": "2023-03-10T08:30:00Z",
+          "method": "in-person",
+          "description": "Arrived late twice in a month. Received a written note.",
+          "nth_occurrence_3_months": 2,
+          "nth_occurrence_6_months": 2,
+          "nth_occurrence_2_years": 2
+        }
+      ],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP002 (Manager)",
+          "date": "2023-05-05T09:00:00Z",
+          "method": "via Gid",
+          "description": "Praised for high-quality code on the new landing page."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-06-01T10:00:00Z",
+          "method": "via Gid",
+          "description": "Suggested a UI/UX accessibility course."
+        }
+      ],
+      "regular_interactions": [],
+      "attendance_related_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-07-15T08:00:00Z",
+          "method": "via Gid",
+          "description": "Reminder to use flexible working hours to avoid tardiness."
+        }
+      ],
+      "performance_review_interactions": [],
+      "training_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-08-20T14:00:00Z",
+          "method": "via Gid",
+          "description": "Recommended React Advanced Patterns training."
+        }
+      ],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [
+      {
+        "training_id": "FRONT-101",
+        "title": "Intro to Modern Frontend Frameworks",
+        "completion_date": "2023-04-10"
+      }
+    ],
+    "performance_notes": "Good developer, needs to improve punctuality and communication style."
+  },
+  {
+    "employee_id": "EMP005",
+    "phone_number": "555-0505",
+    "email": "carla.hernandez@ABCfakeinc.com",
+    "physical_address": "500 Birch Blvd, Springfield, USA",
+    "hire_date": "2021-11-10",
+    "position": "Sales Representative",
+    "role": "employee",
+    "career_goals_internal": ["Become a regional sales manager", "Improve negotiation tactics"],
+    "career_goals_external": ["Obtain a professional sales certification"],
+    "interests": ["Negotiation", "CRM tools"],
+    "passions": ["Building long-term client relationships", "Sales strategy workshops"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "she/her",
+      "form_of_address": "Title + last name",
+      "cultural_sensitivities": "Appreciates private feedback rather than public notes"
+    },
+    "department": "Sales",
+    "manager_id": "EMP003",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP003 (Manager)",
+          "date": "2022-12-15T10:30:00Z",
+          "method": "SMS",
+          "description": "Congratulated for surpassing quarterly sales target."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-01-20T11:00:00Z",
+          "method": "via Gid",
+          "description": "Suggested an advanced negotiation techniques course."
+        }
+      ],
+      "regular_interactions": [],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [
+        {
+          "person_name": "HR (Li Chen)",
+          "date": "2023-02-10T09:00:00Z",
+          "method": "in-person",
+          "description": "Bi-annual review: recommended focusing on new customer segments."
+        }
+      ],
+      "training_interactions": [],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [
+      {
+        "training_id": "SALES-ADV",
+        "title": "Advanced Sales Pipeline Management",
+        "completion_date": "2022-05-05"
+      }
+    ],
+    "performance_notes": "High performer in sales, poised for leadership potential."
+  },
+  {
+    "employee_id": "EMP006",
+    "phone_number": "555-0606",
+    "email": "michael.stevens@ABCfakeinc.com",
+    "physical_address": "600 Cedar Street, Springfield, USA",
+    "hire_date": "2019-06-15",
+    "position": "HR Specialist",
+    "role": "employee",
+    "career_goals_internal": ["Improve internal communication programs", "Facilitate better onboarding"],
+    "career_goals_external": ["Get an HR analytics certification"],
+    "interests": ["Employee Engagement", "Onboarding Processes"],
+    "passions": ["Improving employee retention", "Personalized career development plans"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "he/him",
+      "form_of_address": "Use last name only",
+      "cultural_sensitivities": "Prefers detailed written explanations for policies"
+    },
+    "department": "Human Resources",
+    "manager_id": "EMP003",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP003 (Manager)",
+          "date": "2023-03-15T09:00:00Z",
+          "method": "via Gid",
+          "description": "Acknowledged successful onboarding of new hires."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-04-10T10:00:00Z",
+          "method": "via Gid",
+          "description": "Recommended an HR analytics training course."
+        }
+      ],
+      "regular_interactions": [
+        {
+          "person_name": "HR Team",
+          "date": "2023-05-01T11:00:00Z",
+          "method": "email",
+          "description": "Monthly HR team sync"
+        }
+      ],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [],
+      "training_interactions": [],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [
+        {
+          "person_name": "EMP003 (Manager)",
+          "date": "2023-06-20T13:00:00Z",
+          "method": "in-person",
+          "description": "Assisted in mediating a minor dispute between two employees during onboarding."
+        }
+      ],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [],
+    "performance_notes": "Solid contributor in HR processes, needs more analytics skills."
+  },
+  {
+    "employee_id": "EMP007",
+    "phone_number": "555-0707",
+    "email": "danielle.young@ABCfakeinc.com",
+    "physical_address": "700 Walnut Street, Springfield, USA",
+    "hire_date": "2020-02-02",
+    "position": "IT Support Specialist",
+    "role": "employee",
+    "career_goals_internal": ["Become IT lead", "Improve helpdesk resolution speed"],
+    "career_goals_external": ["Gain a cybersecurity certification"],
+    "interests": ["System Administration", "Security Patches"],
+    "passions": ["Automating IT support workflows", "Knowledge base improvements"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "she/her",
+      "form_of_address": "First name only",
+      "cultural_sensitivities": "Prefers step-by-step instructions for new tools"
+    },
+    "department": "IT",
+    "manager_id": "EMP002",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP002 (Manager)",
+          "date": "2022-10-10T08:30:00Z",
+          "method": "SMS",
+          "description": "Commended for quick resolution of critical server downtime."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-03-15T10:00:00Z",
+          "method": "via Gid",
+          "description": "Suggested Linux security training."
+        }
+      ],
+      "regular_interactions": [],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [],
+      "training_interactions": [],
+      "mentoring_interactions": [
+        {
+          "person_name": "EMP002 (Manager)",
+          "date": "2023-05-20T09:00:00Z",
+          "method": "in-person",
+          "description": "Mentoring session on IT project management fundamentals."
+        }
+      ],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [
+      {
+        "training_id": "IT-BASICS",
+        "title": "Basic IT Support Foundations",
+        "completion_date": "2021-05-15"
+      }
+    ],
+    "performance_notes": "Reliable in IT tasks, consider improving cybersecurity awareness."
+  },
+  {
+    "employee_id": "EMP008",
+    "phone_number": "555-0808",
+    "email": "samuel.brown@ABCfakeinc.com",
+    "physical_address": "800 Chestnut Ave, Springfield, USA",
+    "hire_date": "2021-07-12",
+    "position": "Marketing Coordinator",
+    "role": "employee",
+    "career_goals_internal": ["Lead a marketing campaign", "Specialize in brand strategy"],
+    "career_goals_external": ["Gain a marketing analytics certification"],
+    "interests": ["Branding", "Social Media Management"],
+    "passions": ["Creating viral campaigns", "Influencer partnerships"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "he/him",
+      "form_of_address": "Use last name",
+      "cultural_sensitivities": "Prefers advance notice before meetings"
+    },
+    "department": "Marketing",
+    "manager_id": "EMP003",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP003 (Manager)",
+          "date": "2023-04-10T09:00:00Z",
+          "method": "via Gid",
+          "description": "Commended for creative input on Q3 brand launch."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-05-15T10:30:00Z",
+          "method": "via Gid",
+          "description": "Suggested a digital marketing analytics course."
+        }
+      ],
+      "regular_interactions": [
+        {
+          "person_name": "Marketing Team",
+          "date": "2023-06-01T11:00:00Z",
+          "method": "email",
+          "description": "Monthly marketing sync-up"
+        }
+      ],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [],
+      "training_interactions": [],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [],
+    "performance_notes": "Shows creative potential, needs more data-driven marketing skills."
+  },
+  {
+    "employee_id": "EMP009",
+    "phone_number": "555-0909",
+    "email": "robert.miller@ABCfakeinc.com",
+    "physical_address": "900 Aspen Drive, Springfield, USA",
+    "hire_date": "2020-10-01",
+    "position": "Financial Analyst",
+    "role": "employee",
+    "career_goals_internal": ["Lead financial forecasting unit", "Improve budgeting processes"],
+    "career_goals_external": ["Earn a CFA certification"],
+    "interests": ["Financial Modeling", "Risk Analysis"],
+    "passions": ["Creating automated budget reports", "Long-term financial planning"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "he/him",
+      "form_of_address": "Mr. Miller",
+      "cultural_sensitivities": "Prefers seeing data before conclusions"
+    },
+    "department": "Finance",
+    "manager_id": "EMP001",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP001 (Owner)",
+          "date": "2023-02-20T09:30:00Z",
+          "method": "via Gid",
+          "description": "Praised for accurate Q1 financial forecasts."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-03-25T10:00:00Z",
+          "method": "via Gid",
+          "description": "Suggested an advanced risk analysis workshop."
+        }
+      ],
+      "regular_interactions": [],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [
+        {
+          "person_name": "EMP001 (Owner)",
+          "date": "2023-04-10T11:00:00Z",
+          "method": "in-person",
+          "description": "Annual review: excellent analytical skills, suggested working on presentation delivery."
+        }
+      ],
+      "training_interactions": [],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [],
+    "performance_notes": "Strong analysis, can improve in communicating financial insights."
+  },
+  {
+    "employee_id": "EMP010",
+    "phone_number": "555-1010",
+    "email": "victoria.scott@ABCfakeinc.com",
+    "physical_address": "1000 Redwood Road, Springfield, USA",
+    "hire_date": "2022-05-20",
+    "position": "R&D Researcher",
+    "role": "employee",
+    "career_goals_internal": ["Lead an innovation project", "Collaborate across departments for product prototypes"],
+    "career_goals_external": ["Publish a technical paper in a reputable journal"],
+    "interests": ["Machine Learning Models", "Product Prototyping"],
+    "passions": ["Experimenting with new technologies", "Conducting user research"],
+    "employee_specific_guidelines": {
+      "preferred_pronouns": "they/them",
+      "form_of_address": "First name",
+      "cultural_sensitivities": "Prefers in-depth technical discussions, no abrupt context changes"
+    },
+    "department": "R&D",
+    "manager_id": "EMP002",
+    "interactions": {
+      "disciplinary_interactions": [],
+      "positive_reinforcement_interactions": [
+        {
+          "person_name": "EMP002 (Manager)",
+          "date": "2023-06-10T09:00:00Z",
+          "method": "via Gid",
+          "description": "Commended for developing a promising ML prototype."
+        }
+      ],
+      "development_interactions": [
+        {
+          "person_name": "Gid (AI Assistant)",
+          "date": "2023-07-20T10:00:00Z",
+          "method": "via Gid",
+          "description": "Suggested attending a product prototyping workshop."
+        }
+      ],
+      "regular_interactions": [
+        {
+          "person_name": "R&D Team",
+          "date": "2023-08-01T11:00:00Z",
+          "method": "email",
+          "description": "Monthly R&D brainstorm"
+        }
+      ],
+      "attendance_related_interactions": [],
+      "performance_review_interactions": [],
+      "training_interactions": [],
+      "mentoring_interactions": [],
+      "conflict_resolution_interactions": [],
+      "feedback_interactions": []
+    },
+    "trainings_completed": [
+      {
+        "training_id": "RND-ML1",
+        "title": "Intro to ML Prototyping",
+        "completion_date": "2023-09-05"
+      }
+    ],
+    "performance_notes": "Highly innovative, might improve cross-team communication."
+  }
+]
