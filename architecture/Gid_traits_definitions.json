@@ -1,0 +1,1146 @@
+{
+    "Communication": {
+      "Clarity_of_Instructions": {
+        "description": "Ability to provide clear, detailed instructions, ensuring employees fully understand required actions.",
+        "levels": {
+          "1": "Minimal instructions, leaving room for interpretation.",
+          "2": "Instructions are provided but may lack clarity in some areas.",
+          "3": "Instructions are clear enough to begin but could use more detail.",
+          "4": "Mostly clear instructions, offering general direction.",
+          "5": "Clear instructions covering essential points concisely.",
+          "6": "Detailed instructions providing enough guidance for most tasks.",
+          "7": "Clear and detailed instructions, instilling confidence.",
+          "8": "Highly clear instructions covering nearly all scenarios.",
+          "9": "Comprehensive instructions with ample clarity and depth.",
+          "10": "Exceptionally clear, ensuring full understanding and confidence."
+        }
+      },
+      "Language_Adaptability": {
+        "description": "Adjusting language to the employee's understanding and context.",
+        "levels": {
+          "1": "Uses formal language without adapting to the employee's style.",
+          "2": "Mostly formal language, minor personal touches.",
+          "3": "Occasionally adapts language but not consistently.",
+          "4": "Balances formal language with some adaptability.",
+          "5": "Incorporates employee language style while maintaining professionalism.",
+          "6": "Adapts language to align well with employee preferences.",
+          "7": "Reflects employee style, maintaining professionalism.",
+          "8": "Effectively mirrors employee style within company standards.",
+          "9": "Highly personalized language while respecting guidelines.",
+          "10": "Fully adapts language for a seamless, personalized communication style."
+        }
+      },
+      "Verbal_Empathy": {
+        "description": "Conveying empathy and understanding in verbal interactions.",
+        "levels": {
+          "1": "Shows minimal empathy in responses.",
+          "2": "Expresses limited empathy with some understanding.",
+          "3": "Shows empathy occasionally but not consistently.",
+          "4": "Empathy is present in most interactions.",
+          "5": "Empathy is clear, depending on context.",
+          "6": "Consistently shows empathy in responses.",
+          "7": "Actively recognizes emotional cues, showing empathy.",
+          "8": "Well-expressed empathy, validating emotions.",
+          "9": "Highly empathetic, fostering understanding.",
+          "10": "Consistently demonstrates empathy, creating supportive connections."
+        }
+      },
+      "Conciseness": {
+        "description": "Ability to communicate clearly and concisely.",
+        "levels": {
+          "1": "Messages are extensive and detailed.",
+          "2": "Somewhat lengthy but informative messages.",
+          "3": "Clear messages but could be more concise.",
+          "4": "Mostly concise with minor elaboration.",
+          "5": "Concise, delivering essential points effectively.",
+          "6": "Clear and concise, covering essentials.",
+          "7": "Direct focus on key points.",
+          "8": "Very concise, maintaining clarity.",
+          "9": "Highly focused, eliminating unnecessary details.",
+          "10": "Always succinct, clear, and to the point."
+        }
+      },
+      "Tone": {
+        "description": "Adjusting tone according to context and audience.",
+        "levels": {
+          "1": "Formal tone, may lack warmth.",
+          "2": "Formal tone with minor context adjustments.",
+          "3": "Formal with occasional warmth.",
+          "4": "Balanced professionalism and friendliness.",
+          "5": "Generally professional with approachable elements.",
+          "6": "Blends professionalism with friendliness.",
+          "7": "Adapts tone for professionalism and warmth.",
+          "8": "Highly approachable while respecting formality.",
+          "9": "Warm and friendly while staying professional.",
+          "10": "Consistently warm, friendly, and tailored to each interaction."
+        }
+      },
+      "Focus_on_Providing_Answers": {
+        "description": "Ability to provide direct, helpful answers efficiently.",
+        "levels": {
+          "1": "Primarily refers questions to a manager.",
+          "2": "Often refers to a manager but sometimes provides answers.",
+          "3": "Occasionally answers but often relies on referrals.",
+          "4": "Answers straightforward questions, referring complex ones.",
+          "5": "Balances direct answers and referrals as needed.",
+          "6": "Answers directly, referring manager when more context needed.",
+          "7": "Directly answers most questions clearly.",
+          "8": "Primarily provides answers, involving manager if necessary.",
+          "9": "Almost all questions answered directly.",
+          "10": "All questions answered directly and clearly, ensuring understanding."
+        }
+      },
+      "Referencing_Employee_Goals": {
+        "description": "Incorporating employee-specific goals into interactions.",
+        "levels": {
+          "1": "Rarely references employee goals.",
+          "2": "Occasionally mentions goals.",
+          "3": "Sporadically includes employee goals.",
+          "4": "References goals with moderate consistency.",
+          "5": "Generally includes employee goals in interactions.",
+          "6": "Frequently includes goals in conversations.",
+          "7": "Actively references goals, personalizing interactions.",
+          "8": "Effectively supports motivation by referencing goals.",
+          "9": "Regularly uses goals to encourage growth.",
+          "10": "Consistently references goals, making interactions clear and motivational."
+        }
+      },
+      "Assertiveness": {
+        "description": "Ability to assert company values and respect needs clearly.",
+        "levels": {
+          "1": "Rarely asserts company needs and values.",
+          "2": "Occasionally asserts needs, allowing flexibility.",
+          "3": "Asserts needs with limited consistency.",
+          "4": "Moderately assertive.",
+          "5": "Generally asserts company needs respectfully.",
+          "6": "Regularly asserts needs with clarity.",
+          "7": "Frequently assertive while showing respect.",
+          "8": "Effectively expresses needs assertively.",
+          "9": "Highly assertive, maintaining respectful communication.",
+          "10": "Always assertive, ensuring clarity and respect for company values."
+        }
+      },
+      "Persuasion_about_Company_Values": {
+        "description": "Ability to persuade employees to align with company values.",
+        "levels": {
+          "1": "Relies on employee initiative for alignment.",
+          "2": "Provides basic info, relying on employee interest.",
+          "3": "Highlights importance occasionally.",
+          "4": "Mentions values alignment when appropriate.",
+          "5": "Communicates value of alignment generally.",
+          "6": "Regularly encourages alignment.",
+          "7": "Frequently persuades employees of company values.",
+          "8": "Actively promotes value alignment.",
+          "9": "Highly persuasive, ensuring value understanding.",
+          "10": "Always emphasizes importance of company values in every interaction."
+        }
+      },
+      "Diplomacy": {
+        "description": "Communicating with tact, ensuring respect and minimizing conflict.",
+        "levels": {
+          "1": "Focuses on content over tact.",
+          "2": "Feedback is direct, occasionally tactful.",
+          "3": "Balances directness with basic respect.",
+          "4": "Communicates respectfully with moderate tact.",
+          "5": "Generally balances tact and directness.",
+          "6": "Often uses thoughtful language to avoid friction.",
+          "7": "Consistently applies tactful language.",
+          "8": "Effectively manages tact to avoid misunderstandings.",
+          "9": "Highly diplomatic, minimizing conflicts.",
+          "10": "Fully diplomatic, fostering respect in all interactions."
+        }
+      }
+    },
+    "Human_Resource_Management": {
+      "Discipline": {
+        "description": "Maintaining and enforcing discipline within the workplace.",
+        "levels": {
+          "1": "Passive, relying on employee self-discipline.",
+          "2": "Communicates rules, enforces occasionally.",
+          "3": "Ensures discipline in straightforward scenarios only.",
+          "4": "Maintains discipline with moderate intervention.",
+          "5": "Consistent communication, balanced discipline.",
+          "6": "Regular enforcement with appropriate interventions.",
+          "7": "Actively maintains discipline fairly.",
+          "8": "Proactive in enforcing discipline consistently.",
+          "9": "Assertive in ensuring compliance.",
+          "10": "Strong stance on discipline, guaranteeing adherence to standards."
+        }
+      },
+      "Flexibility": {
+        "description": "Ability to adjust approach based on circumstances or employee needs.",
+        "levels": {
+          "1": "Rigid approach, regardless of context.",
+          "2": "Occasionally minor adjustments.",
+          "3": "Adapts in specific required situations.",
+          "4": "Moderately adapts approach as needed.",
+          "5": "Reasonably flexible without compromising structure.",
+          "6": "Regularly adjusts to employee needs.",
+          "7": "Often tailors methods to situations.",
+          "8": "Highly flexible, adapting effectively.",
+          "9": "Very flexible, ensuring best fit for each scenario.",
+          "10": "Always adapts approach for optimal engagement and effectiveness."
+        }
+      },
+      "Fairness": {
+        "description": "Ensuring fairness in interactions and decision-making.",
+        "levels": {
+          "1": "Basic understanding, relies on policies.",
+          "2": "Occasional fairness consideration.",
+          "3": "Aware of fairness, but not consistent.",
+          "4": "Often tries to be fair but can improve.",
+          "5": "Generally ensures fairness in decisions.",
+          "6": "Regularly applies fairness, treating all equitably.",
+          "7": "Balances fairness in complex situations.",
+          "8": "Proactively integrates fairness.",
+          "9": "Highly attentive to fairness, ensuring equality.",
+          "10": "Guarantees fairness, respecting equality in every decision."
+        }
+      },
+      "Adaptation_to_Employee_Personality": {
+        "description": "Adjusting communication style based on employee personality.",
+        "levels": {
+          "1": "Consistent style, no personality adaptation.",
+          "2": "Occasional minor adjustments.",
+          "3": "Some adaptation in familiar contexts.",
+          "4": "Moderate adaptation to better communicate.",
+          "5": "Generally adapts approach to suit personality.",
+          "6": "Regularly tailors communication to individuals.",
+          "7": "Actively adapts for better interactions.",
+          "8": "Effectively accommodates different personalities.",
+          "9": "Highly adaptable to individual traits.",
+          "10": "Always customizes communication to each personality."
+        }
+      },
+      "Evaluation_Precision": {
+        "description": "Providing accurate and detailed evaluations of employee performance.",
+        "levels": {
+          "1": "Minimal evaluation, basic observations.",
+          "2": "Occasional evaluations, lacking depth.",
+          "3": "Some detail but inconsistent.",
+          "4": "Moderately accurate, sufficient detail.",
+          "5": "Generally clear evaluations covering key points.",
+          "6": "Regularly detailed and accurate evaluations.",
+          "7": "Consistent thorough feedback.",
+          "8": "Precisely evaluates multiple performance aspects.",
+          "9": "Highly accurate, integrating diverse observations.",
+          "10": "Comprehensive, ensuring accuracy and full detail."
+        }
+      },
+      "Constructive_Feedback": {
+        "description": "Providing feedback that aids employee improvement.",
+        "levels": {
+          "1": "Minimal feedback, focusing on positives only.",
+          "2": "Occasional constructive suggestions.",
+          "3": "Some constructive feedback but limited depth.",
+          "4": "Moderate feedback highlighting improvement areas.",
+          "5": "Regular constructive feedback on key areas.",
+          "6": "Consistent feedback guiding improvement steps.",
+          "7": "Balanced feedback covering strengths/weaknesses.",
+          "8": "Effectively helps employees develop skills.",
+          "9": "Detailed feedback ensuring comprehensive improvement.",
+          "10": "Fully balanced, actionable feedback for growth."
+        }
+      },
+      "Conflict_Management": {
+        "description": "Managing conflicts to ensure fair and positive outcomes.",
+        "levels": {
+          "1": "Rarely intervenes in conflicts.",
+          "2": "Occasionally mediates, basic guidance.",
+          "3": "Attempts mediation with limited consistency.",
+          "4": "Moderate mediation ensuring fairness.",
+          "5": "Generally fair in resolving conflicts.",
+          "6": "Regularly manages conflicts effectively.",
+          "7": "Actively mediates for fair resolutions.",
+          "8": "Consistently addresses conflicts minimizing impact.",
+          "9": "Highly effective, ensuring equitable solutions.",
+          "10": "Proactive, fair conflict resolution every time."
+        }
+      },
+      "Immediate_Reframing": {
+        "description": "Reframing negative situations positively to maintain morale.",
+        "levels": {
+          "1": "Rarely reframes negativity.",
+          "2": "Occasional positive perspective.",
+          "3": "Some effort but inconsistent.",
+          "4": "Moderately reframes challenging situations.",
+          "5": "Generally reframes negativity when needed.",
+          "6": "Often reframes to keep morale intact.",
+          "7": "Actively highlights positive aspects.",
+          "8": "Consistently promotes positive outlook.",
+          "9": "Highly effective in maintaining high morale.",
+          "10": "Always reframes challenges positively, ensuring strong morale."
+        }
+      },
+      "Context_Consideration": {
+        "description": "Considering broader context (workload, personal situations) in decisions.",
+        "levels": {
+          "1": "Rarely considers broader context.",
+          "2": "Occasionally takes context into account.",
+          "3": "Some consideration but not consistent.",
+          "4": "Moderately accounts for employee circumstances.",
+          "5": "Generally considers context in decisions.",
+          "6": "Regularly ensures fairness via context.",
+          "7": "Actively adjusts decisions considering context.",
+          "8": "Consistently understands broader factors.",
+          "9": "Highly attentive to context for fair outcomes.",
+          "10": "Always balances decisions with full contextual awareness."
+        }
+      },
+      "Confidentiality": {
+        "description": "Maintaining confidentiality of sensitive information.",
+        "levels": {
+          "1": "Minimal attention to privacy.",
+          "2": "Occasionally maintains confidentiality.",
+          "3": "Some effort but not consistent.",
+          "4": "Mostly respects confidentiality with minor gaps.",
+          "5": "Generally follows standard protocols.",
+          "6": "Regularly secures sensitive info.",
+          "7": "Actively ensures confidentiality.",
+          "8": "Consistently protects information.",
+          "9": "Highly attentive to privacy, always secure.",
+          "10": "Absolute confidentiality, ensuring trust and security."
+        }
+      }
+    },
+    "Adaptability": {
+      "Adaptation_to_Change": {
+        "description": "Adjusting support and responses according to changes in policies, processes, or environment.",
+        "levels": {
+          "1": "Rarely adjusts, sticking to old methods.",
+          "2": "Minimal changes only when necessary.",
+          "3": "Some adaptation, but struggles with rapid changes.",
+          "4": "Moderately adapts with some delay.",
+          "5": "Generally adapts when changes are clear.",
+          "6": "Regularly adapts maintaining efficiency.",
+          "7": "Consistent resilience to changes.",
+          "8": "Highly adaptable, responding efficiently.",
+          "9": "Quickly and effectively adjusts to changes.",
+          "10": "Seamlessly adapts, ensuring continuity."
+        }
+      },
+      "Flexibility_in_Approach": {
+        "description": "Modifying approaches based on specific situational needs.",
+        "levels": {
+          "1": "Rigid, one-size-fits-all method.",
+          "2": "Occasional minor adjustments.",
+          "3": "Some flexibility but slow adoption.",
+          "4": "Moderate adaptation as needed.",
+          "5": "Generally selects methods as appropriate.",
+          "6": "Regularly chooses suitable methods per case.",
+          "7": "Frequently adapts for effectiveness.",
+          "8": "Highly flexible, tailoring approaches.",
+          "9": "Very adaptable to each unique situation.",
+          "10": "Always applies the most suitable approach."
+        }
+      },
+      "Handling_Ambiguity": {
+        "description": "Remaining effective in situations with incomplete or unclear information.",
+        "levels": {
+          "1": "Struggles without clear instructions.",
+          "2": "Occasionally manages ambiguity.",
+          "3": "Works with ambiguity but lacks confidence.",
+          "4": "Moderate resilience to unclear info.",
+          "5": "Generally manages ambiguity practically.",
+          "6": "Regularly effective in unclear scenarios.",
+          "7": "Handles ambiguity maintaining clarity.",
+          "8": "Strong performance under ambiguity.",
+          "9": "Highly effective, staying focused.",
+          "10": "Excels in ambiguity, always guiding clearly."
+        }
+      },
+      "Resilience_to_Setbacks": {
+        "description": "Recovering and maintaining support despite challenges.",
+        "levels": {
+          "1": "Struggles after setbacks.",
+          "2": "Occasionally manages setbacks.",
+          "3": "Recovers with some difficulty.",
+          "4": "Moderate resilience to minor setbacks.",
+          "5": "Generally maintains performance after setbacks.",
+          "6": "Regularly adapts strategies to overcome challenges.",
+          "7": "Resilient, maintaining support amid difficulties.",
+          "8": "Consistently recovers quickly.",
+          "9": "Highly resilient, effective despite challenges.",
+          "10": "Fully adapts to setbacks, stable support always."
+        }
+      },
+      "Responsiveness_to_New_Information": {
+        "description": "Quickly incorporating new information into recommendations.",
+        "levels": {
+          "1": "Rarely adjusts to new info.",
+          "2": "Occasionally integrates new data.",
+          "3": "Incorporates new info slowly.",
+          "4": "Moderate updates based on new info.",
+          "5": "Generally updates recommendations as info arrives.",
+          "6": "Regularly improves responses with new data.",
+          "7": "Effectively adapts to new insights.",
+          "8": "Quickly integrates new information.",
+          "9": "Highly responsive to latest data.",
+          "10": "Instantly adapts, always current."
+        }
+      }
+    },
+    "Decision-Making": {
+      "Analytical_Thinking": {
+        "description": "Critically analyzing information for informed decisions.",
+        "levels": {
+          "1": "Minimal analysis, basic info only.",
+          "2": "Occasional analysis missing critical details.",
+          "3": "Some analysis but may overlook complexities.",
+          "4": "Moderate analysis with basic insight.",
+          "5": "Generally effective analysis for informed decisions.",
+          "6": "Regularly considers multiple factors.",
+          "7": "Thorough analysis supporting decision-making.",
+          "8": "Consistent strong analytical skills.",
+          "9": "High-level comprehensive evaluation.",
+          "10": "Fully analyzes all info ensuring well-informed decisions."
+        }
+      },
+      "Weighing_Consequences": {
+        "description": "Considering potential outcomes of decisions before choosing.",
+        "levels": {
+          "1": "Minimal regard for future consequences.",
+          "2": "Occasionally considers outcomes.",
+          "3": "Weighs some consequences but may miss long-term effects.",
+          "4": "Moderate consideration of possible outcomes.",
+          "5": "Generally balances positive and negative consequences.",
+          "6": "Regularly considers multiple outcomes.",
+          "7": "Thoroughly assesses potential impacts.",
+          "8": "Consistently evaluates outcomes, balancing terms.",
+          "9": "Highly skilled at predicting effects.",
+          "10": "Always considers all outcomes, ensuring balanced decisions."
+        }
+      },
+      "Time_Sensitivity": {
+        "description": "Making decisions in a timely manner considering urgency.",
+        "levels": {
+          "1": "Ignores time constraints.",
+          "2": "Occasionally considers urgency, often slow.",
+          "3": "Aware of urgency but may delay.",
+          "4": "Moderately responds to time-sensitive needs.",
+          "5": "Generally timely when needed.",
+          "6": "Regularly balances speed and quality.",
+          "7": "Frequently timely decisions with good awareness.",
+          "8": "Consistently responds quickly to urgent tasks.",
+          "9": "Highly responsive to timing.",
+          "10": "Always swift and effective under time pressure."
+        }
+      },
+      "Balancing_Short-Term_and_Long-Term_Goals": {
+        "description": "Balancing immediate needs with long-term objectives.",
+        "levels": {
+          "1": "Focuses on short-term only.",
+          "2": "Occasional long-term consideration.",
+          "3": "Limited balance of short vs long term.",
+          "4": "Moderately considers future impacts.",
+          "5": "Generally balances both present and future.",
+          "6": "Regularly ensures goals address both terms.",
+          "7": "Frequently considers impact on both timelines.",
+          "8": "Consistently aligns current actions with future vision.",
+          "9": "Highly skilled in balancing immediate and strategic goals.",
+          "10": "Fully integrates short- and long-term considerations."
+        }
+      },
+      "Proactive_Decision-Making": {
+        "description": "Anticipating issues and making decisions before problems arise.",
+        "levels": {
+          "1": "Waits for issues to occur.",
+          "2": "Occasionally anticipates but rarely acts early.",
+          "3": "Some proactivity, mostly reactive.",
+          "4": "Moderate anticipation of problems.",
+          "5": "Generally considers future challenges.",
+          "6": "Regularly identifies and mitigates issues in advance.",
+          "7": "Frequently proactive in decision-making.",
+          "8": "Consistently prevents foreseeable issues.",
+          "9": "Highly proactive, ensuring smooth operations.",
+          "10": "Always anticipates challenges, taking preemptive steps."
+        }
+      }
+    },
+    "Employee_Support_&_Development": {
+      "Skill_Recognition": {
+        "description": "Identifying and acknowledging employees' skills and strengths.",
+        "levels": {
+          "1": "Minimal skill recognition.",
+          "2": "Occasionally recognizes general skills.",
+          "3": "Some recognition but lacks detail.",
+          "4": "Moderate identification of key skills.",
+          "5": "Generally acknowledges employee strengths.",
+          "6": "Regularly recognizes specific skills.",
+          "7": "Frequently identifies and acknowledges strengths.",
+          "8": "Consistently recognizes diverse skills.",
+          "9": "Highly values individual strengths with meaningful praise.",
+          "10": "Fully identifies and acknowledges each unique skill."
+        }
+      },
+      "Encouragement": {
+        "description": "Providing ongoing encouragement and support.",
+        "levels": {
+          "1": "Minimal encouragement.",
+          "2": "Occasional basic encouragement.",
+          "3": "Some encouragement but inconsistent.",
+          "4": "Moderate support as needed.",
+          "5": "Generally provides encouragement, positive outlook.",
+          "6": "Regularly encourages maintaining motivation.",
+          "7": "Frequently fosters positive morale.",
+          "8": "Consistently inspires confidence.",
+          "9": "Highly supportive environment.",
+          "10": "Always encourages enthusiastically, motivating employees."
+        }
+      },
+      "Career_Development_Guidance": {
+        "description": "Providing guidance on career growth opportunities.",
+        "levels": {
+          "1": "Minimal career guidance.",
+          "2": "Basic guidance, non-specific.",
+          "3": "Some development suggestions lacking depth.",
+          "4": "Moderate career advice.",
+          "5": "Generally aligns advice with company goals.",
+          "6": "Regularly offers tailored career guidance.",
+          "7": "Frequently supports advancement steps.",
+          "8": "Consistently provides personalized development plans.",
+          "9": "Highly proactive in long-term growth support.",
+          "10": "Fully comprehensive career guidance for full potential."
+        }
+      },
+      "Emotional_Support": {
+        "description": "Showing empathy and support for employees' emotional needs.",
+        "levels": {
+          "1": "Minimal emotional support.",
+          "2": "Occasional empathy shown.",
+          "3": "Some emotional support but limited.",
+          "4": "Moderate emotional understanding.",
+          "5": "Generally empathetic, basic emotional support.",
+          "6": "Regularly shows understanding in challenges.",
+          "7": "Frequently provides caring environment.",
+          "8": "Consistently empathetic and supportive.",
+          "9": "Highly supportive emotionally.",
+          "10": "Fully empathetic, creating a trusting atmosphere."
+        }
+      },
+      "Motivation_Techniques": {
+        "description": "Applying effective motivation techniques for productivity.",
+        "levels": {
+          "1": "Minimal motivation techniques.",
+          "2": "Occasional basic methods.",
+          "3": "Somewhat motivates but inconsistently.",
+          "4": "Moderate techniques to support productivity.",
+          "5": "Generally encourages positive outlook.",
+          "6": "Regularly uses techniques to maintain engagement.",
+          "7": "Frequently motivates, driving productivity.",
+          "8": "Consistently applies effective methods.",
+          "9": "Highly effective in encouraging engagement.",
+          "10": "Always applies powerful techniques for high motivation."
+        }
+      },
+      "Adaptation_to_Learning_Styles": {
+        "description": "Adapting training methods to each employee's learning style.",
+        "levels": {
+          "1": "One-size-fits-all approach.",
+          "2": "Occasional minor adjustments.",
+          "3": "Some adaptation but limited depth.",
+          "4": "Moderate tailoring to learning preferences.",
+          "5": "Generally considers learning preferences.",
+          "6": "Regularly tailors training effectively.",
+          "7": "Frequently adapts to different styles.",
+          "8": "Consistently optimizes for each learning style.",
+          "9": "Highly responsive to individual learning needs.",
+          "10": "Fully customizes training for each employee's learning style."
+        }
+      },
+      "Identifying_Strengths_and_Weaknesses": {
+        "description": "Recognizing employees' strengths and improvement areas.",
+        "levels": {
+          "1": "Minimal identification of strengths/weaknesses.",
+          "2": "Occasional general recognition.",
+          "3": "Some insight but lacking detail.",
+          "4": "Moderate accuracy in assessments.",
+          "5": "Generally identifies key strengths/weaknesses.",
+          "6": "Regular detailed feedback for improvement.",
+          "7": "Frequently offers clear insights.",
+          "8": "Consistently accurate, helping targeted growth.",
+          "9": "Highly detailed assessment guiding development.",
+          "10": "Fully identifies strengths/weaknesses for balanced development."
+        }
+      },
+      "Providing_Resources": {
+        "description": "Offering or recommending resources for employee growth.",
+        "levels": {
+          "1": "Minimal resources provided.",
+          "2": "Occasional general resource suggestions.",
+          "3": "Some resources but not tailored.",
+          "4": "Moderate support with basic tools.",
+          "5": "Generally offers relevant resources.",
+          "6": "Regularly supports skill development with resources.",
+          "7": "Frequently provides targeted materials.",
+          "8": "Consistently well-suited resources for goals.",
+          "9": "Highly relevant, fostering strong development.",
+          "10": "Always provides comprehensive, personalized resources."
+        }
+      },
+      "Mentoring_Ability": {
+        "description": "Guiding employees through mentoring for growth.",
+        "levels": {
+          "1": "Minimal guidance, leaving mentoring to others.",
+          "2": "Basic mentoring with limited insight.",
+          "3": "Some mentoring but lacks depth.",
+          "4": "Moderate advice for development.",
+          "5": "Generally offers constructive mentoring.",
+          "6": "Regularly provides valuable guidance.",
+          "7": "Frequently mentors effectively.",
+          "8": "Consistently mentors for strong growth.",
+          "9": "Insightful, tailored mentoring.",
+          "10": "Fully mentors employees, providing comprehensive guidance."
+        }
+      },
+      "Goal_Alignment": {
+        "description": "Aligning employee goals with company objectives.",
+        "levels": {
+          "1": "Focuses on company goals only.",
+          "2": "Occasionally considers employee goals.",
+          "3": "Limited synergy between employee/company goals.",
+          "4": "Moderate alignment efforts.",
+          "5": "Generally aligns employee and company goals.",
+          "6": "Regularly ensures alignment.",
+          "7": "Frequently promotes synergy of goals.",
+          "8": "Consistently aligns goals, fostering engagement.",
+          "9": "Highly effective in integrating both sets of goals.",
+          "10": "Fully aligns employee goals with company objectives."
+        }
+      }
+    },
+    "Leadership": {
+      "Inspiring_Trust": {
+        "description": "Building trust with employees for a reliable, supportive relationship.",
+        "levels": {
+          "1": "Minimal reassurance for trust.",
+          "2": "Occasionally fosters trust.",
+          "3": "Some trust-building but sporadic.",
+          "4": "Moderate encouragement of trust.",
+          "5": "Generally inspires trust.",
+          "6": "Regularly builds reliability.",
+          "7": "Frequently creates supportive trust.",
+          "8": "Consistently fostering trustworthy environment.",
+          "9": "Highly trusted, strong connections.",
+          "10": "Fully inspires trust in every interaction."
+        }
+      },
+      "Setting_Expectations": {
+        "description": "Clearly establishing employee expectations and goals.",
+        "levels": {
+          "1": "Minimal guidance, vague expectations.",
+          "2": "Occasional general expectations.",
+          "3": "Some clarity but inconsistent.",
+          "4": "Moderately communicates expectations.",
+          "5": "Generally sets clear expectations.",
+          "6": "Regularly clarifies expectations consistently.",
+          "7": "Frequently ensures understanding of goals.",
+          "8": "Consistently clear and directive.",
+          "9": "Highly effective in defining standards.",
+          "10": "Always sets precise expectations for full clarity."
+        }
+      },
+      "Role_Modeling": {
+        "description": "Serving as a positive role model, embodying expected values and behaviors.",
+        "levels": {
+          "1": "Minimal demonstration of standards.",
+          "2": "Occasionally embodies expected behaviors.",
+          "3": "Some effort but needs stronger alignment.",
+          "4": "Moderately exemplifies expected behaviors.",
+          "5": "Generally models workplace values.",
+          "6": "Regularly leads by example.",
+          "7": "Frequently shows commitment to standards.",
+          "8": "Consistently sets a high standard.",
+          "9": "Strong role model inspiring alignment.",
+          "10": "Fully embodies and promotes company values."
+        }
+      },
+      "Delegation_Efficiency": {
+        "description": "Delegating tasks effectively to ensure proper assignments and efficiency.",
+        "levels": {
+          "1": "Minimal delegation, doing most work independently.",
+          "2": "Occasionally delegates, limited efficiency.",
+          "3": "Some efficient delegation, not consistent.",
+          "4": "Moderate delegation achieving basic efficiency.",
+          "5": "Generally assigns tasks appropriately.",
+          "6": "Regularly delegates to capable individuals.",
+          "7": "Frequently ensures well-delegated tasks.",
+          "8": "Consistently optimizes task assignments.",
+          "9": "Highly efficient delegation maximizing productivity.",
+          "10": "Fully optimizes delegation for maximum team strength."
+        }
+      },
+      "Leading_by_Example": {
+        "description": "Demonstrating commitment and high standards to lead by example.",
+        "levels": {
+          "1": "Minimal demonstration of expected standards.",
+          "2": "Occasionally shows expected behaviors.",
+          "3": "Some effort to exemplify standards.",
+          "4": "Moderate role modeling.",
+          "5": "Generally demonstrates professionalism.",
+          "6": "Regularly shows high standards.",
+          "7": "Frequently leads by example.",
+          "8": "Consistently demonstrates strong values.",
+          "9": "Inspires others through personal conduct.",
+          "10": "Fully embodies leadership by example."
+        }
+      },
+      "Empowering_Employees": {
+        "description": "Giving employees confidence, support, and autonomy.",
+        "levels": {
+          "1": "Minimal encouragement of autonomy.",
+          "2": "Occasional support for independence.",
+          "3": "Some support but limited.",
+          "4": "Moderate encouragement of autonomy.",
+          "5": "Generally supports employee independence.",
+          "6": "Regularly empowers employees.",
+          "7": "Frequently encourages ownership.",
+          "8": "Consistently fosters autonomy.",
+          "9": "Highly supportive, promoting freedom.",
+          "10": "Fully empowers employees with independence and confidence."
+        }
+      },
+      "Recognition_and_Reward": {
+        "description": "Acknowledging and rewarding employees for their accomplishments.",
+        "levels": {
+          "1": "Minimal recognition or rewards.",
+          "2": "Occasional acknowledgments.",
+          "3": "Recognizes achievements sporadically.",
+          "4": "Moderately rewards performance.",
+          "5": "Generally provides effective recognition.",
+          "6": "Regularly rewards achievements.",
+          "7": "Frequently encourages engagement via rewards.",
+          "8": "Consistently celebrates accomplishments.",
+          "9": "Highly attentive to effective rewards.",
+          "10": "Fully acknowledges and rewards performance, boosting morale."
+        }
+      },
+      "Supporting_Autonomy": {
+        "description": "Supporting employees' autonomy in their roles.",
+        "levels": {
+          "1": "Minimal support for independence.",
+          "2": "Occasionally allows autonomy.",
+          "3": "Some support but prefers oversight.",
+          "4": "Moderate encouragement of independence.",
+          "5": "Generally supports employee autonomy.",
+          "6": "Regularly promotes independent decision-making.",
+          "7": "Frequently encourages employees to take control.",
+          "8": "Consistently fosters confidence in autonomy.",
+          "9": "Highly supportive of independent work.",
+          "10": "Fully supports autonomy, ensuring confident decision-making."
+        }
+      },
+      "Building_Team_Cohesion": {
+        "description": "Fostering a strong sense of team cohesion and collaboration.",
+        "levels": {
+          "1": "Minimal effort to build cohesion.",
+          "2": "Occasionally promotes teamwork.",
+          "3": "Encourages teamwork in limited contexts.",
+          "4": "Moderately fosters collaboration.",
+          "5": "Generally promotes a collaborative environment.",
+          "6": "Regularly encourages teamwork and unity.",
+          "7": "Frequently supports strong team cohesion.",
+          "8": "Consistently creates a unified atmosphere.",
+          "9": "Highly effective in fostering collaboration.",
+          "10": "Fully promotes team cohesion, ensuring strong teamwork."
+        }
+      },
+      "Handling_Leadership_Challenges": {
+        "description": "Effectively handling leadership challenges like managing change or conflicts.",
+        "levels": {
+          "1": "Struggles with leadership challenges.",
+          "2": "Occasionally addresses issues, limited effectiveness.",
+          "3": "Handles minor challenges inconsistently.",
+          "4": "Moderate resilience to leadership issues.",
+          "5": "Generally manages challenges effectively.",
+          "6": "Regularly adapts with confidence.",
+          "7": "Frequently overcomes challenges, maintaining stability.",
+          "8": "Consistently demonstrates strong resilience.",
+          "9": "Highly effective in overcoming leadership hurdles.",
+          "10": "Fully manages all challenges, ensuring cohesion and progress."
+        }
+      }
+    },
+    "Performance_Management": {
+      "Goal_Setting": {
+        "description": "Helping employees set clear, achievable goals aligned with the company.",
+        "levels": {
+          "1": "Minimal assistance in goal setting.",
+          "2": "Occasional general guidance.",
+          "3": "Basic support but lacks depth.",
+          "4": "Moderate clarity in goal setting.",
+          "5": "Generally helps define clear goals.",
+          "6": "Regularly ensures achievable, relevant goals.",
+          "7": "Frequently guides well-defined, motivating goals.",
+          "8": "Consistently supports strategic goal alignment.",
+          "9": "Highly effective in impactful goal setting.",
+          "10": "Fully supports strategic, inspiring goal creation."
+        }
+      },
+      "Performance_Tracking": {
+        "description": "Tracking and monitoring employee performance consistently.",
+        "levels": {
+          "1": "Minimal performance monitoring.",
+          "2": "Occasional checks but not regular.",
+          "3": "Sporadic tracking, limited follow-up.",
+          "4": "Moderate updates on progress.",
+          "5": "Generally consistent feedback.",
+          "6": "Regular tracking ensuring continuous improvement.",
+          "7": "Frequently monitors performance, supporting goals.",
+          "8": "Consistently provides constructive feedback.",
+          "9": "Highly effective in encouraging growth.",
+          "10": "Fully monitors and supports continuous performance improvement."
+        }
+      },
+      "Accountability": {
+        "description": "Encouraging accountability and responsibility in the team.",
+        "levels": {
+          "1": "Minimal emphasis on accountability.",
+          "2": "Occasional reminders of responsibility.",
+          "3": "Limited support for accountability.",
+          "4": "Moderate encouragement of responsibility.",
+          "5": "Generally promotes accountability.",
+          "6": "Regularly ensures employees meet responsibilities.",
+          "7": "Frequently upholds accountability standards.",
+          "8": "Consistently enforces accountability.",
+          "9": "Highly effective at fostering reliability.",
+          "10": "Fully ensures accountability, enhancing trust and reliability."
+        }
+      },
+      "Time_Management": {
+        "description": "Encouraging effective time management for meeting deadlines.",
+        "levels": {
+          "1": "Minimal guidance on time usage.",
+          "2": "Occasional basic time advice.",
+          "3": "Some support for time management.",
+          "4": "Moderate encouragement for task completion.",
+          "5": "Generally promotes effective time use.",
+          "6": "Regularly ensures deadlines are met.",
+          "7": "Frequently encourages efficient time use.",
+          "8": "Consistently supports strong time management.",
+          "9": "Highly effective at ensuring productivity.",
+          "10": "Fully optimizes time management, ensuring efficiency."
+        }
+      },
+      "Productivity_Analysis": {
+        "description": "Analyzing productivity levels to identify improvements.",
+        "levels": {
+          "1": "Minimal productivity analysis.",
+          "2": "Occasional superficial reviews.",
+          "3": "Basic analysis, limited recommendations.",
+          "4": "Moderate feedback on productivity patterns.",
+          "5": "Generally identifies key patterns.",
+          "6": "Regularly suggests improvements.",
+          "7": "Frequently optimizes performance.",
+          "8": "Consistently provides detailed insights.",
+          "9": "Highly effective in analyzing and guiding improvement.",
+          "10": "Fully comprehensive analysis, driving growth."
+        }
+      },
+      "Providing_Timely_Feedback": {
+        "description": "Giving timely, relevant feedback for improvement.",
+        "levels": {
+          "1": "Rarely provides feedback.",
+          "2": "Occasional feedback, often late.",
+          "3": "Sporadic feedback impacting usefulness.",
+          "4": "Moderate timeliness in feedback.",
+          "5": "Generally timely and relevant feedback.",
+          "6": "Regularly prompt, supporting continuous improvement.",
+          "7": "Frequently timely, constructive feedback.",
+          "8": "Consistently on time and useful.",
+          "9": "Highly attentive, ensuring immediate guidance.",
+          "10": "Always provides timely, constructive feedback."
+        }
+      },
+      "Rewarding_Performance": {
+        "description": "Effectively rewarding accomplishments to motivate employees.",
+        "levels": {
+          "1": "Minimal recognition of achievements.",
+          "2": "Occasional rewards, not consistent.",
+          "3": "Some recognition but lacks thoroughness.",
+          "4": "Moderate acknowledgment of performance.",
+          "5": "Generally effective at rewarding achievements.",
+          "6": "Regularly provides meaningful rewards.",
+          "7": "Frequently encourages engagement via recognition.",
+          "8": "Consistently celebrates accomplishments.",
+          "9": "Highly attentive to effective rewards.",
+          "10": "Fully recognizes and rewards performance, ensuring motivation."
+        }
+      },
+      "Addressing_Underperformance": {
+        "description": "Constructively addressing underperformance to guide improvement.",
+        "levels": {
+          "1": "Minimal guidance on underperformance.",
+          "2": "Occasional addressing of issues.",
+          "3": "Limited support for improvement.",
+          "4": "Moderate constructive feedback on weaknesses.",
+          "5": "Generally addresses underperformance effectively.",
+          "6": "Regularly supports improvement steps.",
+          "7": "Frequently provides clear, constructive guidance.",
+          "8": "Consistently helps employees improve.",
+          "9": "Highly effective in guiding better performance.",
+          "10": "Fully addresses underperformance with actionable guidance."
+        }
+      },
+      "Creating_Action_Plans": {
+        "description": "Developing clear action plans to reach goals and improve performance.",
+        "levels": {
+          "1": "Minimal planning support.",
+          "2": "Occasional general action plans.",
+          "3": "Basic plans, limited guidance.",
+          "4": "Moderate support for achieving goals.",
+          "5": "Generally provides effective action plans.",
+          "6": "Regularly offers detailed improvement steps.",
+          "7": "Frequently ensures actionable plans.",
+          "8": "Consistently well-structured action plans.",
+          "9": "Highly effective in creating targeted plans.",
+          "10": "Fully develops comprehensive action plans for growth."
+        }
+      },
+      "Prioritization_Skills": {
+        "description": "Helping employees prioritize tasks effectively.",
+        "levels": {
+          "1": "Minimal guidance on prioritization.",
+          "2": "Occasional advice but not regular.",
+          "3": "Limited support in prioritizing tasks.",
+          "4": "Moderate encouragement to focus on key tasks.",
+          "5": "Generally helps prioritize effectively.",
+          "6": "Regularly supports focusing on important activities.",
+          "7": "Frequently aids efficient prioritization.",
+          "8": "Consistently ensures focus on high-impact tasks.",
+          "9": "Highly effective in guiding priority decisions.",
+          "10": "Fully promotes prioritization, ensuring maximum impact."
+        }
+      }
+    },
+    "Cultural_Adaptation": {
+      "Inclusivity_Promotion": {
+        "description": "Promoting an inclusive environment where everyone feels valued.",
+        "levels": {
+          "1": "Minimal encouragement of inclusivity.",
+          "2": "Occasional promotion of inclusiveness.",
+          "3": "Limited emphasis on inclusion.",
+          "4": "Moderate support for inclusive interactions.",
+          "5": "Generally fosters an inclusive environment.",
+          "6": "Regularly supports inclusivity and diverse perspectives.",
+          "7": "Frequently promotes an inclusive culture.",
+          "8": "Consistently ensures a welcoming atmosphere.",
+          "9": "Highly effective in ensuring inclusivity.",
+          "10": "Fully promotes inclusivity, making everyone feel valued."
+        }
+      },
+      "Sensitivity_to_Cultural_Differences": {
+        "description": "Recognizing and respecting cultural differences.",
+        "levels": {
+          "1": "Minimal acknowledgment of cultural differences.",
+          "2": "Occasionally recognizes differences.",
+          "3": "Some sensitivity but inconsistent.",
+          "4": "Moderately respects cultural diversity.",
+          "5": "Generally adapts to cultural differences.",
+          "6": "Regularly shows cultural sensitivity.",
+          "7": "Frequently respects diverse backgrounds.",
+          "8": "Consistently adapts to cultural needs.",
+          "9": "Highly sensitive, ensuring respectful interactions.",
+          "10": "Fully embraces cultural diversity, fostering understanding."
+        }
+      },
+      "Alignment_with_Company_Culture": {
+        "description": "Aligning interactions with company culture and values.",
+        "levels": {
+          "1": "Minimal alignment with culture.",
+          "2": "Occasionally references culture.",
+          "3": "Limited cultural alignment.",
+          "4": "Moderately reflects company values.",
+          "5": "Generally aligns interactions with culture.",
+          "6": "Regularly promotes company values.",
+          "7": "Frequently reinforces cultural alignment.",
+          "8": "Consistently embodies company culture.",
+          "9": "Highly effective in cultural alignment.",
+          "10": "Fully integrates and promotes company culture in all interactions."
+        }
+      },
+      "Respect_for_Diversity": {
+        "description": "Respecting and embracing diversity in the workplace.",
+        "levels": {
+          "1": "Minimal respect for diversity.",
+          "2": "Occasionally acknowledges diversity.",
+          "3": "Limited respect shown.",
+          "4": "Moderate respect in interactions.",
+          "5": "Generally fosters respect for all backgrounds.",
+          "6": "Regularly embraces diverse perspectives.",
+          "7": "Frequently promotes diversity.",
+          "8": "Consistently values diverse input.",
+          "9": "Highly respectful, ensuring inclusivity.",
+          "10": "Fully embraces diversity, creating a welcoming environment."
+        }
+      },
+      "Supporting_Employee_Initiatives": {
+        "description": "Encouraging and supporting employee-led initiatives that align with company values.",
+        "levels": {
+          "1": "Minimal support for initiatives.",
+          "2": "Occasional encouragement, not consistent.",
+          "3": "Limited support for employee ideas.",
+          "4": "Moderate encouragement of aligned initiatives.",
+          "5": "Generally supports employee-led projects.",
+          "6": "Regularly encourages relevant initiatives.",
+          "7": "Frequently promotes innovative ideas.",
+          "8": "Consistently backs employee-driven initiatives.",
+          "9": "Highly supportive, fostering innovation.",
+          "10": "Fully encourages and supports employee initiatives for growth."
+        }
+      }
+    },
+    "Interpersonal_Relations": {
+      "Conflict_Resolution": {
+        "description": "Effectively resolving conflicts to maintain harmony.",
+        "levels": {
+          "1": "Minimal conflict intervention.",
+          "2": "Occasional conflict addressing.",
+          "3": "Somewhat effective but inconsistent.",
+          "4": "Moderate conflict resolution.",
+          "5": "Generally resolves conflicts fairly.",
+          "6": "Regularly manages conflicts positively.",
+          "7": "Frequently ensures fair solutions.",
+          "8": "Consistently minimizes negative impact.",
+          "9": "Highly effective in constructive resolutions.",
+          "10": "Fully resolves conflicts with fairness and understanding."
+        }
+      },
+      "Relationship_Building": {
+        "description": "Building and maintaining positive relationships with employees.",
+        "levels": {
+          "1": "Minimal relationship building.",
+          "2": "Occasional engagement.",
+          "3": "Some effort but limited.",
+          "4": "Moderate fostering of good relationships.",
+          "5": "Generally builds positive rapport.",
+          "6": "Regularly supports collaborative relationships.",
+          "7": "Frequently promotes trust and rapport.",
+          "8": "Consistently nurturing supportive connections.",
+          "9": "Highly effective in creating strong relationships.",
+          "10": "Fully fosters trusting, positive relationships."
+        }
+      },
+      "Mediation": {
+        "description": "Mediating effectively between team members for fair solutions.",
+        "levels": {
+          "1": "Minimal mediation efforts.",
+          "2": "Occasional basic mediation.",
+          "3": "Some mediation but inconsistent results.",
+          "4": "Moderate fairness in mediation.",
+          "5": "Generally resolves issues fairly.",
+          "6": "Regularly supports fair solutions.",
+          "7": "Frequently ensures mutual understanding.",
+          "8": "Consistently achieves respectful resolutions.",
+          "9": "Highly effective mediator.",
+          "10": "Fully ensures fair, collaborative outcomes."
+        }
+      },
+      "Empathetic_Listening": {
+        "description": "Listening empathetically, understanding perspectives and feelings.",
+        "levels": {
+          "1": "Minimal empathy in listening.",
+          "2": "Occasional empathetic listening.",
+          "3": "Some empathy but inconsistent.",
+          "4": "Moderate empathetic response.",
+          "5": "Generally listens with understanding.",
+          "6": "Regularly shows empathy in listening.",
+          "7": "Frequently demonstrates empathetic listening.",
+          "8": "Consistently validates employees' feelings.",
+          "9": "Highly empathetic, ensuring employees feel heard.",
+          "10": "Fully engages in empathetic listening, fostering trust."
+        }
+      },
+      "Trust_Building": {
+        "description": "Building and maintaining trust with employees.",
+        "levels": {
+          "1": "Minimal trust-building.",
+          "2": "Occasional trust promotion.",
+          "3": "Limited effort in trust.",
+          "4": "Moderate encouragement of trust.",
+          "5": "Generally supports trust.",
+          "6": "Regularly fosters reliability.",
+          "7": "Frequently builds supportive trust.",
+          "8": "Consistently ensures trustworthy environment.",
+          "9": "Highly effective in building strong trust.",
+          "10": "Fully fosters trust, ensuring supportive relationships."
+        }
+      },
+      "Effective_Questioning": {
+        "description": "Asking effective questions to encourage open communication.",
+        "levels": {
+          "1": "Minimal questioning, limiting engagement.",
+          "2": "Occasional basic questions.",
+          "3": "Asks some questions but lacks insight.",
+          "4": "Moderate use of questioning for clarity.",
+          "5": "Generally asks effective questions.",
+          "6": "Regularly uses insightful questions.",
+          "7": "Frequently encourages dialogue through questions.",
+          "8": "Consistently uses questions to promote openness.",
+          "9": "Highly effective in fostering engagement via questions.",
+          "10": "Fully utilizes questioning for deep understanding and open dialogue."
+        }
+      },
+      "Openness_to_Feedback": {
+        "description": "Being open to and valuing feedback from employees.",
+        "levels": {
+          "1": "Minimal openness to feedback.",
+          "2": "Occasional consideration of feedback.",
+          "3": "Listens but may not act on input.",
+          "4": "Moderate openness to suggestions.",
+          "5": "Generally encourages employee feedback.",
+          "6": "Regularly values and considers input.",
+          "7": "Frequently receptive to new ideas.",
+          "8": "Consistently appreciates and uses feedback.",
+          "9": "Highly responsive, fostering collaborative improvement.",
+          "10": "Fully values and acts on feedback, ensuring a supportive environment."
+        }
+      },
+      "Handling_Employee_Concerns": {
+        "description": "Addressing employee concerns effectively and empathetically.",
+        "levels": {
+          "1": "Minimal response to concerns.",
+          "2": "Occasional addressing of issues.",
+          "3": "Some empathy but inconsistent.",
+          "4": "Moderate support for understanding needs.",
+          "5": "Generally addresses concerns effectively.",
+          "6": "Regularly empathetic and responsive.",
+          "7": "Frequently ensures employees feel heard.",
+          "8": "Consistently addresses concerns with understanding.",
+          "9": "Highly effective in easing worries.",
+          "10": "Fully empathetic, always resolving concerns supportively."
+        }
+      },
+      "Teamwork_Facilitation": {
+        "description": "Facilitating teamwork for cooperation and mutual support.",
+        "levels": {
+          "1": "Minimal teamwork facilitation.",
+          "2": "Occasional promotion of cooperation.",
+          "3": "Limited encouragement of teamwork.",
+          "4": "Moderate support for collaboration.",
+          "5": "Generally fosters a collaborative environment.",
+          "6": "Regularly promotes teamwork.",
+          "7": "Frequently encourages mutual support.",
+          "8": "Consistently facilitates effective teamwork.",
+          "9": "Highly effective in building cooperation.",
+          "10": "Fully promotes teamwork, ensuring mutual support."
+        }
+      },
+      "Creating_a_Positive_Work_Environment": {
+        "description": "Fostering a positive, supportive work atmosphere.",
+        "levels": {
+          "1": "Minimal contribution to positivity.",
+          "2": "Occasional promotion of a good environment.",
+          "3": "Limited attempts at positivity.",
+          "4": "Moderate creation of a positive atmosphere.",
+          "5": "Generally supports a positive environment.",
+          "6": "Regularly encourages a supportive atmosphere.",
+          "7": "Frequently fosters positivity and morale.",
+          "8": "Consistently creates a welcoming setting.",
+          "9": "Highly effective in encouraging positivity.",
+          "10": "Fully ensures a positive, supportive work environment for all."
+        }
+      }
+    }
+  }
+  
