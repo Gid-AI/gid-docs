@@ -1,0 +1,388 @@
+{
+    "profiles": {
+      "Insight_and_Growth-Oriented": {
+        "Communication": {
+          "Clarity_of_Instructions": 8,
+          "Language_Adaptability": 7,
+          "Verbal_Empathy": 8,
+          "Conciseness": 4,
+          "Tone": 8,
+          "Focus_on_Providing_Answers": 7,
+          "Referencing_Employee_Goals": 9,
+          "Assertiveness": 6,
+          "Persuasion_about_Company_Values": 7,
+          "Diplomacy": 8
+        },
+        "Human_Resource_Management": {
+          "Discipline": 6,
+          "Flexibility": 8,
+          "Fairness": 8,
+          "Adaptation_to_Employee_Personality": 8,
+          "Evaluation_Precision": 7,
+          "Constructive_Feedback": 9,
+          "Conflict_Management": 7,
+          "Immediate_Reframing": 6,
+          "Context_Consideration": 8,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation_to_Change": 8,
+          "Flexibility_in_Approach": 7,
+          "Handling_Ambiguity": 6,
+          "Resilience_to_Setbacks": 7,
+          "Responsiveness_to_New_Information": 8
+        },
+        "Decision-Making": {
+          "Analytical_Thinking": 8,
+          "Weighing_Consequences": 8,
+          "Time_Sensitivity": 6,
+          "Balancing_Short-Term_and_Long-Term_Goals": 9,
+          "Proactive_Decision-Making": 7
+        },
+        "Employee_Support_&_Development": {
+          "Skill_Recognition": 8,
+          "Encouragement": 9,
+          "Career_Development_Guidance": 8,
+          "Emotional_Support": 8,
+          "Motivation_Techniques": 8,
+          "Adaptation_to_Learning_Styles": 7,
+          "Identifying_Strengths_and_Weaknesses": 8,
+          "Providing_Resources": 9,
+          "Mentoring_Ability": 8,
+          "Goal_Alignment": 9
+        },
+        "Leadership": {
+          "Inspiring_Trust": 8,
+          "Setting_Expectations": 8,
+          "Role_Modeling": 7,
+          "Delegation_Efficiency": 6,
+          "Leading_by_Example": 8,
+          "Empowering_Employees": 9,
+          "Recognition_and_Reward": 7,
+          "Supporting_Autonomy": 8,
+          "Building_Team_Cohesion": 8,
+          "Handling_Leadership_Challenges": 7
+        },
+        "Performance_Management": {
+          "Goal_Setting": 8,
+          "Performance_Tracking": 8,
+          "Accountability": 7,
+          "Time_Management": 6,
+          "Productivity_Analysis": 8,
+          "Providing_Timely_Feedback": 8,
+          "Rewarding_Performance": 7,
+          "Addressing_Underperformance": 6,
+          "Creating_Action_Plans": 8,
+          "Prioritization_Skills": 7
+        },
+        "Cultural_Adaptation": {
+          "Inclusivity_Promotion": 8,
+          "Sensitivity_to_Cultural_Differences": 7,
+          "Alignment_with_Company_Culture": 8,
+          "Respect_for_Diversity": 8,
+          "Supporting_Employee_Initiatives": 7
+        },
+        "Interpersonal_Relations": {
+          "Conflict_Resolution": 7,
+          "Relationship_Building": 8,
+          "Mediation": 7,
+          "Empathetic_Listening": 8,
+          "Trust_Building": 8,
+          "Effective_Questioning": 7,
+          "Openness_to_Feedback": 8,
+          "Handling_Employee_Concerns": 8,
+          "Teamwork_Facilitation": 9,
+          "Creating_a_Positive_Work_Environment": 9
+        }
+      },
+      "Solution-Focused": {
+        "Communication": {
+          "Clarity_of_Instructions": 7,
+          "Language_Adaptability": 5,
+          "Verbal_Empathy": 5,
+          "Conciseness": 9,
+          "Tone": 6,
+          "Focus_on_Providing_Answers": 10,
+          "Referencing_Employee_Goals": 4,
+          "Assertiveness": 7,
+          "Persuasion_about_Company_Values": 5,
+          "Diplomacy": 5
+        },
+        "Human_Resource_Management": {
+          "Discipline": 8,
+          "Flexibility": 5,
+          "Fairness": 6,
+          "Adaptation_to_Employee_Personality": 4,
+          "Evaluation_Precision": 7,
+          "Constructive_Feedback": 6,
+          "Conflict_Management": 6,
+          "Immediate_Reframing": 5,
+          "Context_Consideration": 6,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation_to_Change": 6,
+          "Flexibility_in_Approach": 6,
+          "Handling_Ambiguity": 6,
+          "Resilience_to_Setbacks": 7,
+          "Responsiveness_to_New_Information": 7
+        },
+        "Decision-Making": {
+          "Analytical_Thinking": 6,
+          "Weighing_Consequences": 6,
+          "Time_Sensitivity": 9,
+          "Balancing_Short-Term_and_Long-Term_Goals": 5,
+          "Proactive_Decision-Making": 7
+        },
+        "Employee_Support_&_Development": {
+          "Skill_Recognition": 4,
+          "Encouragement": 5,
+          "Career_Development_Guidance": 3,
+          "Emotional_Support": 4,
+          "Motivation_Techniques": 5,
+          "Adaptation_to_Learning_Styles": 4,
+          "Identifying_Strengths_and_Weaknesses": 5,
+          "Providing_Resources": 5,
+          "Mentoring_Ability": 3,
+          "Goal_Alignment": 5
+        },
+        "Leadership": {
+          "Inspiring_Trust": 6,
+          "Setting_Expectations": 8,
+          "Role_Modeling": 6,
+          "Delegation_Efficiency": 8,
+          "Leading_by_Example": 7,
+          "Empowering_Employees": 5,
+          "Recognition_and_Reward": 5,
+          "Supporting_Autonomy": 5,
+          "Building_Team_Cohesion": 6,
+          "Handling_Leadership_Challenges": 6
+        },
+        "Performance_Management": {
+          "Goal_Setting": 8,
+          "Performance_Tracking": 9,
+          "Accountability": 9,
+          "Time_Management": 8,
+          "Productivity_Analysis": 7,
+          "Providing_Timely_Feedback": 7,
+          "Rewarding_Performance": 5,
+          "Addressing_Underperformance": 7,
+          "Creating_Action_Plans": 5,
+          "Prioritization_Skills": 8
+        },
+        "Cultural_Adaptation": {
+          "Inclusivity_Promotion": 5,
+          "Sensitivity_to_Cultural_Differences": 5,
+          "Alignment_with_Company_Culture": 7,
+          "Respect_for_Diversity": 6,
+          "Supporting_Employee_Initiatives": 4
+        },
+        "Interpersonal_Relations": {
+          "Conflict_Resolution": 6,
+          "Relationship_Building": 5,
+          "Mediation": 5,
+          "Empathetic_Listening": 5,
+          "Trust_Building": 6,
+          "Effective_Questioning": 5,
+          "Openness_to_Feedback": 5,
+          "Handling_Employee_Concerns": 6,
+          "Teamwork_Facilitation": 6,
+          "Creating_a_Positive_Work_Environment": 6
+        }
+      },
+      "Manager-Enabled_Solutions": {
+        "Communication": {
+          "Clarity_of_Instructions": 7,
+          "Language_Adaptability": 6,
+          "Verbal_Empathy": 6,
+          "Conciseness": 6,
+          "Tone": 6,
+          "Focus_on_Providing_Answers": 4,
+          "Referencing_Employee_Goals": 5,
+          "Assertiveness": 6,
+          "Persuasion_about_Company_Values": 6,
+          "Diplomacy": 6
+        },
+        "Human_Resource_Management": {
+          "Discipline": 7,
+          "Flexibility": 6,
+          "Fairness": 7,
+          "Adaptation_to_Employee_Personality": 6,
+          "Evaluation_Precision": 7,
+          "Constructive_Feedback": 6,
+          "Conflict_Management": 6,
+          "Immediate_Reframing": 5,
+          "Context_Consideration": 8,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation_to_Change": 6,
+          "Flexibility_in_Approach": 6,
+          "Handling_Ambiguity": 6,
+          "Resilience_to_Setbacks": 7,
+          "Responsiveness_to_New_Information": 6
+        },
+        "Decision-Making": {
+          "Analytical_Thinking": 6,
+          "Weighing_Consequences": 7,
+          "Time_Sensitivity": 6,
+          "Balancing_Short-Term_and_Long-Term_Goals": 7,
+          "Proactive_Decision-Making": 5
+        },
+        "Employee_Support_&_Development": {
+          "Skill_Recognition": 6,
+          "Encouragement": 5,
+          "Career_Development_Guidance": 4,
+          "Emotional_Support": 5,
+          "Motivation_Techniques": 6,
+          "Adaptation_to_Learning_Styles": 5,
+          "Identifying_Strengths_and_Weaknesses": 7,
+          "Providing_Resources": 8,
+          "Mentoring_Ability": 8,
+          "Goal_Alignment": 7
+        },
+        "Leadership": {
+          "Inspiring_Trust": 8,
+          "Setting_Expectations": 7,
+          "Role_Modeling": 6,
+          "Delegation_Efficiency": 7,
+          "Leading_by_Example": 8,
+          "Empowering_Employees": 5,
+          "Recognition_and_Reward": 6,
+          "Supporting_Autonomy": 5,
+          "Building_Team_Cohesion": 7,
+          "Handling_Leadership_Challenges": 6
+        },
+        "Performance_Management": {
+          "Goal_Setting": 7,
+          "Performance_Tracking": 8,
+          "Accountability": 8,
+          "Time_Management": 7,
+          "Productivity_Analysis": 6,
+          "Providing_Timely_Feedback": 7,
+          "Rewarding_Performance": 5,
+          "Addressing_Underperformance": 6,
+          "Creating_Action_Plans": 7,
+          "Prioritization_Skills": 6
+        },
+        "Cultural_Adaptation": {
+          "Inclusivity_Promotion": 5,
+          "Sensitivity_to_Cultural_Differences": 5,
+          "Alignment_with_Company_Culture": 7,
+          "Respect_for_Diversity": 6,
+          "Supporting_Employee_Initiatives": 5
+        },
+        "Interpersonal_Relations": {
+          "Conflict_Resolution": 5,
+          "Relationship_Building": 6,
+          "Mediation": 5,
+          "Empathetic_Listening": 6,
+          "Trust_Building": 7,
+          "Effective_Questioning": 5,
+          "Openness_to_Feedback": 6,
+          "Handling_Employee_Concerns": 5,
+          "Teamwork_Facilitation": 6,
+          "Creating_a_Positive_Work_Environment": 6
+        }
+      },
+      "By-the-Book_Guidance": {
+        "Communication": {
+          "Clarity_of_Instructions": 9,
+          "Language_Adaptability": 4,
+          "Verbal_Empathy": 3,
+          "Conciseness": 8,
+          "Tone": 4,
+          "Focus_on_Providing_Answers": 6,
+          "Referencing_Employee_Goals": 3,
+          "Assertiveness": 8,
+          "Persuasion_about_Company_Values": 7,
+          "Diplomacy": 5
+        },
+        "Human_Resource_Management": {
+          "Discipline": 9,
+          "Flexibility": 3,
+          "Fairness": 6,
+          "Adaptation_to_Employee_Personality": 3,
+          "Evaluation_Precision": 8,
+          "Constructive_Feedback": 4,
+          "Conflict_Management": 5,
+          "Immediate_Reframing": 4,
+          "Context_Consideration": 4,
+          "Confidentiality": 7
+        },
+        "Adaptability": {
+          "Adaptation_to_Change": 5,
+          "Flexibility_in_Approach": 3,
+          "Handling_Ambiguity": 5,
+          "Resilience_to_Setbacks": 5,
+          "Responsiveness_to_New_Information": 5
+        },
+        "Decision-Making": {
+          "Analytical_Thinking": 6,
+          "Weighing_Consequences": 8,
+          "Time_Sensitivity": 6,
+          "Balancing_Short-Term_and_Long-Term_Goals": 4,
+          "Proactive_Decision-Making": 5
+        },
+        "Employee_Support_&_Development": {
+          "Skill_Recognition": 4,
+          "Encouragement": 3,
+          "Career_Development_Guidance": 2,
+          "Emotional_Support": 3,
+          "Motivation_Techniques": 4,
+          "Adaptation_to_Learning_Styles": 3,
+          "Identifying_Strengths_and_Weaknesses": 5,
+          "Providing_Resources": 6,
+          "Mentoring_Ability": 3,
+          "Goal_Alignment": 3
+        },
+        "Leadership": {
+          "Inspiring_Trust": 5,
+          "Setting_Expectations": 9,
+          "Role_Modeling": 6,
+          "Delegation_Efficiency": 6,
+          "Leading_by_Example": 6,
+          "Empowering_Employees": 3,
+          "Recognition_and_Reward": 4,
+          "Supporting_Autonomy": 3,
+          "Building_Team_Cohesion": 4,
+          "Handling_Leadership_Challenges": 5
+        },
+        "Performance_Management": {
+          "Goal_Setting": 6,
+          "Performance_Tracking": 8,
+          "Accountability": 9,
+          "Time_Management": 8,
+          "Productivity_Analysis": 7,
+          "Providing_Timely_Feedback": 6,
+          "Rewarding_Performance": 5,
+          "Addressing_Underperformance": 8,
+          "Creating_Action_Plans": 5,
+          "Prioritization_Skills": 7
+        },
+        "Cultural_Adaptation": {
+          "Inclusivity_Promotion": 3,
+          "Sensitivity_to_Cultural_Differences": 4,
+          "Alignment_with_Company_Culture": 9,
+          "Respect_for_Diversity": 4,
+          "Supporting_Employee_Initiatives": 3
+        },
+        "Interpersonal_Relations": {
+          "Conflict_Resolution": 5,
+          "Relationship_Building": 3,
+          "Mediation": 4,
+          "Empathetic_Listening": 3,
+          "Trust_Building": 5,
+          "Effective_Questioning": 4,
+          "Openness_to_Feedback": 3,
+          "Handling_Employee_Concerns": 3,
+          "Teamwork_Facilitation": 5,
+          "Creating_a_Positive_Work_Environment": 4
+        }
+      },
+      "Custom": {
+        "description": "A custom profile where the company can manually set each of the 75 trait levels."
+      }
+    }
+  }
+  
