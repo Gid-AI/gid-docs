@@ -1,0 +1,139 @@
+{
+    "mission": "To continuously elevate employees' skills and well-being, fostering sustainable mutual growth through every interaction.",
+    "vision": "We envision a future where every organization embeds continuous improvement and meaningful collaboration into its core strategy, with every manager-employee exchange driving positive transformation and shared success.",
+    "values": [
+      {
+        "name": "Transparency",
+        "description": "Open communication, clear expectations, and honesty in every interaction form the backbone of our company culture."
+      },
+      {
+        "name": "Adaptability",
+        "description": "We embrace change and encourage flexible thinking, ensuring that our teams can pivot quickly and effectively in a dynamic environment."
+      },
+      {
+        "name": "Respect",
+        "description": "All employees and managers are treated with dignity, acknowledging diverse perspectives and valuing each individual’s contributions."
+      },
+      {
+        "name": "Collaboration",
+        "description": "We foster teamwork and synergy, breaking down silos and enabling every member to work together towards shared organizational goals."
+      },
+      {
+        "name": "Continuous Growth",
+        "description": "We support ongoing learning, skill development, and professional evolution, believing that improvement is a journey rather than a destination."
+      }
+    ],
+    "policies": [
+      {
+        "id": "telework_policy",
+        "title": "Telework Policy",
+        "content": "Employees may work remotely under the following conditions: a stable internet connection, secure access to company resources, and adherence to scheduled online team meetings. Remote work requires prior managerial approval and must support business continuity.",
+        "category": "policy",
+        "effective_date": "2024-01-01"
+      },
+      {
+        "id": "tardiness_policy",
+        "title": "Tardiness Policy",
+        "content": "If an employee is late twice within a three-month period, a written intervention is issued. A third lateness within the same period results in suspension. Employees are encouraged to notify their manager of any expected delay before the start of their shift.",
+        "category": "policy",
+        "effective_date": "2024-01-01"
+      },
+      {
+        "id": "performance_review_policy",
+        "title": "Performance Review Policy",
+        "content": "All employees receive quarterly performance reviews. Managers must provide constructive, data-backed feedback and actionable improvement plans. The process emphasizes growth, skill recognition, and alignment with company goals.",
+        "category": "policy",
+        "effective_date": "2024-02-15"
+      },
+      {
+        "id": "training_and_development_policy",
+        "title": "Training and Development Policy",
+        "content": "The company funds job-related courses, workshops, and certifications. Employees collaborate with managers to identify relevant training. We encourage continuous skill enhancement to maintain competitiveness and innovation.",
+        "category": "policy",
+        "effective_date": "2024-03-10"
+      },
+      {
+        "id": "conflict_resolution_policy",
+        "title": "Conflict Resolution Policy",
+        "content": "Conflicts should be addressed promptly and objectively. Employees and managers are guided to discuss issues openly, involve HR if needed, and use Gid’s mediation capabilities. The goal is to restore a positive, collaborative work environment.",
+        "category": "policy",
+        "effective_date": "2024-01-15"
+      },
+      {
+        "id": "inclusivity_and_diversity_policy",
+        "title": "Inclusivity and Diversity Policy",
+        "content": "We do not tolerate discrimination or harassment. Every decision—hiring, promotion, feedback—is made based on merit. Cultural differences are respected, and inclusivity training is mandatory for all staff.",
+        "category": "policy",
+        "effective_date": "2024-02-01"
+      },
+      {
+        "id": "data_security_policy",
+        "title": "Data Security Policy",
+        "content": "All employees must follow secure data handling procedures, use company-approved encryption, and report any suspicious activity. Access to sensitive information requires proper authorization and role-based permissions.",
+        "category": "policy",
+        "effective_date": "2024-02-20"
+      },
+      {
+        "id": "work_life_balance_policy",
+        "title": "Work-Life Balance Policy",
+        "content": "Employees are encouraged to maintain healthy boundaries. Managers must respect personal time, avoid after-hours communication unless urgent, and Gid can suggest strategies for balanced workloads and stress reduction.",
+        "category": "policy",
+        "effective_date": "2024-03-01"
+      },
+      {
+        "id": "employee_feedback_policy",
+        "title": "Employee Feedback Policy",
+        "content": "Employees can provide anonymous feedback through approved channels. Managers and HR commit to reviewing and, if appropriate, implementing suggestions. Constructive employee feedback is considered vital input for continuous improvement.",
+        "category": "policy",
+        "effective_date": "2024-03-15"
+      },
+      {
+        "id": "recognition_and_reward_policy",
+        "title": "Recognition and Reward Policy",
+        "content": "Outstanding performance, collaboration, and innovation are recognized through monthly awards, skill-based promotions, and peer-nomination programs. Gid can facilitate nomination processes and highlight achievements.",
+        "category": "policy",
+        "effective_date": "2024-04-01"
+      }
+    ],
+    "roles": {
+      "owner": {
+        "description": "Overall authority and strategic direction setting.",
+        "permissions": [
+          "Access all company performance data",
+          "Modify company mission, vision, values",
+          "Approve top-level policies",
+          "Adjust Gid’s trait configurations",
+          "View and adjust management traits"
+        ]
+      },
+      "manager": {
+        "description": "Team leadership, performance management, goal setting.",
+        "permissions": [
+          "View and edit team goals",
+          "Schedule and review training for their team",
+          "Provide timely feedback to employees",
+          "View team performance and attendance",
+          "Request policy clarifications via Gid"
+        ]
+      },
+      "employee": {
+        "description": "Contribute to tasks, seek guidance, pursue personal growth.",
+        "permissions": [
+          "View own performance data",
+          "Request training resources",
+          "Provide anonymous feedback",
+          "View relevant policies (read-only)",
+          "Consult Gid for career development advice"
+        ]
+      }
+    },
+    "company_specific_guidelines": {
+      "owner_notes": "We encourage a culture where every interaction is a coaching opportunity. Managers should regularly use Gid to frame feedback in line with the company's mission. Employees are welcome to ask Gid about career paths, skill improvement, and balancing workloads. Our environment strives for fairness, so Gid should always consider context, adapt responses to the individual’s role, and maintain a constructive tone.",
+      "additional_guidelines": [
+        "When addressing sensitive topics, Gid should emphasize confidentiality and actionable solutions.",
+        "Gid should actively remind managers of company values when conflicts arise.",
+        "If an employee shows signs of stress, Gid should propose available internal resources or training sessions to help them cope."
+      ]
+    }
+  }
+  
